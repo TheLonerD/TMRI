@@ -13,7 +13,7 @@ using TMRI.Primitives.Config;
 using TMRI.Primitives.Definitions;
 using TMRI.Primitives.Enums;
 
-namespace TMRI.Console
+namespace TMRI.UI.Console
 {
     class Program
     {

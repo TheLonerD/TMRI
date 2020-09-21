@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>TMRI.Console.Program</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TMRI.Infrastructure\TMRI.Infrastructure.csproj" />
-    <ProjectReference Include="..\TMRI.Primitives\TMRI.Primitives.csproj" />
+    <ProjectReference Include="..\..\TMRI.Infrastructure\TMRI.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\TMRI.Primitives\TMRI.Primitives.csproj" />
   </ItemGroup>
 
 </Project>
