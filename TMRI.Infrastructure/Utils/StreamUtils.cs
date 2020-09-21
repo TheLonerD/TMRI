@@ -6,7 +6,7 @@ namespace TMRI.Infrastructure.Utils
 {
     public class StreamUtils
     {
-        public static async Task<MemoryStream> CopyStreamAsync(Stream source, int offset, int length)
+        public static async Task<MemoryStream> CopyStreamAsync(Stream source, long offset, long length)
         {
             if (source == null)
             {
@@ -27,9 +27,9 @@ namespace TMRI.Infrastructure.Utils
                     bytesToRead = length;
                 }
 
-                bytesToRead = bytesToRead > buffer.Length ? buffer.Length : bytesToRead;
+                int chunkSize = bytesToRead > buffer.Length ? buffer.Length : (int) bytesToRead;
 
-                var read = await source.ReadAsync(buffer, 0, bytesToRead);
+                var read = await source.ReadAsync(buffer, 0, chunkSize);
 
                 if (read == 0)
                 {

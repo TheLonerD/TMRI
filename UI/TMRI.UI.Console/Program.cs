@@ -26,7 +26,7 @@ namespace TMRI.UI.Console
             GamesDir = new GameDirectories(),
             Products = new List<MusicDefinition>()
         };
-        
+
         static async Task Main(string[] args)
         {
             GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
@@ -36,20 +36,25 @@ namespace TMRI.UI.Console
 
             await infoLoader.PrepareLoaderAsync();
             await infoWriter.PrepareWriteAsync();
-            
+
             var games = await infoLoader.GetGamesListAsync();
 
-            await System.Console.Out.WriteLineAsync($"Got {games.Count} games: ");
-            foreach (var gameDirectory in games)
+            if (games.Any())
             {
-                await System.Console.Out.WriteLineAsync($"  - {gameDirectory.Key}: {gameDirectory.Value}");
+                await System.Console.Out.WriteLineAsync($"Got {games.Count} games: ");
+                foreach (var (key, value) in games)
+                {
+                    await System.Console.Out.WriteLineAsync($"  - {key}: {value}");
+                }
             }
 
             var products = await infoLoader.GetMusicListAsync();
 
             if (products.Count == 0)
             {
-                await System.Console.Out.WriteLineAsync("No BGM definitions are loaded. Exiting...");
+                await System.Console.Out.WriteLineAsync("No BGM definitions found. Exiting...");
+                
+                return;
             }
 
             await System.Console.Out.WriteLineAsync($"Got {products.Count} BGM definitions: ");
@@ -63,7 +68,7 @@ namespace TMRI.UI.Console
             if (games.ContainsKey("th15"))
             {
                 var th15Path = games["th15"];
-                await System.Console.Out.WriteLineAsync($"Found game path for th15.json! Validating BGM file...");
+                await System.Console.Out.WriteLineAsync("Found game path for th15.json! Validating BGM file...");
                 var bgmPath = Path.Combine(th15Path, th15.Product.PackInfo.BGMDir ?? "", th15.Product.PackInfo.BGMFile);
 
                 if (!File.Exists(bgmPath))
@@ -72,7 +77,7 @@ namespace TMRI.UI.Console
                 }
 
                 bgm = bgmPath;
-                
+
                 if (!await packer.ValidateFileAsync(th15, bgm))
                 {
                     throw new TMRIException($"BGM file \"{bgm}\" is not valid.");
@@ -91,7 +96,9 @@ namespace TMRI.UI.Console
             {
                 await System.Console.Out.WriteLineAsync($"  {trackInfo.Number}. {trackInfo.Name[Language.EN]}");
             }
-            await System.Console.Out.WriteLineAsync($"\nType \"list\" to show playlist, \"exit\" or \"quit\" to exit from this program.");
+
+            await System.Console.Out.WriteLineAsync("\nType \"list\" to show playlist, " +
+                                                    "\"exit\" or \"quit\" to exit from this program.");
 
             bool showMenu = true;
             while (showMenu)
@@ -130,7 +137,8 @@ namespace TMRI.UI.Console
             {
                 if (songNum < 0 || songNum > md.Product.Tracks)
                 {
-                    await System.Console.Out.WriteLineAsync($"\nNumber should between 1 and {md.Product.Tracks}. Please try again.");
+                    await System.Console.Out.WriteLineAsync($"\nNumber should between 1 and {md.Product.Tracks}. " +
+                                                            "Please try again.");
                     return true;
                 }
 
@@ -140,8 +148,15 @@ namespace TMRI.UI.Console
                 // TEST
                 await using var fs = new FileStream(bgm, FileMode.Open);
                 await using var ms = await packer.ExtractSongAsync(song, fs);
+                var playInfo = packer.GetPlayInfo(song);
+                await using var wav = new RawSourceWaveStream(ms, new WaveFormat());
+                await using var provider = new LoopStream(wav)
+                {
+                    LoopPosition = playInfo.Loop - playInfo.Start,
+                    LoopCount = 1
+                };
+                provider.Seek(0, SeekOrigin.Begin);
 
-                await using var provider = new RawSourceWaveStream(ms, new WaveFormat());
                 using var d = new WaveOutEvent();
                 d.Init(provider);
                 d.Play();
@@ -158,14 +173,16 @@ namespace TMRI.UI.Console
                         ClearCurrentConsoleLine();
                         var time = d.GetPositionTimeSpan();
                         await System.Console.Out.WriteAsync($"{time.Minutes:D2}:{time.Seconds:D2}");
-                        Thread.Sleep(TimeSpan.FromSeconds(.1));
+                        Thread.Sleep(TimeSpan.FromSeconds(1));
                     }
                 }
 
                 return true;
             }
 
-            await System.Console.Out.WriteLineAsync($"\nIncorrect number format. Please try again.");
+            await System.Console.Out.WriteLineAsync("\nIncorrect input. " +
+                                                    $"Expected: [1-{md.Product.Tracks}], \"list\", \"exit\", \"quit\"");
+
             return true;
         }
 

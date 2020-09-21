@@ -64,17 +64,48 @@ namespace TMRI.Infrastructure.Implementations.Packers
 
         public async Task<Stream> ExtractSongAsync(TrackInfo trackInfo, Stream stream)
         {
+            // Read song from BGM
+            var pi = GetPlayInfo(trackInfo);
+            var ms = await StreamUtils.CopyStreamAsync(stream, pi.Start, pi.Length);
+
+            return ms;
+        }
+
+        public PlayInfo GetPlayInfo(TrackInfo trackInfo)
+        {
+            if (trackInfo == null)
+            {
+                throw new ArgumentNullException(nameof(trackInfo));
+            }
+
+            if (trackInfo.Meta == null)
+            {
+                throw new TMRIException("Missing MetaInfo in TrackInfo section.");
+            }
+
+            if (!trackInfo.Meta.ContainsKey("position"))
+            {
+                throw new TMRIException("Missing Position definition in TrackInfo.MetaInfo section.");
+            }
+            
             var pos = ((JsonElement) trackInfo.Meta["position"]).EnumerateArray()
                 .Select(j => j.GetInt32())
                 .ToList();
-            var start = pos[0];
-            var end = pos[2] + start;
-            var length = end - start;
 
-            // Read song from BGM
-            var ms = await StreamUtils.CopyStreamAsync(stream, start, length);
+            if (pos.Count != 3)
+            {
+                throw new TMRIException("Invalid Position definition format TrackInfo.MetaInfo section.");
+            }
 
-            return ms;
+
+            var result = new PlayInfo
+            {
+                Start = pos[0],
+                Loop = pos[1] + pos[0],
+                End = pos[2] + pos[0]
+            };
+
+            return result;
         }
     }
 }
