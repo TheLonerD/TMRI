@@ -2,8 +2,9 @@
 {
     public enum UpdateSource
     {
-        Plugin = 0,
+        None = 0,
         TouhouWiki = 1,
-        THCRAP = 2
+        THCRAP = 2,
+        Plugin = 3
     }
 }

@@ -7,6 +7,7 @@ namespace TMRI.Primitives.Definitions
         public long Number { get; set; }
         public LocalizedString Name { get; set; }
         public List<LocalizedString> Comments { get; set; }
-        public MetaInfo Meta { get; set; }
+        public long? Composer { get; set; }
+        public MetaInfo MetaInfo { get; set; }
     }
 }

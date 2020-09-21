@@ -78,17 +78,17 @@ namespace TMRI.Infrastructure.Implementations.Packers
                 throw new ArgumentNullException(nameof(trackInfo));
             }
 
-            if (trackInfo.Meta == null)
+            if (trackInfo.MetaInfo == null)
             {
                 throw new TMRIException("Missing MetaInfo in TrackInfo section.");
             }
 
-            if (!trackInfo.Meta.ContainsKey("position"))
+            if (!trackInfo.MetaInfo.ContainsKey("position"))
             {
                 throw new TMRIException("Missing Position definition in TrackInfo.MetaInfo section.");
             }
             
-            var pos = ((JsonElement) trackInfo.Meta["position"]).EnumerateArray()
+            var pos = ((JsonElement) trackInfo.MetaInfo["position"]).EnumerateArray()
                 .Select(j => j.GetInt32())
                 .ToList();
 
