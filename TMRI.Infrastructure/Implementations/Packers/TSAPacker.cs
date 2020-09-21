@@ -71,9 +71,8 @@ namespace TMRI.Infrastructure.Implementations.Packers
             var end = pos[2] + start;
             var length = end - start;
 
-            // Read file content
-            stream.Position = start;
-            var ms = await StreamUtils.CopyStreamAsync(stream, length);
+            // Read song from BGM
+            var ms = await StreamUtils.CopyStreamAsync(stream, start, length);
 
             return ms;
         }

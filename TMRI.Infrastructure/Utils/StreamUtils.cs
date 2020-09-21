@@ -6,7 +6,7 @@ namespace TMRI.Infrastructure.Utils
 {
     public class StreamUtils
     {
-        public static async Task<MemoryStream> CopyStreamAsync(Stream source, int length)
+        public static async Task<MemoryStream> CopyStreamAsync(Stream source, int offset, int length)
         {
             if (source == null)
             {
@@ -14,8 +14,9 @@ namespace TMRI.Infrastructure.Utils
             }
 
             var ms = new MemoryStream();
-            var buffer = new byte[64 * 1024]; // Use 64 KB buffer
+            var buffer = new byte[4096]; // Use 4 KB buffer
             int total = 0;
+            source.Seek(offset, SeekOrigin.Begin);
 
             while (total != length)
             {
@@ -36,9 +37,13 @@ namespace TMRI.Infrastructure.Utils
                 }
 
                 await ms.WriteAsync(buffer, 0, read);
+                Array.Clear(buffer, 0, buffer.Length);
 
                 total += read;
             }
+
+            Array.Clear(buffer, 0, buffer.Length);
+            ms.Seek(0, SeekOrigin.Begin);
 
             return ms;
         }
