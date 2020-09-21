@@ -1,4 +1,6 @@
-﻿namespace TMRI.Primitives.Definitions
+﻿using TMRI.Primitives.Enums;
+
+namespace TMRI.Primitives.Definitions
 {
     public class PackInfo
     {

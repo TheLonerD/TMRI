@@ -9,7 +9,7 @@ using TMRI.Infrastructure.Utils;
 using TMRI.Primitives;
 using TMRI.Primitives.Definitions;
 
-namespace TMRI.Infrastructure.Implementations
+namespace TMRI.Infrastructure.Implementations.Packers
 {
     public class TSAPacker : IPacker
     {

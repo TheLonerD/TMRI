@@ -1,4 +1,4 @@
-﻿namespace TMRI.Primitives
+﻿namespace TMRI.Primitives.Enums
 {
     public enum Language
     {

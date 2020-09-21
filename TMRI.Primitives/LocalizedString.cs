@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using TMRI.Primitives.Converters;
+using TMRI.Primitives.Enums;
 
 namespace TMRI.Primitives
 {
