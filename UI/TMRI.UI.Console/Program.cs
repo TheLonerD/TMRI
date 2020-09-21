@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime;
 using System.Threading;
 using System.Threading.Tasks;
+using NAudio.Utils;
+using NAudio.Wave;
 using TMRI.Infrastructure;
 using TMRI.Infrastructure.Implementations;
 using TMRI.Infrastructure.Implementations.Packers;
@@ -26,6 +29,8 @@ namespace TMRI.UI.Console
         
         static async Task Main(string[] args)
         {
+            GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
+
             IInfoLoader infoLoader = new TMRIInfoLoader();
             IInfoWriter infoWriter = new TMRIInfoWriter();
 
@@ -136,8 +141,26 @@ namespace TMRI.UI.Console
                 await using var fs = new FileStream(bgm, FileMode.Open);
                 await using var ms = await packer.ExtractSongAsync(song, fs);
 
-                await System.Console.Out.WriteLineAsync($"Zzzzzzzz...");
-                Thread.Sleep(TimeSpan.FromSeconds(10));
+                await using var provider = new RawSourceWaveStream(ms, new WaveFormat());
+                using var d = new WaveOutEvent();
+                d.Init(provider);
+                d.Play();
+
+                while (d.PlaybackState == PlaybackState.Playing)
+                {
+                    if (System.Console.KeyAvailable)
+                    {
+                        await System.Console.Out.WriteAsync($" (stop playing)");
+                        d.Stop();
+                    }
+                    else
+                    {
+                        ClearCurrentConsoleLine();
+                        var time = d.GetPositionTimeSpan();
+                        await System.Console.Out.WriteAsync($"{time.Minutes:D2}:{time.Seconds:D2}");
+                        Thread.Sleep(TimeSpan.FromSeconds(.1));
+                    }
+                }
 
                 return true;
             }
