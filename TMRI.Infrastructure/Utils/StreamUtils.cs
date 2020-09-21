@@ -35,6 +35,8 @@ namespace TMRI.Infrastructure.Utils
                     break;
                 }
 
+                await ms.WriteAsync(buffer, 0, read);
+
                 total += read;
             }
 
