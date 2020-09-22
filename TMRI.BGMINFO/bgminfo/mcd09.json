@@ -1,8 +1,8 @@
 {
   "product": {
     "name": {
-      "jp": "旧約酒場 ~ Dateless Bar \\\"Old Adam\\\"",
-      "en": "Old Testament Tavern ~ Dateless Bar \\\"Old Adam\\\""
+      "jp": "旧約酒場 ~ Dateless Bar \"Old Adam\"",
+      "en": "Old Testament Tavern ~ Dateless Bar \"Old Adam\""
     },
     "year": 2016,
     "artist": "ZUN",
@@ -18,7 +18,7 @@
   "update": {
     "source": 1,
     "metaInfo": {
-      "wikipage": "Dateless_Bar_\\\"Old_Adam\\\"/Story",
+      "wikipage": "Dateless_Bar_\"Old_Adam\"/Story",
       "wikirev": "398987"
     }
   },
