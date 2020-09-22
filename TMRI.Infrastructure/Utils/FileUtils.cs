@@ -74,7 +74,7 @@ namespace TMRI.Infrastructure.Utils
             ProductInfo pi = null;
             UpdateInfo ui = null;
             List<TrackInfo> tiList = null;
-            List<LocalizedString> csList = null;
+            var result = new MusicDefinition();
             foreach (var str in lines)
             {
                 lineNum++;
@@ -115,7 +115,7 @@ namespace TMRI.Infrastructure.Utils
                         SetUpdateInfo(line, ref ui, file, lineNum);
                         break;
                     case "composer":
-                        SetComposerInfo(line, ref csList, file, lineNum);
+                        SetComposerInfo(line, ref result, file, lineNum);
                         break;
                     case "number":
                         tiList ??= new List<TrackInfo>();
@@ -134,13 +134,9 @@ namespace TMRI.Infrastructure.Utils
                 }
             }
 
-            var result = new MusicDefinition
-            {
-                Product = pi,
-                Update = ui,
-                Composer = csList,
-                Playlist = tiList
-            };
+            result.Product = pi;
+            result.Update = ui;
+            result.Playlist = tiList?.OrderBy(t => t.Number).ToList();
 
             return result;
         }
@@ -148,31 +144,31 @@ namespace TMRI.Infrastructure.Utils
         private static readonly Dictionary<string, (string, Type)> pKeyTable = new Dictionary<string, (string, Type)>
         {
             {"name", (nameof(ProductInfo.Name), typeof(LocalizedString))},
-            {"name_jp", (nameof(TrackInfo.Name), typeof(LocalizedString))},
-            {"name_en", (nameof(ProductInfo.Name), typeof(LocalizedString))},
             {"artist", (nameof(ProductInfo.Artist), typeof(string))},
             {"circle", (nameof(ProductInfo.Circle), typeof(LocalizedString))},
-            {"circle_en", (nameof(ProductInfo.Circle), typeof(LocalizedString))},
             {"year", (nameof(ProductInfo.Year), typeof(int))},
             {"tracks", (nameof(ProductInfo.Tracks), typeof(int))},
             {"packmethod", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
             {"bgmfile", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"zwavid_08", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"zwavid_09", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"bgmdir", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"zwavid", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
             {"wikipage", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
             {"wikirev", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
-            {"comment_en", (nameof(TrackInfo.Comments), typeof(List<LocalizedString>))},
-            {"comment_jp", (nameof(TrackInfo.Comments), typeof(List<LocalizedString>))},
+            {"comment", (nameof(TrackInfo.Comments), typeof(List<LocalizedString>))},
             {"position", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
-            {"frequency", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))}
+            {"frequency", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"filename", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"rel_", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"cmp", (nameof(MusicDefinition.Composer), typeof(List<LocalizedString>))},
+            {"composer", (nameof(TrackInfo.Composer), typeof(long?))},
         };
 
         private static readonly Dictionary<string, (string, Type)> sKeyTable = new Dictionary<string, (string, Type)>
         {
             {"packmethod", (nameof(PackInfo.PackMethod), typeof(PackMethod))},
             {"bgmfile", (nameof(PackInfo.BGMFile), typeof(string))},
-            {"zwavid_08", (nameof(PackInfo.MetaInfo), typeof(MetaInfo))},
-            {"zwavid_09", (nameof(PackInfo.MetaInfo), typeof(MetaInfo))}
+            {"bgmdir", (nameof(PackInfo.BGMDir), typeof(string))},
+            {"zwavid", (nameof(PackInfo.MetaInfo), typeof(MetaInfo))},
         };
 
         private static void SetProductInfo(string line, ref ProductInfo productInfo, string file, int lineNum)
@@ -196,13 +192,13 @@ namespace TMRI.Infrastructure.Utils
             SetField(updateInfo, key, value, pKeyTable, typeof(UpdateInfo));
         }
 
-        private static void SetComposerInfo(string line, ref List<LocalizedString> cs, string file, int lineNum)
+        private static void SetComposerInfo(string line, ref MusicDefinition md, string file, int lineNum)
         {
             var (key, value) = GetKeyValue(line, file, lineNum);
 
-            cs ??= new List<LocalizedString>();
+            md ??= new MusicDefinition();
 
-            SetField(cs, key, value, pKeyTable, typeof(UpdateInfo));
+            SetField(md, key, value, pKeyTable, typeof(MusicDefinition));
         }
 
         private static void SetTrackInfo(string line, ref TrackInfo trackInfo, string file, int lineNum)
@@ -237,14 +233,25 @@ namespace TMRI.Infrastructure.Utils
         private static void SetField(object obj, string key, string value, Dictionary<string, (string, Type)> keyTable,
             Type parent)
         {
+            if (obj == null)
+            {
+                throw new ArgumentNullException(nameof(obj));
+            }
+
+            if (string.IsNullOrEmpty(key))
+            {
+                throw new ArgumentNullException(nameof(key));
+            }
+            
             var props = obj.GetType().GetProperties();
 
-            if (!keyTable.ContainsKey(key))
+            var tableKey = keyTable.Keys.FirstOrDefault(key.StartsWith);
+            if (string.IsNullOrWhiteSpace(tableKey))
             {
                 return;
             }
 
-            var (propName, type) = keyTable[key];
+            var (propName, type) = keyTable[tableKey];
             var prop = props.FirstOrDefault(p => p.Name.Equals(propName));
 
             if (prop == null)
@@ -329,14 +336,27 @@ namespace TMRI.Infrastructure.Utils
                             }
 
                             mi.Add(key, values);
-
                             break;
                         case "frequency":
-                            if (int.TryParse(value, out var freq))
+                            if (!int.TryParse(value, out var freq))
                             {
-                                mi.Add(key, freq);
+                                throw new TMRIException($"Incorrect Frequency number format: {value}.");
                             }
-
+                            
+                            mi.Add(key, freq);
+                            break;
+                        case "rel_loop":
+                        case "rel_end":
+                            if (!long.TryParse(value.Trim().Replace("0x", ""), 
+                                NumberStyles.HexNumber, CultureInfo.InvariantCulture, out var num))
+                            {
+                                throw new TMRIException($"Incorrect {key} number format: {value}.");
+                            }
+                            
+                            mi.Add(key, num);
+                            break;
+                        case "filename":
+                            mi.Add(key, value);
                             break;
                     }
                 }
@@ -357,8 +377,32 @@ namespace TMRI.Infrastructure.Utils
                 if (hasNumber)
                 {
                     var num = Convert.ToInt32(new string(key.Where(char.IsNumber).ToArray()));
-                    var ls = lsList.ElementAtOrDefault(num - 1) ?? new LocalizedString();
-                    ls[lang] = Regex.Unescape(value);
+                    var ls = lsList.ElementAtOrDefault(num - 1);
+
+                    if (ls == null)
+                    {
+                        ls = new LocalizedString {[lang] = Regex.Unescape(value)};
+                        try
+                        {
+                            lsList.Insert(num - 1, ls);
+                        }
+                        catch (ArgumentOutOfRangeException)
+                        {
+                            for (int i = 0; i < num - 1; i++)
+                            {
+                                if (lsList.ElementAtOrDefault(i) == null)
+                                {
+                                    lsList.Insert(i, new LocalizedString());
+                                }
+                            }
+
+                            lsList.Insert(num - 1, ls);
+                        }
+                    }
+                    else
+                    {
+                        ls[lang] = Regex.Unescape(value);
+                    }
                 }
                 else
                 {
@@ -376,6 +420,14 @@ namespace TMRI.Infrastructure.Utils
                 }
 
                 prop.SetValue(obj, lsList);
+            }
+            else if (type == typeof(long?))
+            {
+                prop.SetValue(obj, Convert.ToInt64(value));
+            }
+            else
+            {
+                throw new TMRIException($"Unknown type \"{type.Name}\" to deserialize.");
             }
         }
     }

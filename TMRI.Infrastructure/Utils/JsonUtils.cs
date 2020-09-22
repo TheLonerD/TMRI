@@ -26,11 +26,11 @@ namespace TMRI.Infrastructure.Utils
             var result = await JsonSerializer.DeserializeAsync<T>(stream, new JsonSerializerOptions
             {
                 Converters = { new JsonStringConverter() },
-                IgnoreNullValues = true, // Lesser properties == easier to read
-                WriteIndented = true, // Write formatted JSON
-                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping, // Do not escape unicode sequence
-                PropertyNameCaseInsensitive = true, // PrOpErTy == property
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase // "TestVarOkYeah"
+                IgnoreNullValues = true,
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+                PropertyNameCaseInsensitive = true,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             });
 
             return result;
