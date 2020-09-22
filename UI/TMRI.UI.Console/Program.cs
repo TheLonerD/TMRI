@@ -22,10 +22,10 @@ namespace TMRI.UI.Console
             GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
 
             IInfoLoader infoLoader = new TMRIInfoLoader();
-            IInfoWriter infoWriter = new TMRIInfoWriter();
+            // IInfoWriter infoWriter = new TMRIInfoWriter();
 
             await infoLoader.PrepareLoaderAsync();
-            await infoWriter.PrepareWriteAsync();
+            // await infoWriter.PrepareWriteAsync();
 
             var games = await infoLoader.GetGamesListAsync();
 
