@@ -11,7 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{80E9CC59-94C9-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMRI.UI.Console", "UI\TMRI.UI.Console\TMRI.UI.Console.csproj", "{88D30304-F5D9-4807-849B-3E0E77CB9E73}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TMRI.BGMINFO", "TMRI.BGMINFO\TMRI.BGMINFO.shproj", "{51A2E1C5-87C3-45AB-B078-A0FA7F33013C}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TMRI.BGMINFO\TMRI.BGMINFO.projitems*{4a3390fa-8996-47d9-b6f6-84ecc6238b63}*SharedItemsImports = 5
+		TMRI.BGMINFO\TMRI.BGMINFO.projitems*{51a2e1c5-87c3-45ab-b078-a0fa7f33013c}*SharedItemsImports = 13
+		TMRI.BGMINFO\TMRI.BGMINFO.projitems*{88d30304-f5d9-4807-849b-3e0e77cb9e73}*SharedItemsImports = 5
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

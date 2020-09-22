@@ -1,0 +1,208 @@
+{
+  "product": {
+    "name": {
+      "jp": "秘封ナイトメアダイアリー 〜 Violet Detector",
+      "en": "Hifuu Nightmare Diary ~ Violet Detector"
+    },
+    "year": 2018,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 8,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 80,
+        "ZWAVID_09": 22
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Violet_Detector/Music",
+      "wikirev": "409907"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "悪夢日記",
+        "en": "Nightmare Journal"
+      },
+      "comments": [
+        {
+          "en": "This is the Title theme.\n\nI feel like most stories about dreams end up going in a horror-esque direction.\nI tried putting in just enough horror flavor as to not take it too far.",
+          "jp": "タイトル画面のテーマです。\n\n 夢がテーマになると大体ホラー展開になりがちな気がします。\n 行きすぎない程度にホラー風味を入れてみました。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_01.wav",
+        "position": [
+          16,
+          6741120,
+          18606080
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "ルーシッドドリーマー",
+        "en": "Lucid Dreamer"
+      },
+      "comments": [
+        {
+          "en": "This is the First Week theme.\n\nHave you ever dreamed about flying?\nI regularly have dreams where I'm skiing down a steep slope as if I'm flying.\nWhenever I have that dream, it's usually when I'm feeling in pretty good shape.",
+          "jp": "一週目のテーマです。\n\n空を飛ぶ夢を見る事ってあります?\n僕は定期的に急斜面を飛ぶようにスキーで滑る夢を見ます。\nそれを見たときは、大体調子の良いときですね。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_02.wav",
+        "position": [
+          18606096,
+          529152,
+          12483072
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "ルナティックドリーマー",
+        "en": "Lunatic Dreamer"
+      },
+      "comments": [
+        {
+          "en": "This is the Second Week theme.\n\nSometimes you have dreams where the events have no sense of reality, and you're left with nothing\nbut a feeling of fatigue afterward. That irritating sort of dream is what I envisioned here.\nYou have those sometimes, right? Dreams that exhaust you even though you forget what happened.",
+          "jp": "二週目のテーマです。\n\n夢の内容が現実味が無くなって、ただ単に疲労感だけが残る\nそういった焦るような夢をイメージしました。\nたまに見ますよね。何があったか忘れたけど疲れる夢。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_04.wav",
+        "position": [
+          31089168,
+          689536,
+          18725632
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "ナイトメアダイアリー",
+        "en": "Nightmare Diary"
+      },
+      "comments": [
+        {
+          "en": "This is the Third Week theme.\n\nA song with the usual Touhou-ness to it.\nI made it with the image of a finale that could stretch on forever if you left it alone.\nAm I the only one who thinks that horror dreams feel extremely nice?\nI'm always fantasizing about horror stuff as I fall asleep, but I only get those dreams sometimes.",
+          "jp": "三週目のテーマです。\n\nいつもの東方っぽい感じで曲を作りました。\n放って置けば延々と続きそうな終盤ってイメージです。\nホラーな夢って、最高に気持ちいいのは自分だけ?\nいつもホラーな妄想をしながら寝ますが、たまにしか見られません。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_05.wav",
+        "position": [
+          49814800,
+          4422336,
+          19726656
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "バー・オールドアダム",
+        "en": "\\\"Old Adam\\\" Bar"
+      },
+      "comments": [
+        {
+          "en": "This is Story Theme 1.\n\n *From Old Testament Tavern ~ Dateless Bar \"Old Adam\".",
+          "jp": "ストーリーのテーマ1です。\n\n *旧約酒場 ~ Dateless Bar \"Old Adam\" より"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_06.wav",
+        "position": [
+          69541456,
+          2011840,
+          20827200
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "燕石博物誌が連れてきた闇",
+        "en": "The Darkness Brought In by Swallowstone Naturalis Historia"
+      },
+      "comments": [
+        {
+          "en": "This is Story Theme 2.\n\n *From Old Testament Tavern ~ Dateless Bar \"Old Adam\".",
+          "jp": "ストーリーのテーマ2です。\n\n *旧約酒場 ~ Dateless Bar \"Old Adam\" より"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th165_07.wav",
+        "position": [
+          90368656,
+          616192,
+          24243456
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "永遠の春夢",
+        "en": "Eternal Spring Dream"
+      },
+      "comments": [
+        {
+          "en": "This is Story Theme 3.\n\n From Legacy of Lunatic Kingdom.",
+          "jp": "ストーリーのテーマ3です。\n\n 東方紺珠伝より"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th15_07.wav",
+        "position": [
+          114612112,
+          4198460,
+          30687744
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "秘匿されたフォーシーズンズ",
+        "en": "The Concealed Four Seasons"
+      },
+      "comments": [
+        {
+          "en": "This is Story Theme 4.\n\n From Hidden Star in Four Seasons.",
+          "jp": "ストーリーのテーマ4です。\n\n 東方天空璋より"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_12.wav",
+        "position": [
+          145299856,
+          1159520,
+          33597984
+        ],
+        "frequency": 44100
+      }
+    }
+  ]
+}

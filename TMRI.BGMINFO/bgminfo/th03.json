@@ -1,0 +1,382 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方夢時空 ~ Phantasmagoria of Dim. Dream",
+      "en": "Touhou Yumejikuu ~ Phantasmagoria of Dim. Dream"
+    },
+    "year": 1997,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "Amusement Makers"
+    },
+    "tracks": 24,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Phantasmagoria_of_Dim.Dream/Music",
+      "wikirev": "404360"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "夢は時空を越えて",
+        "en": "A Dream Transcending Space-Time"
+      },
+      "comments": [
+        {
+          "en": "This is the title music. Suddenly it doesn't seem too Touhou-like, right?\nEven if I do say so myself, for someone who's made music with such an unsuitable atmosphere I don't look too worried, I've been thinking lately.\nBut lately, maybe it's because I've become accustomed to such an atmosphere, or maybe I actually am in this kind of atmosphere. I feel my game has to be like this or it's no good.\nIn any case, right from the beginning I'm already talking about music like this. Oh no!",
+          "jp": "タイトルの曲です。いきなり東方な感じがしませんね。\n我ながら、よくここまでゲームの雰囲気に合わない曲を作って平気な顔してられるなぁ、なんて最近思ってます。\nけど、最近はこの雰囲気に馴れたせいかそれとも、実はこの雰囲気で合ってるのか私のゲームはこういう曲じゃなきゃ駄目な気がしてきました。\nそんなわけで、最初からこういった曲で始まってます。いやはや。"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "Selection",
+        "en": "Selection"
+      },
+      "comments": [
+        {
+          "en": "What should I talk about for this song? *g*\n\nIt's a pretty heavy song, isn't it?\nWhy is the character select song for a game with such a silly story like this?\n\nOh well, it's pretty short... (The song, the development time, and the comments.)",
+          "jp": "この曲で何を語ればいいんでしょう(笑)\n\nそれにしても結構重い曲だなぁ。\nなんで、このおちゃらけストーリーのゲームのキャラ選択がこんな曲なんでしょう。\n\nまぁ、短いしね。その・・・(曲も、製作時間も、コメントも)"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "東方妖恋談",
+        "en": "Eastern Mystical Love Consultation"
+      },
+      "comments": [
+        {
+          "en": "The game's main character also happens to be a shrine maiden, but...\nIs this really a shrine maiden's song? Well, uh. That's. You see.\nBut, I do like it. And it does have a rather oriental feel to it, and the melody is pretty nice. Right? (Begging)",
+          "jp": "ゲームの主人公であり巫女さんでもあるわけなんだけど。\n巫女さんかぁ? この曲。 って、まぁその。あの。\nでも、気に入ってます。それでも東方な感じのするところもあるし、メロディもいい感じだよね。ねぇ(哀願)"
+        },
+        {
+          "en": "(th3_03pmd.txt from here)",
+          "jp": "(th3_03pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 東方妖恋談 】オリジナル版です。\n\n夢時空は、対戦STGという特殊なジャンルだったために、通常戦、ボス戦の区別が\nありません。\nそのため、曲の方は変化の多いメリハリのある曲にしたつもりです。\n\n\nでも、この曲は、巫女さんにしてはやりすぎた感がありますね(^^;;\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "Reincarnation",
+        "en": "Reincarnation"
+      },
+      "comments": [
+        {
+          "en": "For those who don't know Mima, she was the last boss from the last game, Story of Eastern Wonderland.\nThis time, she's not a boss or anything, just a normal character, so I tried not to make her theme song too badass...\nYou know, I just don't get her personality at all.\n(Even though she's my own character *sweatdrop*)\nWell, what about the song. The melody for the main chorus part is very simple, but feels really nice... Doesn't it? (Maybe because it's simple?)",
+          "jp": "魅魔を知らない人の為にちょっと説明しますが、前作、東方封魔録のラスボスなんですよ。\n今回はボスでも何でも無く、ただの使用キャラにすぎないんで、余りかっこよすぎる曲は避けて作ってみたんだけど・・・\nそれにしても、このキャラの性格がよくわかんないです。\n(自分で作ったキャラだろうが(汗))\nだから、曲もどうしたもんだか。さびのメロディは、単純だけどいい感じです・・よね。(単純だから?)"
+        },
+        {
+          "en": "(th3_05.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Reincarnation\" from Phantasmagoria of Dim. Dream.\n\nI tried again with the mp3. In fact, playing with 8850 does not produce this sound, so be aware. Please also try the mp3 even though you have 8850.\n\n\nSo, I tried to arrange without disrupting the original song too much. or so I think. When I first made this ​​a long time ago I didn't think too much of what sound of the instrument to use, especially in FM, so might have become a totally different song (^ ^ ; I guess I am saying that it is delicious in one way or the other\n\nRather than the orchestra, it was finished in the feeling that you hear in the rhythmic ensemble. I think I deal with strings of classics better than the guitar strings of rock. No, really.\n\n\nWell, what I can I say, I really want to actually play the strings (^ ^;\n\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th3_05.txt from 東方幻想的音楽)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 リーインカーネーション 】です。\n\n今回も mp3 を付けてみました。実は、8850 の曲を再生してもこの音になるわけでは\n無いので注意。8850 持ってる方でも mp3 の方も試してみてください。\n\n\nというわけで、あまり元曲を崩す事なくアレンジしてみました。つもり。\nそもそも、昔創ったときはFM音源で特になんの楽器の音なのか関係無しで創っていたので\nもしかしたら、全然違う曲風だと思っているかもしれませんね(^^;\nその場合も2度おいしいと言うことで(ぉ\n\nオーケストラではなく、アンサンブル程度にリズムを付けた感じに仕上がってますよね。\nやっぱ、ロック系のギターより弦楽器系の方が性に合うなぁ。いや、ほんと。\n\n\nなんつーか、弦楽器弾けるようになりたいなぁ(^^;\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "Dim. Dream",
+        "en": "Dim. Dream"
+      },
+      "comments": [
+        {
+          "en": "I feel like this character's personality has changed since the last game...\nIn the last game, you know, she seemed more childish, didn't she? (And her hair was a different color *g*)\nThe song seems pretty cool somehow...\nWell, maybe \"cool\" isn't quite the right word for it. Let's see, how to say, how to say. Ummm (^^;\nOh well, I really do like a lot of the songs in this game.\nWhat do you all think? Well, let's overlook how it doesn't match the character for now (^^;",
+          "jp": "なんか、このキャラ、前作と性格が変わったような・・・\n前作では、もっとこう、子供っぽい感じがしたんだけど?(髪の色も違うし(笑)\n曲は、妙なかっこよさがある気が・・。\n一般に言うかっこよさとはちょっと違うかもしんないけど。なんていうか、なんていうんですか。えぇ~と(^^;\nまぁその、このゲームの曲、どれも結構気に入ってます。\nみなさんはどうですか。まぁ、キャラに合わないとかは抜きにしてね(^^;"
+        },
+        {
+          "en": "(th3_04pmd.txt from here)",
+          "jp": "(th3_04pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 Dim. Dream 】オリジナル版です。\n\n凄く、妙(^^;\nさらっと流れていくけど、メロディと言うか副旋律が自己主張が激しくなった感じで\nなんとも、お茶目な(^^;\n\nキャラもあれだし(ぉ\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "Tabula rasa ~ 空白少女",
+        "en": "Tabula rasa ~ The Empty Girl"
+      },
+      "comments": [
+        {
+          "en": "Yeees. The composer is not too good at cute songs. This song doesn't seem very cute, does it?\n(If anyone knows the comic Ellen came from... sorry, it doesn't match her very well, does it?)\nWell, anyway, this song is actually a song I wrote a loooooong time ago to practice MIDI; I rewrote it all in FM.\nIt was one of my favorite original songs, but it was completely Oriental-style, and... (I think this song is, too ...) I don't know how it ended up being a foreign girl's theme.",
+          "jp": "う~ん。作者、かわいい曲は苦手なんです。なんか、あんまりかわいい曲ではないですよね。\n(エレンの元の漫画知ってる人、いたらごめんよ。あんまりキャラに合ってなくて)\nそれはともかく、この曲、実はずうっと昔にMIDIを練習するために作った曲を、FMで作り直したものなのです。\nお気に入りのオリジナル曲の一つだったんですが、元の曲は完全に東洋風だったんですが・・・(この曲もそうな気が・・) なんで、外国の少女のテーマなのかしらん。"
+        },
+        {
+          "en": "(th3_06.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Tabula rasa ~ The Empty Girl\" from Phanatasmagoria of Dim. Dream. For the first time in a long time, I made a song that is really bright. It has a feeling of flood and miscellaneous sounds (bright, indeed), I eanestly composed by inserting notes happily (laughs)\n\nThis time, I tried to emphasize the girlhood, or is it? I just pretend that melody feels like a western fantasy with intensive piano and strings, yet it's Japanese~\n\nThis song is one before making Touhou Project, when I was still pure (laugh), brought an excercise of MIDI, remade it in FM, then arranged it back to MIDI again. So it is quite a historic song (^ ^; When I listen to the melody, a great nostalgia comes to me swelling up (It was great back then~ (laugh)\n\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th3_06.txt from 東方幻想的音楽)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方Priject第3弾 東方夢時空より【 Tabula rasa ~ 空白少女 】です。\n本当に久しぶりに、明るめな曲を作りました。(明るいよね)\n雑多な音の洪水な感じですが、本人は楽しく音符を置きまくりました(笑)\n\n今回は、少女らしさを強調してみました、のか?\nストリングやピアノを多用して西洋ファンタジー風にしてるように見せかけてるけど\nメロディがどうしても、和風だよな~。\n\nこの曲は、東方Project を作り始めるよりも前、まだ純粋だった頃に(笑)Midi の練習\nとして適当に作ったものを、FM に作りなおして、またMIDIにアレンジしたものです。\nですので、かなり歴史のある曲です(^^;;\nメロディを聴くとなつかしさがこみ上げてきます。(昔はよかったな~(笑))\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th3_06pmd.txt from here)",
+          "jp": "(th3_06pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 Tabula rasa ~ 空白少女 】オリジナル版です。\n\nなぜか、東方チックな曲です。\nSTGっぽくも無いです(笑) ある意味すごい曲だと(^^;;\n\n神社っぽさがにじみ出ています、よね。\n\n夢時空を展示した鳩祭(大学の学園祭)のときは、徹夜の朝方に模造紙にでかでかと\nエレンを書いて、教室入り口に張りました。どういうサークルと思われたんでしょう(笑)\n\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "Maniacal Princess",
+        "en": "Maniacal Princess"
+      },
+      "comments": [
+        {
+          "en": "She's a strange character. It's a strange song. Yes.\nWhat to say, what to say .... yeah.\nWell, I guess the high-speed xylophone-like sound is the main attraction for this song.\nAnyway, the melody's pretty weird. Do you all think so too? I knew it.",
+          "jp": "変なキャラです。変な曲です。はい。\nなんていうんでしょうかねぇ。う~ん。\nまぁ、この高速なもっきんみたいな音がこの曲のメインなのかしらねぇ。\nとにかく、旋律が変だもん。皆さんもそう思うかな?やっぱり。"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "夢消失 ~ Lost Dream",
+        "en": "Vanishing Dream ~ Lost Dream"
+      },
+      "comments": [
+        {
+          "en": "She isn't human, either ...\nWhen I'm making up characters, I'll write down a bunch on paper, and just choose some. This character has a pretty loli feel about her, but...\nThe song is unusually cool.\nI said this before, but I'm not that good at making cute songs. This song turned out the same way...\nA cuter song would have been nice for this character...\n\n\n\nAahhhh, all the songs feel kind of half-assed~\n(It's cool, but it's got kind of girly instrumentation in it... ) Oh, well, it's okay.\nI guess I like this kind of song, after all.",
+          "jp": "この娘も人間じゃないのよねぇ・・・\n自分はキャラを作るときに、いつも紙にいろんなキャラを書いて、その中から選ぶんですが。このキャラかなりロリっとした感じのキャラだったんだけど・・・\n曲の方は、妙にかっこいいですよね。\nさっきも書いたけど、かわいい曲って苦手なのです。この曲もそうですよね・・・。\nこのキャラだったらもっとかわいい系でもよかったですよねぇ・・・。\n\n\n\nあああ、どの曲もなんだか中途半端~\n(かっこいいけど、少女っぽい感じ(音色が)もするし)まぁ、いいんですけど。\n自分はそれが気に入ってるみたいだし。"
+        },
+        {
+          "en": "(th3_08.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Vanishing Dream ~ Lost Dream\" from Phantasmagoria of Dim. Dream.\n\nIt is a fantastic song with a feel of phantasmic little girl. This song, I think is one of the songs that reflects myself the best. I'm going to say it was quite a fantastic arrangement.\n\nBecause the songs in PoDD are relatively long compared to other series, the arrangement is also very long (^ ^ ; why did I make such a complex chord (even though the key is very simple..\n\nAs a matter of fact, this song is a song that was created for Yumemi. Before I made Kana, Yumemi was already designed so I started making this for her, but it just did not feel too much like a last boss song, I decided to ship it out to somewhere else. And the one who received the shipment was Kana. Poor little ;_; (or rather, she was a character created to fit the song (how cute (; _;\n\nIt should be very intense feeling, but why does the melody sounds painful, is it just me that I hear this (^ ^; I hope you'll also hear it as a sad song for you.\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th3_08.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 夢消失 ~ Lost Dream 】です。\n\nかなり少女幻想チックの曲です。\nこの曲は、もっとも自分らしさがでている曲の一つだと思っています。\nアレンジもかなり幻想チックにしたつもりです。\n\n夢時空の曲は他のシリーズに比べ比較的長いので、アレンジ大変(^^;;\nなんでこんなに複雑なコードの曲を作ったんだろう(いつもはちょー単純なのに(ぉ)\n\nこの曲は実をいうと、夢美用に創った曲です。カナを作り始める前に夢美は出来て\nいたのでそれように作り始めたのですが、あまりにもラストっぽく無かったのでボツ\nにしました。そのおこぼれをいただいたのがカナです(哀れ(;_;\nというか、曲に合うようなキャラを創って生まれたのが... (かわいそーだね(;_;\n\nそんなこんなで激しいのに、何故かこんなにも切ないメロディに聞こえるのは私だけ\nでしょうか(^^; みなさんにも切ない曲に聞こえていただければいいなぁ。\n\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th3_08pmd.txt from here)",
+          "jp": "(th3_08pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 夢消失 ~ Lost Dream 】オリジナル版です。\n\n完全に、東方ってことを無視した曲です(笑)\nこの曲からかなり吹っ切れたみたいで、以降ふぁんたすてぃかな曲調が増えたような\n気がする(^^;;\n\nカナのイメージイラストは(キャラを創る前にいつも書いていた(^^;;)、\n「道路標識を破壊して後ろ手にもっている、西洋少女」だったりしました。\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "夢幻遊戯 ~ Dream War",
+        "en": "Visionary Game ~ Dream War"
+      },
+      "comments": [
+        {
+          "en": "I like this song quite a bit, I really do, but it doesn't really fit the character at all, does it (^^;\nOh well.This song's loop is pretty long, but it's pretty repetitive.\nLet's see, but, aside from the bosses, isn't it the coolest of the seven characters' themes? (Especially the main part, and even the intro)",
+          "jp": "この曲、かなり気に入ってるんだけど、気に入ってるんですけど。めちゃくちゃ、キャラにあってないですよね(^^;\nまぁその。この曲かなりループまで長いですけど、繰り返し、多いですね。\nえ~と、でも、ボスキャラを除く7人の中では一番かっこい いんじゃないかな? (とくにさびとか、イントロとかも)"
+        },
+        {
+          "en": "(th3_09pmd.txt from here)",
+          "jp": "(th3_09pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 夢幻遊戯 ~ Dream War 】オリジナル版です。\n\nこの曲も、東方の中でもかなりお気に入りの部類に入ります。\n実は1ループ約5分(東方最長)とものすごく長い曲です。\nおそらく、ループ前のメロディはほとんどの方が聴いていない可能性が・・・\n普通にCPU戦やるとサビまでもいかないし(笑)\n\nサビはかなり好きなんだけどな~(^^;;\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "勝利デモ",
+        "en": "Victory Demonstration"
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "魔法決戦! ~ Fight it out!",
+        "en": "Decisive Magic Battle! ~ Fight it out!"
+      },
+      "comments": [
+        {
+          "en": "This song doesn't play in VS mode.Who the 7th is depends on which character you picked, but this song plays no matter who that was. So, if it's someone like Ellen, then this song will be totally out of place (^^;\nI was going for a boss feel, not a last boss feel, but...\nThe main melody is almost the same as Reimu's theme.\nThe main part is pretty cool... ...right? Well... maybe it's kind of odd?",
+          "jp": "この曲は対戦では流れません。7人目は使用キャラによって固定されてますが、どのキャラが出てきてもこの曲になります。よって、エレンとかが最後に来る場合とかだと、めちゃくちゃ合いません。(^^;\n曲は、ラストっぽくないボスっぽいのを目指したのですが・・・\nメインのメロディは東方妖恋談とほぼ同じになってます。\nさびもかっこはいいです・・・よね。まぁ、変・・・かな?"
+        },
+        {
+          "en": "(th3_10pmd.txt from here)",
+          "jp": "(th3_10pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 魔法決戦! ~ Fight it out!! 】オリジナル版です。\n\nこの曲は、CPU7人目の時に流れる曲です。\n設定上、初期状態で使用可能キャラ7人による戦いだから、最後だけ曲を変えて\n特別扱いにしました。だから、最後に来るキャラはキャラ別に固定になっています。\nここで、急に難しくなるんだよね(^^;\n\nこの曲って、結構珍しいと思ってるけど...\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "非統一魔法世界論",
+        "en": "Disunified Field Theory of Magic"
+      },
+      "comments": [
+        {
+          "en": "The demo is a little too long, isn't it?\nHonestly, since this song is so short, it has to loop a few times.\nWell, it seems like all the songs in this game are strangely cool ...\nBy the way, if you press ESC during the demo, you can speed through it. If you press it twice, you can skip through it. Since it's a pretty pointless scene.",
+          "jp": "ちょっと、デモが長すぎよねぇ。\nまともにみると、この曲短いから何ループもしちゃうのですよね。\nまぁ、このゲームの曲、全体的に、妙なかっこよさがあるような気が・・・\nちなみに中間デモはESCキーを押すと早送りできます・2回目からは、とばしていいよ。かなり意味の無いデモだから。"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "Sailor of Time",
+        "en": "Sailor of Time"
+      },
+      "comments": [
+        {
+          "en": "This is the theme for the mid-boss who I don't know why she's there (^^;\nI was also going for a boss theme, not a last boss theme, but. Ummm.\nThis is the only song in the game that's sycned up with the STAGE 8 START display. Did you notice?\nWell, anyway, that's a real sailor uniform. Er, ahh~",
+          "jp": "なんの為にいるのかわからん中ボスの曲です。(^^;\nこれも、ラストっぽくないボスっぽい曲にしたつもり、なんだけど。え~と。\nこの曲のみ、ゲーム中に最初のステージ 8 START っていう表示とシンクロしてます。気がつきました?\nまぁその、一応本物のセーラー服です。って、あ、あら~。"
+        },
+        {
+          "en": "(th3_11pmd.txt from here)",
+          "jp": "(th3_11pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 Sailor of Time 】オリジナル版です。\n\nセーラー・オブ・タイムですよ(ぉ\nなかなか、セイラー服なんて描くことないからなぁ(^^;\n結局、あれが最後。今度描いてみるか(^^;;\n\n不思議な魅力のある曲なんですけどねぇ。\nセイラァではないやな(^^;\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "魔法鐘愛",
+        "en": "Adoration of Magic"
+      },
+      "comments": [
+        {
+          "en": "This is pretty short. \nStill, I tried to give it that certain feeling.\nWell, that's about it.",
+          "jp": "これは短いです。\nただ、かっこつけてみただけです。\nまぁ、なんだ、それだけ。"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "Strawberry Crisis!!",
+        "en": "Strawberry Crisis!!"
+      },
+      "comments": [
+        {
+          "en": "Well, I guess this is the last boss theme.\nI had a hard time with this one. Well, it turned out, so I guess it went well in the end.\nSince all the other characters' songs were pretty cool, I worked hard at this one. I ended up using a guitar-like sound, which I don't do often.\nAnd, the main part(?)'s melody was supposed to be really high-class, but. Maybe it's not?",
+          "jp": "一応、ラスボスのテーマです。\nかなり、難産なんですけどねぇ。まぁ、なんとか形になったからよしとしましょう。\n他のキャラの曲にかっこいいものが多いので、苦労したんですよ。私にしては珍しくギターっぽい音を使ってます。\nまた、さび?のメロディは高級感溢れる様なのを目指したんだけどなぁ。ちょっと違うかなぁ?"
+        },
+        {
+          "en": "(th3_12pmd.txt from here)",
+          "jp": "(th3_12pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 Strawberry Crisis 】オリジナル版です。\n\n全然ラスボスっぽくない名前のラスボスです。もちろん、狙ってます。\nラスボスは、普通の名前の制服着た娘にしようと(^^;;\n中ボスはセーラー服(ただし、海軍の奴でスカートではないやつ)。\nラスボスはブレザーで(ぉ\n\n曲は、ものすごく苦労しました。その間3曲生まれてようやくこの形に落ち着きました。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "久遠の夢",
+        "en": "Dream of Eternity"
+      },
+      "comments": [
+        {
+          "en": "It's very ending-ish, but does it really match the ending scenes?\nWell, it's short.",
+          "jp": "エンディングっぽい曲だけど、場面に場面に合ってるのかしら?\nまぁ、短いし。"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "東方の青い空",
+        "en": "Eastern Blue Sky"
+      },
+      "comments": [
+        {
+          "en": "The song that plays during daytime endings.\nIt definitely makes me think of shrines. Actually, this is the most shrine-maiden-ish song here, isn't it?\nSee, doesn't this kind of song always play for shrines and shrine maidens in eroge? *g*",
+          "jp": "昼間のエンディングで流れる曲。\nわりと、神社を意識してます。実は、一番巫女さんっぽいんじゃないかと。\nほら、よくエロゲーで出てくる神社とか巫女さんとかってこういう曲じゃん(笑)"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "永遠の満月",
+        "en": "Eternal Full Moon"
+      },
+      "comments": [
+        {
+          "en": "The song that plays during night-time endings.\nAll the endings have a particular oriental feel to them.\nHooray!",
+          "jp": "夜のエンディングで流れる曲。どうやら\nエンディングの曲はどれも、東方っぽくなったようです。\nよかったよかった。"
+        },
+        {
+          "en": "(th3_17.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Eternal Full Moon\" from Phantasmagoria of Dim. Dream. I wrote this arrangement with a hope of bringing about the image of the shrine being a little puffy. It was also originally Japanese melody, and to sound like \"~oh, it's Miko\" (laughs)\n\nI think I am glad that I was able to bring a gentle yet emotional song for the first time in many years, but I would not know what you would feel. Since the ending song is set apart from other songs, I struggled quite on how to go about writing it for many days. But I want to believe that the song became a Japanese-tically cute little piano melody.\n\n\nThis song itself, because it was the ending theme of only two people \"Kana\" and \"Mima\", it has comparatively low frequency of use (^ ^ i. The Eternal full moon is a story of a certain \"Imperial City\", reflecting the Mima's ending of \"distance of the Earth and the moon, ... if three times farther than now,\" and such and such, I wonder if the person who got the reference (^ ^;;\n\n\nHaa, it's so Japanese. Shrine Fantasy.\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th3_17.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方Priject第3弾 東方夢時空より【 永遠の満月 】です。\n少しでも神社のイメージがふくらむといいな、と願いつつ今回のアレンジを書きました。\nメロディももともと和風だったし、ああ、巫女さん~、って曲になりました(笑)\n\n本人は、久々に優しく切ないの曲が出来たと思ってますが、どんな感じに聞こえるんでしょうか。\nエンディング曲は他の曲と一線を画しているので、ひさびさに書くとなかなか苦戦するわ~。\nでも、ほとんどピアノメロディ曲でかわいい和風になったと信じたい。\n\n\nちなみにこの曲自体は、魅魔とカナの二人だけのエンディングテーマだったので、割と\n使用頻度が低くてがっくし(^^;\n永遠の満月、元ネタはもちろん帝都物語ですぞ。魅魔のエンディングの「月と地球の距離が、\n今より三倍遠ければ・・・」のくだりもそうなんだけど、わかった人はいたのだろうか(^^;;;\n\n\nはぁ、和風だぁ。神社幻想。\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th3_17pmd.txt from here)",
+          "jp": "(th3_17pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 永遠の満月 】オリジナル版です。\n\n夜のエンディングって、ちょっとしかつかわれていませんが(^^;\nそういえば、私にとってエンディング曲って、実は珍しい曲の宝庫だったりします。\nこの曲は、結構激しい方だけど...(^^;\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": {
+        "jp": "Maple Dream...",
+        "en": "Maple Dream..."
+      },
+      "comments": [
+        {
+          "en": "Somehow it doesn't seem to fit the game at all either ... oh well.\nStill, I think this song works well as a staff roll song.\nIt's cool, isn't it? Even if I'm the only member of the staff *g*\n\nMaybe I put in too many weird parts~",
+          "jp": "なんか、またまたゲームにあってませんね・・・思いっきり。\nでも、この曲はスタッフロールには合っていると思います。\nかっこいいですよね。たとえスタッフが私一人だけでも(笑)\n\nなんか、妙なところでかっこつけすぎ~"
+        },
+        {
+          "en": "(th3_18pmd.txt from here)",
+          "jp": "(th3_18pmd.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方夢時空より【 Maple Dream... 】オリジナル版です。\n\nこういう曲も創っています。えぇ。\nこの曲は、東方シリーズの中でかなり好きな部類にはいります。\n\n冬コミ発表だったので、弾幕を雪に見立てたスタッフロールにしました(ぉ。\n雪が降りしきるのをイメージした曲になっていると思います。\n\nこれ以来、自分の中ではスタッフロールといえばこういう曲になりました。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": {
+        "jp": "ゲームオーバー",
+        "en": "Game Over"
+      }
+    },
+    {
+      "number": 21,
+      "name": {
+        "jp": "霊人の休日",
+        "en": "Ghostly Person's Holiday"
+      },
+      "comments": [
+        {
+          "en": "I remember finishing making this in no time at all. \nWell, it is a simple melody.",
+          "jp": "あっというまに制作しおわった記憶があります。\nまぁ、単純な曲ですし。"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": {
+        "jp": "時の風",
+        "en": "Winds of Time"
+      },
+      "comments": [
+        {
+          "en": "I used this as I was building the game system before I made any characters.\nThere weren't any characters that really fit this song, so I tossed it.",
+          "jp": "キャラを作る前、システムを作ってるときに使用してました。\n結局、この曲にあうキャラがいなかったのでボツになりました。"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": {
+        "jp": "スターボウドリーム",
+        "en": "Starbow Dream"
+      },
+      "comments": [
+        {
+          "en": "A very spacey(?) song.\nI don't make many songs like this one. It's the only one that really seems like it's a STG song, but (because of that?) I tossed it. \n(Because there aren't any characters that fit this song!)",
+          "jp": "宇宙っぽい?曲。\n自分の中ではかなり珍しい曲です。唯一、STGに合いそうなのに(合いそうだから?)ボツになりました。\n(この曲に合うキャラが居ないんだもん)"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": {
+        "jp": "Phantasmagoria",
+        "en": "Phantasmagoria"
+      },
+      "comments": [
+        {
+          "en": "For some reason, this song that actually has a pyramid feel to it got tossed.\nI wonder what kind of character would go with this song?",
+          "jp": "なぜか、若干ピラミッドな匂いがするこの曲もボツになりました。\nどんなキャラだったら合うんでしょうか?"
+        }
+      ]
+    }
+  ]
+}

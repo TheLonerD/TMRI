@@ -1,0 +1,311 @@
+{
+  "product": {
+    "name": {
+      "jp": "MegaMari - 魔理沙の野望",
+      "en": "MegaMari - Marisa's Ambition"
+    },
+    "year": 2006,
+    "artist": "U2, NKZ",
+    "circle": {
+      "jp": "黄昏フロンティア",
+      "en": "Twilight Frontier"
+    },
+    "tracks": 29,
+    "packInfo": {
+      "packMethod": 0,
+      "bgmFile": "megamaribgm.dat"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "Opening",
+        "en": "Opening"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/op"
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "Password",
+        "en": "Password"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/password"
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "Stage Select",
+        "en": "Stage Select"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/select"
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "Stage Start",
+        "en": "Stage Start"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/eye"
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "Reimu Hakurei Stage",
+        "en": "Reimu Hakurei Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage00"
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "Cirno Stage",
+        "en": "Cirno Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage01"
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "Sakuya Izayoi Stage",
+        "en": "Sakuya Izayoi Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage02"
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "Remilia Scarlet Stage",
+        "en": "Remilia Scarlet Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage03"
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "Stage Clear Marisa",
+        "en": "Stage Clear Marisa"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/get1"
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "Get A Weapon Marisa",
+        "en": "Get A Weapon Marisa"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/item1"
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "Youmu Konpaku Stage",
+        "en": "Youmu Konpaku Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage04"
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "Yuyuko Saigyouji Stage",
+        "en": "Yuyuko Saigyouji Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage05"
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "Reisen Udongein Inaba Stage",
+        "en": "Reisen Udongein Inaba Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage06"
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "Eirin Yagokoro Stage",
+        "en": "Eirin Yagokoro Stage"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage07"
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "Boss",
+        "en": "Boss"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/boss01"
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "Stage Clear Alice",
+        "en": "Stage Clear Alice"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/get2"
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "Get A Weapon Alice",
+        "en": "Get A Weapon Alice"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/item2"
+      }
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "Patchouli UFO SE",
+        "en": "Patchouli UFO SE"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/UFO"
+      }
+    },
+    {
+      "number": 19,
+      "name": {
+        "jp": "Patchouli Stage Map",
+        "en": "Patchouli Stage Map"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/castle"
+      }
+    },
+    {
+      "number": 20,
+      "name": {
+        "jp": "Patchouli Stage 1 & 2",
+        "en": "Patchouli Stage 1 & 2"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage08"
+      }
+    },
+    {
+      "number": 21,
+      "name": {
+        "jp": "Patchouli Stage 3",
+        "en": "Patchouli Stage 3"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage12"
+      }
+    },
+    {
+      "number": 22,
+      "name": {
+        "jp": "Copy Marisa Mischief",
+        "en": "Copy Marisa Mischief"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/boss08"
+      }
+    },
+    {
+      "number": 23,
+      "name": {
+        "jp": "Patchouli Stage 4",
+        "en": "Patchouli Stage 4"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage13"
+      }
+    },
+    {
+      "number": 24,
+      "name": {
+        "jp": "Patchouli Stage 5",
+        "en": "Patchouli Stage 5"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage10"
+      }
+    },
+    {
+      "number": 25,
+      "name": {
+        "jp": "Patchouli Castle Boss Battle",
+        "en": "Patchouli Castle Boss Battle"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/boss02"
+      }
+    },
+    {
+      "number": 26,
+      "name": {
+        "jp": "Patchouli Stage 6",
+        "en": "Patchouli Stage 6"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/stage11"
+      }
+    },
+    {
+      "number": 27,
+      "name": {
+        "jp": "Title",
+        "en": "Title"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/title"
+      }
+    },
+    {
+      "number": 28,
+      "name": {
+        "jp": "Staff Roll",
+        "en": "Staff Roll"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/end"
+      }
+    },
+    {
+      "number": 29,
+      "name": {
+        "jp": "Game Over",
+        "en": "Game Over"
+      },
+      "metaInfo": {
+        "filename": "data/bgm/gameover"
+      }
+    }
+  ]
+}

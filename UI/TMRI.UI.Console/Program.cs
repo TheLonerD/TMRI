@@ -58,6 +58,10 @@ namespace TMRI.UI.Console
             }
 
             await System.Console.Out.WriteLineAsync($"Got {products.Count} BGM definitions: ");
+            foreach (var md in products)
+            {
+                await System.Console.Out.WriteLineAsync($"  - {md.Product.Name[Language.EN]}");
+            }
 
             // Testing with TH15..
             await System.Console.Out.WriteLineAsync("Opening th15.json...");
@@ -88,7 +92,9 @@ namespace TMRI.UI.Console
 
             if (string.IsNullOrWhiteSpace(bgm))
             {
-                await System.Console.Out.WriteLineAsync("Path to game is not set in settings. Quitting...");
+                await System.Console.Out.WriteLineAsync("Path to game is not set in games list. Quitting...");
+                
+                return;
             }
 
             await System.Console.Out.WriteLineAsync($"Got {th15.Playlist.Count} songs:");

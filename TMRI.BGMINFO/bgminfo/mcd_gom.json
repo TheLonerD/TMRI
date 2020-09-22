@@ -1,0 +1,40 @@
+{
+  "product": {
+    "name": {
+      "jp": "The Grimoire of Marisa"
+    },
+    "year": 2009,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 2,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "The_Grimoire_of_Marisa_(CD)",
+      "wikirev": "342488"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "魔法使いの憂鬱",
+        "en": "Magician's Melancholy"
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "スプートニク幻夜",
+        "en": "Illusionary Sputnik Night"
+      }
+    }
+  ]
+}

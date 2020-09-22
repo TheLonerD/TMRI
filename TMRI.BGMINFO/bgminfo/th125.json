@@ -1,0 +1,166 @@
+{
+  "product": {
+    "name": {
+      "jp": "ダブルスポイラー ~ 東方文花帖",
+      "en": "Touhou Bunkachou ~ Double Spoiler"
+    },
+    "year": 2010,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 7,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 80,
+        "ZWAVID_09": 18
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Double_Spoiler/Music",
+      "wikirev": "409690"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "ニュースハウンド",
+        "en": "Newshound"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面のテーマです。\n\n いつも通りの曲ですが、いつでも出撃可能状態といった感じを\n 入れました。\n いつものゲームよりメニュー画面になってる率が高いしねー。",
+          "en": "This is the theme of the title screen.\n\nIt's the usual music, but I added in a sensation that one could make a sortie at any moment.\nChances are a lot better for you to see the menu screen than in the usual games, it is."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          16,
+          3834880,
+          15469568
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "あなたの町の怪事件",
+        "en": "The Mystery in Your Town"
+      },
+      "comments": [
+        {
+          "jp": "取材のテーマ1です。\n まだ取材が穏やかだった頃のテーマです。意気揚々として元気な\n 感じを出しました。\n 一応、初心者向けステージのテーマとなります。\n 1ステージクリアする時間より曲の方が長いので、上手い人なら\n 前奏だけで終わってしまうかもね。",
+          "en": "The first event coverage theme.\nThis theme is for when the event coverage was still quiet. It produces a spirited, triumphant feel.\nI would say, it's the theme for the beginners' stage.\nThe music lasts longer than it takes to clear the stage, so skilled players might only hear the overture before they're done."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          15469584,
+          2832576,
+          19693824
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "妖怪モダンコロニー",
+        "en": "Youkai Modern Colony"
+      },
+      "comments": [
+        {
+          "jp": "取材のテーマ2です。\n ここから妖怪の質も変化し中級編に入ります。\n 古典的な妖怪が多めの中級編。威厳を失った妖怪達が幻想郷の影で\n 楽しく暮らす様は、まるで妖怪のスペースコロニーのようです。\n そんな妖怪達をガシガシ取材して、表舞台に立たせてあげましょう。\n まだまだ余裕、余裕。",
+          "en": "The second event coverage theme.\nFrom here on, we enter the intermediate stage and the quality of youkai changes.\nThe intermediate stage with many classical youkai. The youkai who lost their dignity living happily in the shadow of Gensokyo seems just like a youkai space colony.\nLet's do the coverage on such youkai with gusto and put them up on center stage.\nPlenty of room yet, plenty of room."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          35163408,
+          2514176,
+          18456320
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "ネメシスの要塞",
+        "en": "Nemesis' Stronghold"
+      },
+      "comments": [
+        {
+          "jp": "取材のテーマ3です。\n さあさあ上級編です。この辺から撮影枚数三桁はザラですよねー。\n 手強そうな取材相手に立ち向かう姿をイメージして書きました。\n ちょっと男前そうなメロディですか、音やリズムでほんのりと\n 可愛い感じが出てるかと思います。\n いやあ、上級は手強いぜ。",
+          "en": "The third event coverage theme.\nOkay, now we're into the advanced levels. From here on, shot counts in the hundreds is common, right?\nI wrote this with the image of you facing your tough news coverage opponent in mind.\nThe melody is a bit manly handsome, but I'm pretty confident that I made the sounds and rhythm produce a slightly cute feel.\nWow, the advanced levels are tough!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          53619728,
+          1825536,
+          16255360
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "無間の鐘 ~ Infinite Nightmare",
+        "en": "Bell of Avici ~ Infinite Nightmare"
+      },
+      "comments": [
+        {
+          "jp": "取材のテーマ4です。\n その鐘を鳴らすと現世では幸せを得られるが、来世は絶え間なく苦\n が続く最悪の地獄、無間(むけん)地獄におちるという無間の鐘。\n 恐らく多くの人が、最も長時間聞くはめになる曲ですのでメリハリ\n を抑えて疲れにくい感じにしました。\n まさに無間地獄。フハハハ、精々頑張るんだな!",
+          "en": "The fourth event coverage theme.\nIt is said that when one rings Bell of Avici (Muken Jigoku), it will bring one happiness in this life, but will drop one into the Avici, the worst level of Hell, where suffering continues unabated, in the afterlife.\nThis was likely the song people would be stuck hearing for the longest time, so I decided to restrain the liveliness, making it harder to get tired of it.\nThis truly is a non-stop hell. Muhahaha, you'll endure it as best you can!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          69875088,
+          5661056,
+          31222400
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "妖怪の山 ~ Mysterious Mountain",
+        "en": "Youkai Mountain ~ Mysterious Mountain"
+      },
+      "comments": [
+        {
+          "jp": "取材のテーマ5です。\n 天狗同士の醜い争いのテーマです。\n って、実は二人は仲が悪いわけではなく、ただ単に修行しあって\n 撮影技術の向上に努めているだけなんですよね。\n 一応、最終レベルですが難易度は決して高くないので、ここまで\n 来た方には楽勝でしょう。",
+          "en": "The fifth event coverage theme.\nThis is the theme of the unsightly dispute between tengu.\nWell, actually, this doesn't mean that they have bad relations with each other - it's simply their training, working hard to elevate their photographic skills.\nI would say, this is the final level, but its difficulty level isn't that high, so this should be an easy win for anyone who's come this far."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          101097488,
+          2120352,
+          15224352
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "はたてアンロック",
+        "en": "Hatate Unlock"
+      },
+      "metaInfo": {
+        "position": [
+          116321840,
+          5178112,
+          9055872
+        ]
+      }
+    }
+  ]
+}

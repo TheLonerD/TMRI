@@ -1,0 +1,48 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方鈴奈庵 ~Forbidden Scrollery",
+      "en": "Touhou Suzunaan ~ Forbidden Scrollery"
+    },
+    "year": 2016,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 3,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Forbidden_Scrollery_(CD)",
+      "wikirev": "374363"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "判読眼のビブロフィリア",
+        "en": "Bibliophile with a Deciphering Eye"
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "運河を行き交う人妖",
+        "en": "Humans and Youkai Traversing the Canal"
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "兎は舞い降りた",
+        "en": "The Rabbit Has Landed"
+      }
+    }
+  ]
+}

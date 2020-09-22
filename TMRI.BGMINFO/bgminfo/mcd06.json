@@ -1,0 +1,395 @@
+{
+  "product": {
+    "name": {
+      "jp": "鳥船遺跡 ~ Trojan Green Asteroid",
+      "en": "Ruins of Torifune ~ Trojan Green Asteroid"
+    },
+    "year": 2012,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 10,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Trojan_Green_Asteroid/Story",
+      "wikirev": "398985"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "衛星トリフネ",
+        "en": "Satellite TORIFUNE"
+      },
+      "comments": [
+        {},
+        {
+          "en": "\"Hey, you know about TORIFUNE right?\"\n\n\"TORIFUNE? Ah, you mean that space station where that accident occured?\"",
+          "jp": "「ねえ。トリフネ、って有ったでしょ?」\n\n「トリフネ? ああ、あの事故起こした宇宙ステーションの?」"
+        },
+        {
+          "en": "TORIFUNE is the name of the ill-fated space station where everything aboard died due to some unexplained mechanical trouble a few years ago.",
+          "jp": "トリフネは数年前に原因不明の機械トラブルを起こし、宇宙の藻屑\nと消えた不遇の宇宙ステーションだ。"
+        },
+        {
+          "en": "\"Didn't they load all kinds of plants and animals onto it as part of an experiment to test whether they could adapt to life in space?\"\n\n\"Yes, I believe so. But why are you bringing this up now?\"",
+          "jp": "「アレって、宇宙に適応出来るかどうかの実験で、色んな動植物を\n\n 乗っけてたんだよね」\n\n「あ、あーそうねぇ。でもそれがどうしたって言うの?」"
+        },
+        {
+          "en": "The TORIFUNE held a highly specialized ecosystem. It was a test to see whether or not one could construct a complete ecosystem given a strictly confined area. The goal had to do with terraforming implementation.\n\nHowever, it wasn't planned for somewhere like Mars or Venus. You can only do something like that in science fiction.\n\nThey were trying to see how well it would work on Earth.",
+          "jp": "トリフネには最適化された生態系を乗せていた。限られたエリアだ\nけで完結する生態系の実験の為である。その目標はテラフォーミング\nの実現だ。\n\nそれも火星や金星などではない。そんな物はSFの世界の話だ。\n\nテラフォーミングの対象として目されていたのは、地球である。"
+        },
+        {
+          "en": "\"I think they might still be alive.\"",
+          "jp": "「もしかしたら、まだ生きているかも知れないの」"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "トロヤ群の密林",
+        "en": "Trojan Asteroid Jungle"
+      },
+      "comments": [
+        {},
+        {
+          "en": "\"Merry, what are you talking about? Even if it's supposed to be a mini-ecosystem, there's no way it could have maintained itself on a completely abandoned...\"",
+          "jp": "「メリー、何言ってるの? いくらミニ生態系が用意されていたと\n\n しても人間の手を離れた宇宙ステーションで維持なんて......」"
+        },
+        {
+          "en": "Renko broke into a bitter smile.",
+          "jp": "宇佐見蓮子は苦い笑顔を見せた。"
+        },
+        {
+          "en": "\"...But knowing you, I'm sure you have some reason to think so, right?\"",
+          "jp": "「......メリーがそういうって事は、何かあるんでしょ?」"
+        },
+        {
+          "en": "\"Well, lately I've been able to see inside of it.\"",
+          "jp": "「うん、最近見えるの。”中”の様子が」"
+        },
+        {
+          "en": "The TORIFUNE is said to be lost in space, out of humanity's reach, but the truth is that we know it has stopped at an Earth/Moon Lagrangian point.",
+          "jp": "トリフネは人類の制御を離れ宇宙の藻屑となったと言われていたが、\n\n実は地球‐月系のラグランジュポイントに留まっている事が判っている。"
+        },
+        {
+          "en": "In case of an emergency and control of the station was lost or the thrusters were malfunctioning, the TORIFUNE was equipped with a system that would automatically maneuver the station towards a Lagrangian point in order to prevent it from falling to Earth and make it possible to recover.",
+          "jp": "万が一を考え、何らかの事故が起きて制御不能になった場合でも\n\n推進装置に影響がない場合、地球への落下防止と未来の回収を考えて、\n\nラグランジュポイントに自動移動して留まる機構を備えていたのだ。"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "デザイアドライブ",
+        "en": "Desire Drive"
+      },
+      "comments": [
+        {},
+        {
+          "en": "——A green forest, as wild as it is beautiful.",
+          "jp": "――美しくも無秩序な緑の森。"
+        },
+        {
+          "en": "The stifling humidity. Is this heat due to the computer malfunctioning?",
+          "jp": "むせ返るような蒸気。異常な熱気はコンピュータの暴走か。"
+        },
+        {
+          "en": "A species of treehopper dance fantastically in this space of artificial gravity.\nIs it natural for that morpho butterfly to have such a dazzling, and venomous, color?",
+          "jp": "人工的な重力空間を幻想的に舞うツノゼミの一種。\n 構造色なのか鮮やかな、そして毒々しい色をしたモルフォチョウの一種。"
+        },
+        {
+          "en": "I hear the sound of water flowing, but I can't see a stream anywhere.\nI wonder if the roots of all these plants, strewn about unchecked, have completely covered it?",
+          "jp": "絶えず水の流れる音はするが、川は見えない。\n 縦横無尽に張り巡らされた植物の根が川を覆ってしまったのだろう。"
+        },
+        {
+          "en": "This is what you would call a \"jungle\" isn't it?",
+          "jp": "ジャングルとはこういう物だったのだろうか。"
+        },
+        {
+          "en": "Maribel Hearn's adventurous spirit flared.",
+          "jp": "マエリベリー・ハーンの探検心をくすぐる。"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "フェアリー冒険譚",
+        "en": "The Fairies' Adventurous Tale"
+      },
+      "comments": [
+        {},
+        {
+          "en": "What she saw before her was like something out of a fairy tale.",
+          "jp": "目に映る光景は、余りに幻想的だった。"
+        },
+        {
+          "en": "Maybe it was because of all the sturdy plants selected for the ecosystem, but even out of human's care and control, nothing withered but only continued to grow.",
+          "jp": "生命力の高い個体ばかり積んだからだろうか、人類の管理から\n放たれた動植物は枯れること無く成長を続けていた。"
+        },
+        {
+          "en": "Outside the window was a world of nothingness, buffeted by harmful solar winds.\n\nBut inside this floating spaceship was an isolated green paradise.",
+          "jp": "窓の外は有害な太陽風吹き荒れる無の世界。\n\nそこに漂う宇宙船の中は、緑の閉鎖楽園。"
+        },
+        {
+          "en": "It was as if Merry had caught a fever from all the strangeness around her, and she excitedly explored the area.\nMaybe it was because of the unstable sense of gravity, unlike the Earth's.",
+          "jp": "余りの異様な光景にマエリベリーは熱病にかかったかの様に\n辺りを探索した。\n\n地上とは異なる安定しない重力感覚がそうさせたのかも知れない。"
+        },
+        {
+          "en": "After exploring a bit she came to a place where the ivy grew thick, and discovered something there that didn't seem to belong.",
+          "jp": "暫く探索すると蔦が密集した所に、一際違和感のある意匠を発見した。"
+        },
+        {
+          "en": "Two pillars with a piece of wood over the top, a Shinto shrine gate.",
+          "jp": "二本の柱に木を渡したもの――鳥居である。"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "天鳥船神社",
+        "en": "Ame-no-torifune Shrine"
+      },
+      "comments": [
+        {},
+        {
+          "en": "\"...And that's when I wake up.\"\n\n\"Huh? You mean to tell me that was a dream?\n\nIn any case, your dreams really are frightening, Merry.\"\n\n\"By the way, why do you think would there be a Shinto shrine gate in a space station?\"",
+          "jp": "「......という所で目が覚めるの」\n\n「え? 夢の話なの?\n\n ......って言ってもメリーの夢は怖いからなぁ」\n\n「ところで、何で宇宙ステーションに鳥居があるのかしら」"
+        },
+        {
+          "en": "There was a shrine to Ame-no-Torifune built inside the satellite TORIFUNE.\n\nIt seems that Ame-no-Torifune is worshipped for safe travel through space. It might have been put in place partially due to the fact that the Satellite TORIFUNE resembled Noah's Ark, which took pairs of animals onboard at the time of the great flood.\n\nNo matter how much science advances, in the end we still rely on gods.",
+          "jp": "衛星トリフネには天鳥船神社が建てられていた。\n\n一応、宙の交通安全の為に祀られているとされる。もしかしたら\n大洪水の際につがいの動物を乗せたとするノアの方舟のイメージも\nあるのかも知れない。\n\n人間はいくら科学が進もうとも、最後は神頼みなのだ。"
+        },
+        {
+          "en": "\"You really know a lot, don't you?\"\n\n\"If you didn't know that but it still came up in your dream, then there's no mistake.\"\n\nRenko nodded.\n\n\"There was a shrine to Ame-no-Torifune close by here, wasn't there?\"\n\n\"I guess we might as well.\n\nTonight we'll go \"see it\" from there.\"",
+          "jp": "「へー。詳しいわね」\n\n「その事を知らなかったのにメリーの夢にも鳥居が出てくるのなら、\n\n もう間違い無いわね」\n\n蓮子は頷く。\n\n「この近くにも天鳥船神社、あったよね」\n\n「しょうが無いわねぇ。\n\n 今夜はそこから”見に行きましょう”」"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "夜空のユーフォーロマンス",
+        "en": "UFO Romance in the Night Sky"
+      },
+      "comments": [
+        {},
+        {
+          "en": "\"Wow! This is the inside of the satellite TORIFUNE?\"\n\n\"Wonderful, isn't it?\n\nYou'd have a terribly hard time finding a world like this on Earth.\"\n\n\"It really is just like out of a dream. An isolated paradise, huh.\"",
+          "jp": "「――わあ、これが衛星トリフネの内部なの?」\n\n「素敵でしょ?\n\n 地上じゃこんな世界、中々見られないわ」\n\n「幻想的ね。隔離された楽園、かー」"
+        },
+        {
+          "en": "Renko and Merry were 380,000 km away from the Earth's surface, inside the satellite TORIFUNE.\n\n...Well, in a dream, of course.",
+          "jp": "蓮子とメリーは地上から38万km離れた衛星トリフネの中にいた、\n\n......と言っても勿論夢の中である。"
+        },
+        {
+          "en": "Every time they find a way to the other side of the boundary, they can't help but go adventuring.",
+          "jp": "二人は結界の向こう側を見つけては遊んでいるのだ。"
+        },
+        {
+          "en": "\"Most of the plants and animals here are probably derivative sub-species. With resistance and vitality like this, it'd probably be a bad idea to take them back to Earth...\"\n\n\"Why are you analyzing all of this like some sort of researcher?\"\n\n\"All scientifically-minded people are like this... Huh? What was that?\"",
+          "jp": "「ここにある動植物は恐らく殆ど亜種ね。\n\n このぐらい適応力が高いと、逆に地上には持って行けないかも\n\n 知れないわねぇ......」\n\n「何、研究者みたいな目で見ているのよ」\n\n「理系の人間はみんなこうよ......ん? 何の音?」"
+        },
+        {
+          "en": "From somewhere a low growling sound could be heard.",
+          "jp": "何処からか低いうなり声が聞こえていた。"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "ハルトマンの妖怪少女",
+        "en": "Hartmann's Youkai Girl"
+      },
+      "comments": [
+        {},
+        {
+          "en": "An unknown creature stood before them.\n\nA ferocious beast with wings on its back.\n\nIf you were to describe it in terms of \"Earthly\" creatures, it would be a chimera.",
+          "jp": "目の前に立ちはだかる未知の生物。\n\n羽の生えた獰猛な獣が姿を現した。\n\n地球に存在する物に例えるのなら、キマイラだろうか。"
+        },
+        {
+          "en": "\"Wh-What is that!?\"",
+          "jp": "「ちょっと、アレって!?」"
+        },
+        {
+          "en": "\"Hmm, is it an artifically-created beast?\n\nBut its wings are too small for its size, so it wouldn't be able to fly.\n\nSince this is a closed environment, genetic abnormalities are more likely to occur...\n\nThis might be some sort of winged cat, hmm...\"",
+          "jp": "「うーん、合成獣かしら。\n\n でも身体の大きさに比べて翼が小さすぎて、アレでは飛べない。\n\n ここは閉鎖空間だから遺伝子異常が起きやすいし、\n\n ウィングキャットみたいな物かもね」"
+        },
+        {
+          "en": "\"Now isn't the time for that? How can you be so calm?\n\nThat thing is clearly dangerous!!\"",
+          "jp": "「じゃ、なくて! 何でそんなに冷静なのよ!\n\n 明らかにアレは危険でしょ?」"
+        },
+        {
+          "en": "\"Well, this is a dream, right? One you're showing me.\"",
+          "jp": "「だって、これは夢でしょ? メリーが見せた」"
+        },
+        {
+          "en": "The chimera leapt towards the two.",
+          "jp": "キマイラは二人目掛けて飛びかかってきた。"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "天鳥船神社の結界",
+        "en": "The Barrier of Ame-no-torifune Shrine"
+      },
+      "comments": [
+        {},
+        {
+          "en": "\"Phew... That was close.\"",
+          "jp": "「ふう、危ない危ない」"
+        },
+        {
+          "en": "\"Huh? That was it?\"",
+          "jp": "「あれ?\n\n もう終わり?」"
+        },
+        {
+          "en": "When they came to, Merry and Renko were back on Earth at the Ame-no-Torifune Shrine.",
+          "jp": "気が付くと地上の天鳥船神社に居た。"
+        },
+        {
+          "en": "\"When I went by myself, I only saw insects!\n\nI didn't know there was going to be something like that there!\n\nWait... Renko, weren't you scared?\"",
+          "jp": "「私一人の時は動物は昆虫くらいしか見かけなかったのに。\n\n あんなの居るなんて聞いてない!\n\n ......って、蓮子は怖くないの?」"
+        },
+        {
+          "en": "\"Well... it was just a dream, and how could I afford to be scared when there's the thrill of witnessing a new lifeform?\"",
+          "jp": "「だって、夢の中だし......それに未知の生物に興奮して\n\n 怖いとか勿体ない」"
+        },
+        {
+          "en": "\"Even if you say it was just a dream, scary things are scary!!\"",
+          "jp": "「夢の中......って言ったって怖い物は怖いわよ」"
+        },
+        {
+          "en": "\"Hey, can we go again?\"",
+          "jp": "「ねえ、もう一回行かない?」"
+        },
+        {
+          "en": "\"What?\"",
+          "jp": "「え?」"
+        },
+        {
+          "en": "Merry knew that this dream wasn't just a dream.\n\nWhat they saw was without a doubt the true nature of the satellite TORIFUNE.\n\nIf what they were looking at was true, wouldn't it be possible they were actually there?",
+          "jp": "メリーはこの夢がただの夢でない事を知っている。\n\nあの光景は紛れもない、衛星トリフネの真実なのだ。\n\nそれを見ている自分は真実では無いのだろうか。"
+        },
+        {
+          "en": "Real and virtual, it's clear which has a greater effect on humans...",
+          "jp": "リアルとヴァーチャル、どちらの方が人間に与える影響が大きいのか\n判らぬ訳も無いのに。"
+        },
+        {
+          "en": "\"...Let's not.\n\nIt's too dangerous.\"",
+          "jp": "「......辞めようよ。\n\n 危ないってば」"
+        },
+        {
+          "en": "\"But can't we run away whenever we need to, like we did just now?\n\nAlso, don't you know?\n\nHumans can be whatever they want to be in their dreams.\"",
+          "jp": "「だってさ、いつでも逃げられるんでしょ? 今みたいに。\n\n それに知っている?\n\n 夢の中なら人間は何にでもなれるんだわ」"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "感情の摩天楼 ~ Cosmic Mind",
+        "en": "Emotional Skyscraper ~ Cosmic Mind"
+      },
+      "comments": [
+        {},
+        {
+          "en": "——Renko had overcome the unstable gravity and was lightly springing all over the place.",
+          "jp": "――不安定な重力を乗りこなし、ひょうひょうと跳ねる蓮子。"
+        },
+        {
+          "en": "\"This is so awesome!\n\nEven if that monster came back again, I'd be fine with this kind of agility!\"",
+          "jp": "「おもしろーい!\n\n これだけ身軽ならさっきの怪物が出てきてもきっと余裕だよ!」"
+        },
+        {
+          "en": "\"Don't say things that will jinx us.\"",
+          "jp": "「不吉なことを言わないの」"
+        },
+        {
+          "en": "\"We'll be fine!\n\nRight now I'm almost like the protagonist of a shooting game!\"",
+          "jp": "「大丈夫だって。\n\n 今の私はさながらシューティングゲームの主人公よ!」"
+        },
+        {
+          "en": "Renko took a pose as if she were shooting a gun.",
+          "jp": "蓮子は銃を構えたポーズで撃つ真似をした。"
+        },
+        {
+          "en": "\"Even if this is a dream, I don't think you'd be able to shoot light bullets or anything.\n\nThis is \"my\" dream, after all.\"",
+          "jp": "「いくら夢でも、光弾が撃てたりはしないと思う。\n\n これは”私の夢”なんだからね」"
+        },
+        {
+          "en": "\"I know, I know.\n\nBut I also know that this is the real satellite TORIFUNE, the 'Torifune Ruins'.\"",
+          "jp": "「判ってるって。\n\n ここが本当の衛星トリフネ、”鳥船遺跡”だって事もね」"
+        },
+        {
+          "en": "It is said that the reason the satellite TORIFUNE malfunctioned was because of a computer bug. But there was no way to tell what actually went wrong from the backups of the system.\n\nAfter the incident, with no way to keep the satellite TORIFUNE from moving to a Lagrange point, an expert said, \"Japan's engineers have spent a large sum of money just to make a ruin in space,\" in criticism of the project.\nEver since then, the satellite has been called the \"Torifune Ruins\".",
+          "jp": "衛星トリフネの事故の原因は一般には「コンピュータのバグ」\nだと言われている。しかしバックアップからは原因を特定する\n事は出来なかった。\n\n勝手にラグランジュポイントに移動し始めた衛星トリフネを\n止める手段が無く、専門家が\n\n「日本の技術者は多額の金をかけて宇宙に遺跡を作った」\nと揶揄した事を切っ掛けに、この衛星は「鳥船遺跡」と呼ばれる\nようになった。"
+        },
+        {
+          "en": "\"Which means, that monster really does exist in the Torifune Ruins.\n\nIsn't that so exciting?\"",
+          "jp": "「とすると、怪物は鳥船遺跡に実在するのよ。\n\n ワクワクするわねぇ」"
+        },
+        {
+          "en": "\"Cut it out already.\n\nNo matter how many times you say it's just a dream, what will happen if you get hurt?\"",
+          "jp": "「んもー。\n\n いくらこれが夢だとしても、怪我でもしたらどうなるか\n\n 判らないわよ?」"
+        },
+        {
+          "en": "At that moment, the monster attacked.",
+          "jp": "怪物が二人を襲ったのはその時だった。"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "宇宙に浮かぶ幻想郷",
+        "en": "The Gensokyo That Floats in Outer Space"
+      },
+      "comments": [
+        {},
+        {
+          "en": "There are no plans to retrieve the satellite TORIFUNE.\n\nAfter all, it is thought that after humans lost control of the ship, all life inside it perished, and that there would be no real merit in retrieving the remains.",
+          "jp": "衛星トリフネの回収の予算は下りそうに無い。\n\n何故なら人間の制御の手を離れた時から、もう中の生物は\n全滅し、わざわざ回収する程の価値は無いと思われているからだ。"
+        },
+        {
+          "en": "Who would have thought that on an Earth/Moon-bound Trojan asteroid, there was an isolated paradise brimming with life?",
+          "jp": "まさか地球‐月系のトロヤ群に、断絶された生命の楽園が\n存在している等と、誰が考えただろう。"
+        },
+        {
+          "en": "Renko waited in front of the hospital.",
+          "jp": "蓮子は病院の前で待っていた。"
+        },
+        {
+          "en": "\"Did everything go alright?\"",
+          "jp": "「大丈夫だった?」"
+        },
+        {
+          "en": "\"It was just a graze. And it was a clean cut, so there's no risk of infection.\"",
+          "jp": "「何て事も無いかすり傷よ。\n\n 綺麗な傷で、別にバイ菌も毒も心配ないって」"
+        },
+        {
+          "en": "\"Well, that's good.\n\nI was so worried after we woke up and your arm was hurt!\"",
+          "jp": "「良かったぁ。\n\n 心配したわ、夢から覚めたら腕を怪我してるんだもん」"
+        },
+        {
+          "en": "\"It's not fair, you made it out perfectly fine...\"",
+          "jp": "「不公平な話ね。蓮子は無傷だったのに......」"
+        }
+      ]
+    }
+  ]
+}

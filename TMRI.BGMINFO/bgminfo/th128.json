@@ -1,0 +1,232 @@
+{
+  "product": {
+    "name": {
+      "jp": "妖精大戦争 ~ 東方三月精",
+      "en": "Touhou Sangetsusei ~ Fairy Wars"
+    },
+    "year": 2010,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 10,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 128,
+        "ZWAVID_09": 18
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Fairy_Wars/Music",
+      "wikirev": "417460"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "春の氷精",
+        "en": "An Ice Fairy in Spring"
+      },
+      "comments": [
+        {
+          "en": "This is the title screen theme.\nIt turned out with a pretty care-free and airy feel.\nThere's no particular sense of tension, and it uses the same melody as always, with a feel that adds more fairy-ness, which differs from humans.",
+          "jp": "タイトルの画面のテーマです。\n\n 脳天気でぽわぽわした感じになりました。\n 大した緊張感も無く、いつも通りのメロディに、\n 人間とは異なる妖精分を多めって感じで。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          16,
+          2139424,
+          15595168
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "可愛い大戦争のリフレーン",
+        "en": "The Refrain of the Lovely Great War"
+      },
+      "comments": [
+        {
+          "en": "This is the first stage theme.\nThis song was once recorded for the Three Fairies tankoubon. I'd originally planned to use it as a stage one theme, so this song must be satisfied to finally have that wish granted.\nGame music is perfected when listened to during game play. Some people probably get impressions different from those they got by listening to it on CD.",
+          "jp": "一面のテーマです。\n この曲は東方三月精単行本収録曲です。\n 最初から一面に使う予定で作った曲でしたので、その願いが\n 叶えられてこの曲も本望でしょう。\n ゲームミュージックはゲームプレイしながら聞く事で完成です。\n CDで聞いたときと違う印象を持つ人もいるでしょう。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          15595184,
+          2681472,
+          18856960
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "いたずらに命をかけて",
+        "en": "Staking Your Life on a Prank"
+      },
+      "comments": [
+        {
+          "en": "This is the first and second stage boss theme.\nThis is the theme for battles with the Three Fairies.\nIt has a very boss-ish feel to it, but it's also very liiight. Maybe it's a cute feel that accompanies the enemy's attacks in your little argument.",
+          "jp": "1、2面ボスのテーマです。\n\n 三月精と戦う時のテーマです。\n いかにもボスって感じですが、かるーい感じを多めにしています。\n 小さな喧嘩って感じで敵の攻撃と共に、かわいらしさが出ているのかな。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          34452144,
+          172256,
+          13034144
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "年中夢中の好奇心",
+        "en": "Year-Round Absorbed Curiosity"
+      },
+      "comments": [
+        {
+          "en": "This is the stage 2 theme.\nThe atmosphere changed from that of stage 1, to that of an evening. This song has the title screen theme's melody. I think it has a much more mysterious and nostalgic feel.\nAfter all, evening is very mysterious and nostalgic.",
+          "jp": "二面のテーマです。\n\n 一面とは雰囲気を変えて、夕方風に。\n タイトル画面のメロディが使われています。\n なんか妖しさと懐かしさが強くなっていると思います。\n 夕方っていうと妖しくも懐かしいですからね。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          47486288,
+          2305600,
+          14927552
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "真夜中のフェアリーダンス",
+        "en": "A Midnight Fairy Dance"
+      },
+      "comments": [
+        {
+          "en": "This is the stage 3 theme.\nThe melody is a little jazzy and adult-y.\nNight is the time for adults.Or the time of youkai. It's the time when good children are in bed and the youkai come out to whittle away the night. Or when adults come out. Well, they come out undoubtedly.",
+          "jp": "三面のテーマです。\n\n ちょっとだけジャズィでアダルティなメロディにしました。\n 夜といえば大人の時間。もしくは妖怪の時間。\n よい子はおねむの時間、夜更かしすると妖怪が出ますよ。\n もしくは大人が出ます。そりゃもう出ます。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          62413840,
+          1901184,
+          21505536
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "妖精大戦争 ~ Fairy Wars",
+        "en": "Great Fairy Wars ~ Fairy Wars"
+      },
+      "comments": [
+        {
+          "en": "This is the third stage boss theme.\nIt is for the last boss battle, but players can reach it quickly, so it was hard to decide how heavy the song would be.\nStarting with max power is too wearing, so I made it have a slow and happy feeling in the beginning, and a fast and hot feeling in the ending.\nThe tone is fairy-like, but the song itself is rather hot-blooded.",
+          "jp": "三面ボスのテーマです。\n 一応ラスボス戦ですが、すぐに到達してしまうので曲の重さを\n どの位にするかが難しいところ。\n いきなりMAXパワーでも疲れるので、序盤はゆっくり楽しげに、\n 終盤はハイスピードで熱い感じにしました。\n 音色は妖精風だけど結構熱い曲です。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          83919376,
+          565632,
+          18139776
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "ルーズレイン",
+        "en": "Loose Rain"
+      },
+      "comments": [
+        {
+          "en": "This is the extra stage theme.\nIt turned out feeling like being rushed uselessly in the introduction, but the whole song has a prank-like feel to it, fitting for the extra stage. It gave an image of flight in the falling petals of cherry blossoms.\n(Needless to say, I was rushed by the schedule during the composition.)",
+          "jp": "EXTRAのテーマです。\n\n イントロで無駄に急かされている感じが出てしまいましたが、\n 全体的にはいたずら感が出ていてEXっぽいです。\n 桜吹雪の中を飛ぶイメージです。\n  (作曲時、スケジュール的に急かされていたのは言うまでもない)"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          114404240,
+          1154816,
+          28038912
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "メイガスナイト",
+        "en": "Magus Night"
+      },
+      "comments": [
+        {
+          "en": "This is the extra boss theme.\n\nAt first I planned to make it an arrangement of The Witches' Ball.\nSince I composed it only with the impression left in my mind, it became a completely different song after all...\n\"A song arranged by the original composer can't be an arrangement\" may mean this.\nAnyway, isn't this a cool song? It's no problem if the song is good.",
+          "jp": "EXTRAボスのテーマです。\n\n 魔女達の舞踏会のアレンジのつもりで作り始めました。\n 心の奥底に残るイメージだけで書いたため全く別の曲に......\n 作曲者本人がアレンジするとアレンジにならないとはこの事か。\n ま、格好いい曲ですよねー。曲さえ良ければ何でもいいや。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          142443152,
+          819968,
+          23128576
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "春の氷精 - 静 -",
+        "en": "An Ice Fairy in Spring - Still -"
+      },
+      "comments": [
+        {
+          "en": "This is the ending theme.\nThis is a different version of the opening theme. It's a little more adult-y.\nAn adult man still talking of fairies is hopeless, right?",
+          "jp": "エンディングのテーマです。\n\n オープニングの別バージョンです。\n 少し大人っぽくなりました。\n\n 大人になっても妖精さん妖精さん言ってるようじゃもう駄目ね。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          102059152,
+          1841920,
+          12345088
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "プレイヤーズスコア",
+        "en": "Player's Score"
+      },
+      "comments": [
+        {
+          "en": "This is the name entry theme.\nThis is a liiittle bit lighter, to fit the game's theme.",
+          "jp": "ネームレジストのテーマです。\n\n これもゲームに合わせて少しだけかるーくしました。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          165571728,
+          1879240,
+          6741184
+        ]
+      }
+    }
+  ]
+}

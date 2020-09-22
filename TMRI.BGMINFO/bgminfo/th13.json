@@ -1,0 +1,599 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方神霊廟 ~ Ten Desires",
+      "en": "Touhou Shinreibyou ~ Ten Desires"
+    },
+    "year": 2011,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 31,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 0,
+        "ZWAVID_09": 19
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Ten_Desires/Music",
+      "wikirev": "409694"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "欲深き霊魂",
+        "en": "Spirit of Avarice"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面のテーマです。\n\n いつものメロディです。今回はダーク色多めでお送りします。\n STGはポップな世界観よりダークな方が好まれる傾向にある\n 気がします。\n このゲームは全く持ってダークじゃないんですけどね。",
+          "en": "The theme for the title screen.\n\nThe same melody as always. This time, I bring it with darker colors.\n\nI tend to feel that STGs are liked more when they have a dark world view, rather than a pop one.\n\nThis game isn’t dark at all, though."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          16,
+          3853696,
+          10812928
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "死霊の夜桜",
+        "en": "Night Sakura of Dead Spirits"
+      },
+      "comments": [
+        {
+          "jp": "1面のテーマです。\n\n 久々の冥界入りですね。今回のテーマは妖々夢と星蓮船の世界、\n 両方に関わってくるのでやはり冥界を外せませんでした。\n メロディアスな曲ですが、一面の曲と言う事を忘れないように\n リズミカルに刻んでみました。",
+          "en": "The first stage theme.\n\nIt’s been a while since we last went to the nether world.\n Since this time, the theme concerns both the PCB world and the UFO world, the nether world had to be there.\n\nIt sounds melodious, but I made it rhythmical so that I won’t forget that it’s a first stage song."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          10812944,
+          3044008,
+          19172208
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "死霊の夜桜 (霊界バージョン)",
+        "en": "Night Sakura of Dead Spirits (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          29985152,
+          1522004,
+          9586104
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "ゴーストリード",
+        "en": "Ghost Lead"
+      },
+      "comments": [
+        {
+          "jp": "西行寺 幽々子のテーマです。\n\n とにかく立ち位置の難しい曲でした。\n ゲーム的に一面ボスらしさを出さないといけないので、前の曲の\n アレンジとかそういう方向は止めました。\n 今回は主人公達にヒントを与える、ただの町人Aになっています。",
+          "en": "Yuyuko Saigyouji's theme.\n\nNot really an easy piece to classify.\nSince I had to bring out the fact that she's only a first stage boss, I stopped myself from arranging a previous song of hers.\nIn this game she just acts as a \"nameless npc villager\" who helps the protagonists on their way."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          39571256,
+          716032,
+          14911744
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "ゴーストリード (霊界バージョン)",
+        "en": "Ghost Lead (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          54483000,
+          358016,
+          7455872
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "妖怪寺へようこそ",
+        "en": "Welcome to Youkai Temple"
+      },
+      "comments": [
+        {
+          "jp": "2面のテーマです。\n\n 朝のお寺って静かで良いんですけどね。\n でも妖怪の住まうお寺は、夜から明け方の方が騒がしいのです。\n お寺に妖怪なんて色々イメージが湧きますよね。\n そのイメージを生かして、自分なりの和風曲に仕上げました。",
+          "en": "The second stage theme.\n\nNormally a temple is nice and quiet in the morning.\nBut in a temple that Youkai live in, it’s noisier from night to daybreak.\nYoukai that live in the temple... Doesn't that bring up all sorts of images?\nUsing that image, I made it my own sort of Japanese song."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          61938872,
+          398720,
+          18867776
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "妖怪寺へようこそ (霊界バージョン)",
+        "en": "Welcome to Youkai Temple (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          80806648,
+          199360,
+          9433888
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "門前の妖怪小娘",
+        "en": "Youkai Girl at the Gate"
+      },
+      "comments": [
+        {
+          "en": "Kyouko Kasodani's theme.\n\nDo people still shout “Yahoo” when they go to the mountains?\nOr do you feel embarrassed all of a sudden and can’t find the courage to shout?\nWell of course the Yamabiko get bored, it's understandable for them to go in to Buddhism from the boredom.\nBy the way, if you try to relieve stress by shouting \"Idiot!\" out toward the open sea, you'll startle the fishermen.",
+          "jp": "幽谷 響子のテーマです。\n\n 今の人でも山に行ってヤッホーって言いますかね?\n 意外と恥ずかしくて大声出せなかったりしませんか?\n 山彦も暇でしょうねぇ。そりゃ仏門にも入りますよ。\n ちなみに海に行ってバカヤローとか叫ぶと漁師さんが驚きます。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          90240536,
+          343296,
+          12714688
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "門前の妖怪小娘 (霊界バージョン)",
+        "en": "Youkai Girl at the Gate (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          102955224,
+          171648,
+          6357344
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "素敵な墓場で暮しましょ",
+        "en": "Let’s Live in a Lovely Cemetery"
+      },
+      "comments": [
+        {
+          "jp": "3面のテーマです。\n\n ゲームに出てくる墓場って言うと、ホラーじゃない限りコミカルな\n 物を想像してしまいます。あんまり重くなり過ぎてもアレですしね。\n ですので出来るだけコミカルな感じに仕上げました。\n 懐かしい感じがたまりません(個人的にも)",
+          "en": "The third stage theme.\n\nCemeteries that appear in games- unless it’s a horror game- tends to make you imagine of a comical one. So there’s no meaning in making the music too dark and heavy too.\nSo I brushed it up with a comical feel as much as I can.\nI can’t resist this nostalgic feeling (Personally too)"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          109312568,
+          2718496,
+          24583680
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "素敵な墓場で暮しましょ (霊界バージョン)",
+        "en": "Let’s Live in a Lovely Cemetery (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          133896248,
+          1359248,
+          12291840
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "リジッドパラダイス",
+        "en": "Rigid Paradise"
+      },
+      "comments": [
+        {
+          "jp": "宮古 芳香のテーマです。\n\n キョンシーといえど、基本はゾンビなのでそれっぽいエキゾチック\n なイントロにしてみました。しかしこの曲を書いていて途中で気付\n いたのですが、イントロはピラミッド風って感じですよね。\n それってゾンビじゃなくてミイラなんじゃないかと......",
+          "en": "Yoshika Miyako's theme.\n\nAlthough she is a Jiang Shi, she was based on a zombie, so her theme's introduction is a little exotic. But then as I was writing it I noticed that the introduction has something of an Egyptian feel, sort of like a pyramid or something.\nBut that would be a mummy, not a zombie..."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          146188088,
+          707904,
+          13650560
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "リジッドパラダイス (霊界バージョン)",
+        "en": "Rigid Paradise (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          159838648,
+          353952,
+          6825280
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "デザイアドライブ",
+        "en": "Desire Drive"
+      },
+      "comments": [
+        {
+          "en": "The fourth stage theme.\n\nI made it a flowing song to completely switch away from the first half of the game.\nIt feels nice to rush through a narrow space at high speed.\nThis is okay in caves, but don't run in halls at school or in the work office.\nCaves are nice. (You shouldn't run in a limestone cavern, either.)",
+          "jp": "4面のテーマです。\n\n 前半面とうって変わって流れる様な曲にしました。\n 狭い空間を猛スピードでかけるのは気持ちいいですよね。\n でも洞窟では良いけど、学校や会社では走らないように。\n 洞窟って良いね。(鍾乳洞でも走ってはいけません)"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          166663928,
+          1606144,
+          27550976
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "デザイアドライブ (霊界バージョン)",
+        "en": "Desire Drive (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          194214904,
+          803072,
+          13775488
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "古きユアンシェン",
+        "en": "Old Yuanxian"
+      },
+      "comments": [
+        {
+          "en": "Seiga Kaku's theme.\n\nShe's a wicked hermit. Kind of like a magician that does a large assortment of tricks.\nSo, I aimed for a suspicious song where you never know what's going to fly out at you next.\nBeing able to pass through walls would be useful for running away, but it's not too useful for fighting, is it? It would be a critical hit to a nurikabe, though.",
+          "jp": "霍 青娥のテーマです。\n \n 邪仙です。色んな術を使う手品師みたいなもんです。\n そんな処から怪しくて何が飛び出すのか判らない様な曲にしました。\n 壁抜けの能力は逃げるのには便利そうですけど、余り直接戦闘向き\n じゃないですね。ぬりかべにはクリティカルですけどね。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          207990392,
+          1520000,
+          18306944
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "古きユアンシェン (霊界バージョン)",
+        "en": "Old Yuanxian (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          226297336,
+          760000,
+          9153472
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "夢殿大祀廟",
+        "en": "The Hall of Dreams' Great Mausoleum"
+      },
+      "comments": [
+        {
+          "en": "The fifth stage theme.\n\nSince we just came barreling through a narrow cave, I decided to write a nice, expansive song to contrast it.\nIt's so stimulating to find such enormous spaces underground, isn't it?\nI wanted to compose something that would make you feel that kind of excitement.",
+          "jp": "5面のテーマです。\n\n 狭い洞窟を駆け抜けてきたので、今度は対照的に空間的に広がりを\n 感じる曲にしました。\n 地底に大空間があったりすると興奮しますよね。\n そんな人間の高揚感を感じられるといいなあと思って作りました。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          235450808,
+          275504,
+          20617120
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 19,
+      "name": {
+        "jp": "夢殿大祀廟 (霊界バージョン)",
+        "en": "The Hall of Dreams' Great Mausoleum (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          256067928,
+          137752,
+          10308560
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 20,
+      "name": {
+        "jp": "大神神話伝",
+        "en": "Omiwa Legend"
+      },
+      "comments": [
+        {
+          "en": "Mononobe no Futo's theme.\n\nSince it's Mononobe-san, the title is pronounced \"Oomiwa Shinwaden\".\nI get the feeling there aren't many games that are themed around the time between the Tumulus periods and Asuka periods. Maybe people just can't picture an image of them?\nThis song was written with only the sound of Asuka in mind. Asukaaaaa!",
+          "jp": "物部 布都のテーマです。\n\n 物部さんですから曲の読み方は「おおみわしんわでん」です。\n 時代物でも、古墳時代から飛鳥時代をテーマにしたゲームって少な\n い気がします。イメージが湧かないからかな?\n この曲は、飛鳥っていう響きだけでイメージしました。あすかー!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          266376488,
+          661504,
+          26787840
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 21,
+      "name": {
+        "jp": "大神神話伝 (霊界バージョン)",
+        "en": "Omiwa Legend (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          293164328,
+          330752,
+          13393920
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 22,
+      "name": {
+        "jp": "小さな欲望の星空",
+        "en": "Starry Sky of Small Desires"
+      },
+      "comments": [
+        {
+          "en": "The sixth stage theme.\n\nYou're usually pretty exhausted by the time you reach stage 6, so this song is just a connector.\n\nIt's not really clear where this is, but it's probably inside the Hall of Dreams' Great Mausoleum. That mystery space.",
+          "jp": "6面のテーマです。\n\n 大体6面まで来るとヘトヘトなのでここは繋ぎの曲で。\n\n 位置的に何処にいるのかさっぱり不明ですが、きっと夢殿大祀廟の\n 中なんでしょう。あの不思議空間。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          306558248,
+          2833984,
+          19844512
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 23,
+      "name": {
+        "jp": "小さな欲望の星空 (霊界バージョン)",
+        "en": "Starry Sky of Small Desires (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          326402760,
+          1416992,
+          9922256
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 24,
+      "name": {
+        "jp": "聖徳伝説 ~ True Administrator",
+        "en": "Shoutoku Legend ~ True Administrator"
+      },
+      "comments": [
+        {
+          "en": "Toyosatomimi no Miko's theme. The motif is based on a historical figure everyone knows. I figured it would be rude if it wasn't a powerful, cool song, so it turned out like this. He's suddenly been made into a fictional character recently, so I used the opportunity to move him to Gensokyo. Many thanks~",
+          "jp": "豊聡耳の神子のテーマです。\n\n 知らない人はいない歴史上の偉人がモチーフになっています。\n 曲は力強く、そして格好良くなければ失礼だと思ったのでこんな感じに。\n 最近になって急に架空の人物にされかかっていますが、そんな事も\n あって幻想郷にお引っ越しして頂きました。ありがたやー"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          336325016,
+          2602200,
+          32563680
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 25,
+      "name": {
+        "jp": "妖怪裏参道",
+        "en": "Youkai Back Shrine Road"
+      },
+      "comments": [
+        {
+          "en": "The extra stage theme.\n\nYou never know what kind of retro youkai might pop onto the road with this song.\nYoukai always seem to have such fun no matter the circumstances.\nThat's probably because they're enlightened by knowing exactly what their purpose in life is.\nIn that case, there's one way to be sure to enjoy life. Accept whatever you've got now.",
+          "jp": "エキストラステージのテーマです。\n\n 如何にもレトロな妖怪が出そうな参道というイメージで。\n 妖怪達はどんな時も楽しそうですよね。\n それは妖怪の存在意義がハッキリしていて迷いが無いからでしょう。\n ならば、楽しく生きる方法は一つ。今のままを受け入れるのじゃ。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          410939768,
+          1457280,
+          24019744
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 26,
+      "name": {
+        "jp": "妖怪裏参道 (霊界バージョン)",
+        "en": "Youkai Back Shrine Road (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          434959512,
+          728640,
+          12009872
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 27,
+      "name": {
+        "jp": "佐渡の二ッ岩",
+        "en": "Futatsuiwa from Sado"
+      },
+      "comments": [
+        {
+          "en": "Mamizou Futatsuiwa's theme.\n\nIt's full of that old tanuki feeling.\nBoth foxes and tanuki are seen as tricksters, but of the two, tanuki seem more laid-back, right? So, they're probably not well suited towards danmaku battles, but as expected, the danmaku morphed into something else and...",
+          "jp": "二ッ岩 マミゾウのテーマです。\n\n 狸感たっぷりに仕上げました。\n 狸も狐も人を化かすイメージで被りますが、狸の方がのんびりして\n いるイメージなんですよね。だから弾幕戦闘には向かないかと思い\n ましたが、案の定、弾幕は何か別の物に変化して......。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          446969384,
+          2398880,
+          25539360
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 28,
+      "name": {
+        "jp": "佐渡の二ッ岩 (霊界バージョン)",
+        "en": "Futatsuiwa from Sado (Spirit World Version)"
+      },
+      "metaInfo": {
+        "position": [
+          472508744,
+          1199440,
+          12769680
+        ],
+        "frequency": 22050
+      }
+    },
+    {
+      "number": 29,
+      "name": {
+        "jp": "神社の新しい風",
+        "en": "A New Wind at the Shrine"
+      },
+      "comments": [
+        {
+          "en": "The ending theme. It's a liiiiiiight ending. You know, Reimu and company haven't been doing much incident solving lately.",
+          "jp": "エンディングのテーマです。\n\n かるーくエンディングです。\n\n\n それにしても最近異変解決していないね、霊夢達。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          368888696,
+          259584,
+          15528448
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 30,
+      "name": {
+        "jp": "デザイアドリーム",
+        "en": "Desire Dream"
+      },
+      "comments": [
+        {
+          "en": "The staff roll theme. This is a different version of Desire Drive.The sense of speed has mostly been lost, but maybe it has a floating feeling now instead. Lately I've been wondering if there's a real point to the staff roll.",
+          "jp": "スタッフロールのテーマです。\n\n デザイアドライブの別バージョンです。\n スビード感は少なくなったけど、浮遊感が生まれているかな。\n\n 最近、スタッフロールの存在意義が危ぶまれています。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          384417144,
+          24170752,
+          26522624
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 31,
+      "name": {
+        "jp": "プレイヤーズスコア",
+        "en": "Player's Score"
+      },
+      "metaInfo": {
+        "position": [
+          485278424,
+          1879240,
+          6741184
+        ],
+        "frequency": 44100
+      }
+    }
+  ]
+}

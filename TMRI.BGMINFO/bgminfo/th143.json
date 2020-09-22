@@ -1,0 +1,221 @@
+{
+  "product": {
+    "name": {
+      "jp": "弾幕アマノジャク ~ Impossible Spell Card",
+      "en": "Danmaku Amanojaku ~ Impossible Spell Card"
+    },
+    "year": 2014,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 9,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 48,
+        "ZWAVID_09": 20
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Impossible_Spell_Card/Music",
+      "wikirev": "421753"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "反則の狼煙を上げろ",
+        "en": "Raise the Signal Fire of Cheating"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面のテーマです。\n\n タイトル画面率の高いゲームなので少しだけノリノリにしています。\n タイトル画面というか、ステージ選択の曲だね、割合から言って。",
+          "en": "This is the theme of the title screen.\nSince this game spends so much time at title screen,\nthis one is a bit more energetic.\nBased on its usage, it should probably be called \"stage select theme\"."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          16,
+          2891584,
+          20954816
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "不可能弾幕には反則を",
+        "en": "Cheat Against the Impossible Danmaku"
+      },
+      "comments": [
+        {
+          "jp": "最序盤のテーマです。\n\nキャラと曲が結びつかないゲームなので、\n一般的な戦闘曲みたいなのになりました。\nステージの長さと曲の長さが釣り合い取れないのは\n何度もリトライすることが前提だからです。",
+          "en": "Earliest stages theme.\n\nBecause the music in this game is\nnot related to the characters,\nit feels more like generic combat music.\nI couldn't make track lengths fit stage lengths,\nbecause they're meant to be endlessly retried."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          20954832,
+          2560512,
+          22360448
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "ミッドナイトスペルカード",
+        "en": "Midnight Spell Card"
+      },
+      "comments": [
+        {
+          "jp": "序盤のテーマです。\n\n舞台を夜にして、夜っぽい感じの曲にしました。\n疾走感のある曲なのでここらで停滞しない様に。",
+          "en": "Early stages theme.\n\nI gave this track a nightly feel since the stages take place at night.\nIt has a rushing feel, so try not to linger in these stages for too long."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          43315280,
+          1355828,
+          16173440
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "ロマンチック逃飛行",
+        "en": "Romantic Escape Flight"
+      },
+      "comments": [
+        {
+          "jp": "中盤のテーマです。\n\nうってかわって開けた感じになりました。\nこの辺までくると簡単にはステージを\nクリアできないかな?",
+          "en": "Middle stages theme.\n\nThis one is completely different and cheerful.\nAt this point you can't beat the stages\nso easily, can you?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          59488720,
+          2444560,
+          22494304
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "永遠の三日天下",
+        "en": "Eternal Transient Reign"
+      },
+      "comments": [
+        {
+          "jp": "終盤のテーマです。\n\n 最後は大人しい感じの曲で。\n でも弾幕は地獄です。むしろ曲が絶望感を煽ってます。\n\n 本当に不可能なのでしょうか?",
+          "en": "Last stages theme.\n\nWent with a moderate theme for the end.\nBut these danmaku are hell.\nMaybe this theme invokes desperation instead.\nMaybe these cards really are impossible?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          81983024,
+          797504,
+          35092840
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "秘境のマーメイド",
+        "en": "Mermaid from the Uncharted Land"
+      },
+      "comments": [
+        {
+          "jp": "東方輝針城から再録です。",
+          "en": "Previously used in Double Dealing Character."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          117075864,
+          414080,
+          15806464
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "リバースイデオロギー",
+        "en": "Reverse Ideology"
+      },
+      "comments": [
+        {
+          "jp": "東方輝針城から再録です。",
+          "en": "Previously used in Double Dealing Character."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          132882328,
+          926016,
+          23152464
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "幻想浄瑠璃",
+        "en": "Illusionary Joururi"
+      },
+      "comments": [
+        {
+          "jp": "東方輝針城から再録です。",
+          "en": "Previously used in Double Dealing Character."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          156034792,
+          5390560,
+          25375296
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "妖怪の山 ~ Mysterious Mountain",
+        "en": "Youkai Mountain ~ Mysterious Mountain"
+      },
+      "comments": [
+        {
+          "jp": "東方風神録から再録です。",
+          "en": "Previously used in Mountain of Faith."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          181410088,
+          2120352,
+          15224352
+        ],
+        "frequency": 44100
+      }
+    }
+  ]
+}

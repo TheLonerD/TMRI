@@ -1,0 +1,410 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方輝針城 ~ Double Dealing Character",
+      "en": "Touhou Kishinjou ~ Double Dealing Character"
+    },
+    "year": 2013,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 18,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 0,
+        "ZWAVID_09": 20
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Double_Dealing_Character/Music",
+      "wikirev": "409698"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "不思議なお祓い棒",
+        "en": "Mysterious Purification Rod"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面のテーマです。\n\nいつも通りですが、今回アップテンポの曲が多いので\n\nタイトル画面ではしっとりするように作るつもりでした。\n\nそれはどうかな?",
+          "en": "The title screen theme.\n\nIt's the same as usual, but since there's so many up-tempo tracks this time,\nI intended to make the title screen more subdued.\n\nI wonder if it worked?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          16,
+          2862544,
+          20787040
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "ミストレイク",
+        "en": "Mist Lake"
+      },
+      "comments": [
+        {
+          "jp": "1面のテーマです。\n\n1面という事で、ちょっとインパクトのある曲にしました。\n\nどういう原理で湖に常に霧が立ちこめているんでしょうねぇ。\n\n魚は棲んで無さそうですが、意外と色んな妖怪が棲んでいる\n\nみたいです。",
+          "en": "The stage 1 theme.\n\nSince it's the stage 1 theme, I made it a track to leave a bit of an impact.\nThanks to some principle or other, there's always mist hanging over the lake.\nNo fish seem to live there, but there surprisingly seems to be various youkai\nliving there."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          20787056,
+          1431744,
+          16328960
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "秘境のマーメイド",
+        "en": "Mermaid from the Uncharted Land"
+      },
+      "comments": [
+        {
+          "en": "Wakasagihime's theme.\n\nShe's a mermaid who's confident in her ability while underwater,\nbut unfortunately there's more land than water in Gensokyo.\nI made this battle music with a light feeling to it, rather than a serious one.\nI do love tempura.",
+          "jp": "わかさぎ姫のテーマです。\n\n水中なら腕に自信がある人魚ですが、残念ながら幻想郷は\n\n陸地の方が多いのです。\n\n本気さを感じないかるーい感じの戦闘曲にしました。\n\n天ぷら大好きです。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          37116016,
+          414080,
+          15806464
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "運河を行き交う人妖",
+        "en": "Humans and Youkai Traversing the Canal"
+      },
+      "comments": [
+        {
+          "jp": "2面のテーマです。\n\n一面ののほほん感とはうって変わって中二っぽい\n\n妖怪なので少し意識しました。\n\n一定のビートで淡々と進む感じが出ているかなと。",
+          "en": "The stage 2 theme.\n\nIn sharp contrast to the relaxed feeling of stage 1, the youkai here have a \"cooler-\nthan-thou\"  thing going on, which I kept in mind somewhat.\n\nDoes the constant beat give a feeling of indifferent progress?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          52922480,
+          2696320,
+          17992304
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "柳の下のデュラハン",
+        "en": "Dullahan Under the Willows"
+      },
+      "comments": [
+        {
+          "en": "Sekibanki's theme.\n\nI don't really know whether rokurokubi are supposed to stretch their neck\nor send their head flying.\nBut when the head comes off and their body moves elsewhere,\nit seems like they can't go back to normal, right?",
+          "jp": "赤蛮奇のテーマです。\n\nろくろ首って、首が伸びるんだか頭が飛ぶんだか\n\nよく判らないですよね。\n\nでも首が飛んでいるときに体を動かすと、元に\n\n戻れなくなるみたいですよ?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          70914784,
+          368944,
+          19075552
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "満月の竹林",
+        "en": "Bamboo Forest of the Full Moon"
+      },
+      "comments": [
+        {
+          "jp": "3面のテーマです。\n\n竹林で満月ですよ。\n\nいつの間にか迷いの竹林は月を崇める妖怪の聖地に\n\nなっていたんですね。\n\n曲も永夜抄のアレを意識しました。",
+          "en": "The stage 3 theme.\n\nIt's a full moon in the Bamboo Forest.\nAt some point, the Bamboo Forest of the Lost became a sacred place\nfor youkai who worship the moon.\n\nI kept that from Imperishable Night in mind for this track, too."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          89990336,
+          983792,
+          25544080
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "孤独なウェアウルフ",
+        "en": "Lonesome Werewolf"
+      },
+      "comments": [
+        {
+          "en": "Kagerou Imaizumi's theme.\n\nI tried giving it a midboss-ish feeling.\nBecause it's stage 3 and all.\n\nBy the way, since this full moon is real, she can transform, too.",
+          "jp": "今泉 影狼のテーマです。\n\n中ボスっぽい感じを出しまくってみました。\n\nまあ三面ですしね。\n\nちなみに満月は本物ですので彼女も変身できます。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          115534416,
+          2346816,
+          18686592
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "マジカルストーム",
+        "en": "Magical Storm"
+      },
+      "comments": [
+        {
+          "en": "The stage 4 theme.\n\nIt's not quite \"eerie\", and not quite \"bright\".\n\nIt gives more of a feeling of \"mysterious floatiness\".\n\nEven though it's a storm, you float around calmly...\n\nIt gives a feeling of literally not having your feet on the ground.",
+          "jp": "4面のテーマです。\n\n\n不気味かと言えばそうでも無く、明るいかと言えばそうでも無い。\n\nちょっと不思議な浮遊感を出してます。\n\n嵐の割にはフワフワしているし......。\n\n文字通り足が地に着かない感じですね。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          134221008,
+          7280624,
+          32628304
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "幻想浄瑠璃",
+        "en": "Illusionary Joururi"
+      },
+      "comments": [
+        {
+          "jp": "九十九 弁々 九十九 八橋のテーマです。\n\n\nもっとベタな伝統的な和風の曲にしようかとも思ったのですが、\n\n曲の技巧だけ走ってしまうとゲームの雰囲気が滅茶苦茶になるので\n\nグッとこらえました。\n\nでも何とかそれっぽくしたけど琵琶の音源が無くてしょんぼりです。",
+          "en": "Benben Tsukumo's and Yatsuhashi Tsukumo's theme.\n\nI had wanted to make it a more clichéd kind of traditional Japanese song,\n\nbut if you let the songs be too technical, the atmosphere of the game is ruined.\n\nSo I held back.\n\nThough I did make it sort of like that, I didn't have a sample for a biwa, so that left me feeling a bit depressed."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          166849312,
+          5390560,
+          25375296
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "空中に沈む輝針城",
+        "en": "The Shining Needle Castle Sinking in the Air"
+      },
+      "comments": [
+        {
+          "jp": "5面のテーマです。\n\n\n大きな意味も無く、切ない感じの曲にしました。\n\n\n切ないメロディだけど軽快なリズム。\n\nこういう曲が流れると終盤だなーって感じます。",
+          "en": "The stage 5 theme.\n\nI made it a song with no real meaning besides feeling sad.\n\nIt has a sorrowful melody, but a light-hearted rhythm.\n\nI feel like when this sort of song starts playing, you've entered the final part of the game."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          192224608,
+          3661512,
+          25976864
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "リバースイデオロギー",
+        "en": "Reverse Ideology"
+      },
+      "comments": [
+        {
+          "en": "Seija Kijin's theme.\n\n\nI wrote this while thinking of the image of an extremely persnickety youkai.\n\nThe result is pretty mischievous... well, the mood's pretty boss-like, so I'm happy.\n\nThis is a fussy boss that would take the initiative in disliking others.\n\nEven so, she's the villain this round.",
+          "jp": "鬼人 正邪のテーマです。\n\n\n極めて小物臭のする妖怪をイメージして曲を作りました。\n\n結果、何だかやんちゃな曲に......まあボスっぽいノリで楽しいよね。\n\n他人が嫌がることを率先してやる小物なボスですが、\n\nそれでも今回の黒幕です。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          218201472,
+          926016,
+          23152464
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "針小棒大の天守閣",
+        "en": "The Exaggerated Castle Keep"
+      },
+      "comments": [
+        {
+          "jp": "6面のテーマです。\n\n\n何だか少し焦る感じを出してます。\n\n\nここからラスボス、エンディングと3曲同じメロディにして、\n\n今作の共通のテーマっぽくしてみました。",
+          "en": "The stage 6 theme.\n\n\nThis song creates a slight feeling of being in a hurry.\n\n\nTogether with the last boss after this and the ending theme, there are 3 songs with the same melody.\n\nSince I tried doing that this time around, it gives them all a sense of togetherness."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          241353936,
+          3320064,
+          18044160
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "輝く針の小人族 ~ Little Princess",
+        "en": "Inchlings of the Shining Needle ~ Little Princess"
+      },
+      "comments": [
+        {
+          "en": "Shinmyoumaru Sukuna's theme.\n\nI made it a cool song fit for a small body.\n\nIt's not very heavy, but I think I gave it a nice expansion\n\nthat really makes her feel like a last boss.\n\nHuh? She's not small? Well, then please beat the game.",
+          "jp": "少名 針妙丸のテーマです。\n\n小さい身体なりの格好良い曲にしました。\n\n重厚さは少ないですが、如何にもラスボスっぽい気持ちの良い\n\n広がり方のする曲になってると思います。\n\nあれ? 小さくないって? まあ是非クリアして下さいな。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          259398096,
+          1161216,
+          40399744
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "魔力の雷雲",
+        "en": "Thunderclouds of Magical Power"
+      },
+      "comments": [
+        {
+          "en": "The extra stage theme.\n\nThis is the song for smoothly advancing down the royal road without resistance.\n\nActually, a very Touhou-ish \"essence\" is scattered here and there.\n\nThere's no deep meaning to it.",
+          "jp": "エキストラステージのテーマです。\n\n抵抗なくさらっと流れる感じの王道の道中曲です。\n\n実はあちこちに東方らしいエッセンスを散りばめてます。\n\nそれに深い意味はありません。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          328293616,
+          1838432,
+          25953984
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "始原のビート ~ Pristine Beat",
+        "en": "Primordial Beat ~ Pristine Beat"
+      },
+      "comments": [
+        {
+          "jp": "堀川 雷鼓のテーマです。\n\nドラムメイン曲にしようかと思ってたのですが、流石に\n\nその勇気は無かったです。ゲームのイメージ的に。\n\n間奏はちょっとだけドラムが主役になります。\n\nちなみに靴の構造上、足をじたばたさせてバスドラムを\n\n叩くんでしょうね。",
+          "en": "Raiko Horikawa's theme.\n\nI wanted to make the song feature drums prominently, but\n\nin the end I just didn't have the courage. In terms of the game's image.\n\nThe drums play a main part for a short interlude section of the song.\n\nAs a side note, her shoes are probably made so she can swing her feet\n\nto hit the bass drum."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          354247600,
+          2544832,
+          36842752
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "小槌の魔力",
+        "en": "Magical Power of the Mallet"
+      },
+      "comments": [
+        {
+          "en": "The ending theme.\n\nI tried adding in parts of the last boss theme to the end.\n\nDoesn't that leave different impressions for each?",
+          "jp": "エンディングのテーマです。\n\n\n終盤はラスボスのテーマで纏めてみました。\n\n\nそれぞれ違ったイメージになるんじゃないでしょうか?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          299797840,
+          525568,
+          14936992
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "不思議な不思議な道具達",
+        "en": "Mysterious, Mysterious Tools"
+      },
+      "comments": [
+        {
+          "jp": "スタッフロールのテーマです。\n\n\nタイトルの曲のバージョン違いです。\n\n正直最初から、どっちかっていうとタイトルじゃなくて\n\nエンディング寄りの曲だと思ってました。\n\nよく見るとスタッフの表示と曲のタイミングがぴったりですよ。",
+          "en": "The staff roll theme.\n\n\nA different version of the title song.\n\nTo be honest, I was thinking it wouldn't be\n\nthe title, but a song for the ending.\n\nIf you look closely, the credits and the song are timed perfectly."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          314734832,
+          3123264,
+          13558784
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "プレイヤーズスコア",
+        "en": "Player's Score"
+      },
+      "comments": [
+        {
+          "en": "The stage 5 theme.  Since we just came barreling through a narrow cave, I decided to write a nice, expansive song to contrast it. It's so stimulating to find such enormous spaces underground, isn't it? I wanted to compose something that would make you feel that kind of excitement.",
+          "jp": "5面のテーマです。\n\n狭い洞窟を駆け抜けてきたので、今度は対照的に空間的に広がりを感じる曲にしました。\n地底に大空間があったりすると興奮しますよね。\nそんな人間の高揚感を感じられるといいなあと思って作りました。"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          391090352,
+          1879240,
+          6741184
+        ],
+        "frequency": 44100
+      }
+    }
+  ]
+}

@@ -15,4 +15,6 @@
     <ProjectReference Include="..\..\TMRI.Primitives\TMRI.Primitives.csproj" />
   </ItemGroup>
 
+  <Import Project="..\..\TMRI.BGMINFO\TMRI.BGMINFO.projitems" Label="Shared" />
+
 </Project>

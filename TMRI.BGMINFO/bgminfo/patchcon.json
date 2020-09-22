@@ -1,0 +1,103 @@
+{
+  "product": {
+    "name": {
+      "jp": "ぱちゅコン Defend the library!",
+      "en": "PatchCon ~ Defend The Library!"
+    },
+    "year": 2007,
+    "circle": {
+      "jp": "黄昏フロンティア",
+      "en": "Twilight Frontier"
+    },
+    "tracks": 7,
+    "packInfo": {
+      "packMethod": 0,
+      "bgmFile": "td01.dat"
+    }
+  },
+  "composer": [
+    {
+      "jp": "あきやまうに",
+      "en": "U2"
+    }
+  ],
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "Ready",
+        "en": "Ready"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_ready"
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "Stage 1",
+        "en": "Stage 1"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_stage01"
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "Stage 2",
+        "en": "Stage 2"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_stage02"
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "Stage 3",
+        "en": "Stage 3"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_stage03"
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "Ending",
+        "en": "Ending"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_ed"
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "[SFX] Victory",
+        "en": "[SFX] Victory"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_win1"
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "[SFX] Game Over",
+        "en": "[SFX] Game Over"
+      },
+      "composer": 1,
+      "metaInfo": {
+        "filename": "data/bgm/td_gameover"
+      }
+    }
+  ]
+}

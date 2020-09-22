@@ -1,0 +1,422 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方天空璋 ~ Hidden Star in Four Seasons",
+      "en": "Touhou Tenkuushou ~ Hidden Star in Four Seasons"
+    },
+    "year": 2017,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 18,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 0,
+        "ZWAVID_09": 22
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Hidden_Star_in_Four_Seasons/Music",
+      "wikirev": "411153"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "桜舞い散る天空",
+        "en": "The Sky Where Cherry Blossoms Flutter Down"
+      },
+      "comments": [
+        {
+          "en": "This is the title screen theme.\n\nA theme with a \"we're about to begin\" sort of feeling.\nIt ended up having a Japanese, lighthearted, and somewhat serious feel to it.",
+          "jp": "タイトル画面のテーマです。\n\nこれから始まるよーという感じの曲です。\n和風と軽快さとちょっぴりのシリアスという感じになりました。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_01.wav",
+        "position": [
+          16,
+          1174528,
+          15562752
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "希望の星は青霄に昇る",
+        "en": "A Star of Hope Rises in the Blue Sky"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 1 theme.\n\nI tried to bring out an \"introductory\" feeling, along with the exhilaration of summer.\nIt's a pretty light theme, even by Touhou standards. Did I manage to express a\nfeeling of speed, I wonder?\n\nWith all said and done, it goes well with a beer.",
+          "jp": "1面のテーマです。\n\n導入らしさと夏の爽快感を出してみました。\n東方の中でもかなり軽めな曲で、スピード感が出たかなぁ\nと思います。\n\n何といってもビールが進む奴ですね。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_02.wav",
+        "position": [
+          15562768,
+          633712,
+          18885832
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "真夏の妖精の夢",
+        "en": "A Midsummer Fairy's Dream"
+      },
+      "comments": [
+        {
+          "en": "This is Eternity Larva's theme.\n\nI went for a feeling of \"a fairy with something mysterious hidden within her.\"\nI think butterflies that appear in video games are definitely a symbol\nof mysteriousness.\n\nI mean, she's just a fairy, so her head's empty, but still.",
+          "jp": "エタニティラルバのテーマです。\n\n何か謎めいたものを秘めた妖精という感じを目指しました。\nゲームに出てくる蝶々って、やっぱりミステリアスの象徴だと\n思うんですよね。\n\nまあ中身は妖精なんで頭は空っぽですが。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_03.wav",
+        "position": [
+          34448600,
+          1070848,
+          19214720
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "色無き風は妖怪の山に",
+        "en": "The Colorless Wind on Youkai Mountain"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 2 theme.\n\nIn contrast to Stage 1's unending cheer, I added a sort of melancholy to this one\nand brought out an autumnal feel.\nTailoring the music to sound uniform across the whole game, even as the seasons\nchange, is kind of fun.",
+          "jp": "2面のテーマです。\n\n一面の底抜けの軽快さとは対照的に、何かもの悲しさを入れて \n秋っぽさを出しました。\n季節が変わっても、ゲーム全体では同じ系統な曲になるように\n\n調整するのも面白いですね。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_04.wav",
+        "position": [
+          53663320,
+          1124608,
+          20704640
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "山奥のエンカウンター",
+        "en": "Deep-Mountain Encounter"
+      },
+      "comments": [
+        {
+          "en": "This is Nemuno Sakata's theme.\n\nI think this theme turned out particularly video-gamey.\nYikes, it's a yamanba. They show up often in folk tales, but in spite of that,\nthey're a pretty hard creature to pin down.\n\nUsing eeriness and hot-blooded fervor as my base, I made a Touhou-style theme.",
+          "jp": "坂田 ネムノのテーマです。\n\n非常にゲームらしい曲になったと思います。\nいやー、山姥ですよ。昔話に頻繁に出てくる割には\n正体不明な存在ですよねぇ。\n\n不気味さ、血気盛んな様子、そんな感じを東方風に仕上げました。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_05.wav",
+        "position": [
+          74367960,
+          2286080,
+          18132224
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "桜色の海を泳いで",
+        "en": "Swim in a Cherry Blossom-Colored Sea"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 3 theme.\n\nThe concept for this one is \"flying high in the night sky\nwhere only the cherry blossoms are shining in the moonlight.\"\n\nCherry blossoms always have a sense of fleetingness about them, and this time is no different.",
+          "jp": "3面のテーマです。\n\n月光に照らされて桜だけが光っている夜の上空を飛んでいる\nイメージです。\n\n桜はどうしても儚さが付きまとうのですが、今回もそんな感じで。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_06.wav",
+        "position": [
+          92500184,
+          571888,
+          22818424
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "一対の神獣",
+        "en": "A Pair of Divine Beasts"
+      },
+      "comments": [
+        {
+          "en": "This is Aunn Komano's theme.\n\nA feeling of spring, bravery, and a somewhat-strong opponent, as well as that of a Yuru-chara.\nIt's an all-over-the-place theme with all those things crammed into it.\nHer character concept is \"a single divine beast acting as a pair,\" but she doesn't have a split personality or anything.\n\nAlso, you can't see it, but she's got herself a tail!",
+          "jp": "高麗野 あうんのテーマです。\n\n春らしさと勇敢さと、そこそこの強敵感。そしてゆるキャラ感。\nそんなのをごちゃごちゃ詰め込んだ無節操な曲です。\n彼女は一人で一対の神獣という設定ですが、多重人格という訳では\n\nありません。見えないけど尻尾もあるんやでー。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_07.wav",
+        "position": [
+          115318608,
+          7488468,
+          23333564
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "幻想のホワイトトラベラー",
+        "en": "Illusionary White Traveler"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 4 theme.\n\n\"Winter\" means \"blizzards,\" that's for sure.\nYou might not know this if you don't live in a snowy country, but blizzards are actually different from\nrainstorms. They happen when snow gets whipped up off the ground and blows back down on a horizontal slant.\nWearing a straw hat in one is pointless.",
+          "jp": "4面のテーマです。\n\n冬といえば吹雪ですね。\n雪国の人じゃ無いと判らないかも知れませんが、吹雪は豪雨とは\n異なり、地面から巻き上がる雪が横殴りに降っているんですよね。\n笠とか意味ありません。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_08.wav",
+        "position": [
+          138652172,
+          844640,
+          29527840
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "魔法の笠地蔵",
+        "en": "The Magic Straw-Hat Jizo"
+      },
+      "comments": [
+        {
+          "en": "This is Narumi Yatadera's theme.\n\nI composed it with an image of someone with her feet planted firmly on the ground.\n\nThe original Jizo Bosatsu (Ksitigarbha Bodhisattva) was a very honorable figure who provided salvation in the long period until Miroku (Maitreya) appears,\n\nbut at some point or another, a countless number of eccentric Jizo statues spread throughout all of Japan.\n\nSo I figure it'd be nice if there were a magic Jizo somewhere in there.",
+          "jp": "矢田寺 成美のテーマです。\n\nどっしり地面に足をつけているイメージで作りました。\n元々の地蔵菩薩は弥勒菩薩の出現までの長い期間を救済する尊い\n菩薩なのですが、いつの間にか数え切れないくらい風変わりな地蔵が\n全国に広まっています。だから魔法地蔵だって居ても良いよね。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_09.wav",
+        "position": [
+          168180012,
+          979792,
+          18599504
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "禁断の扉の向こうは、この世かあの世か",
+        "en": "Does the Forbidden Door Lead to This World, or the World Beyond?"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 5 theme.\n\nA world that's creepier than anything in Touhou thus far.\nAlthough, when you consider the fact that all those doors are connected\nto people's backs, I guess you could call it convenient in a way.\nThey seem like they'd be kind of lukewarm, those doors.",
+          "jp": "5面のテーマです。\n\n東方の中でもかつて無い程に不気味な世界です。\nそれぞれの扉が誰かの背中になっていると思うと、便利と言えば\n便利ですけどね。\n何か扉が生温かそう。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_10.wav",
+        "position": [
+          186779516,
+          1026560,
+          31159680
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "クレイジーバックダンサーズ",
+        "en": "Crazy Backup Dancers"
+      },
+      "comments": [
+        {
+          "en": "This is Mai Teireida and Satono Nishida's theme.\n\nI incorporated a great deal of things into this song: eeriness, lightheartedness,\nstrong hostility, innocence, and on top of all that, a midboss-esque feeling.\nI put enough in for both characters, so it's an extravagant song in a number of ways.\nCreated with an image of them dancing madly and eerily.",
+          "jp": "丁礼田 舞&爾子田 里乃のテーマです。\n\n不気味さ、軽快さ、強敵感、無邪気さ、全てを盛り込んで\nその上で中ボスらしさをてんこ盛りにした曲です。\n二人分入れたので色々と贅沢な曲ですな。\n不気味に踊り狂っているイメージです。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_11.wav",
+        "position": [
+          217939196,
+          3568512,
+          24244736
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "イントゥ・バックドア",
+        "en": "Into Backdoor"
+      },
+      "comments": [
+        {
+          "en": "This is the Stage 6 theme.\n\nMade with an image of a high-speed stage before the boss.\nI think it exudes a feeling of being rushed along, regardless of the nature of the story going on.",
+          "jp": "6面のテーマです。\n\nボス前の高速ステージというイメージです。\nストーリーとは無関係に焦らせる感じが出ていると思います。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_13.wav",
+        "position": [
+          242183932,
+          2349680,
+          18632336
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "秘匿されたフォーシーズンズ",
+        "en": "The Concealed Four Seasons"
+      },
+      "comments": [
+        {
+          "en": "This is Okina Matara's theme.\n\nA very \"This is the climax!\" sort of song with a lot of strength to it.\nIt's got a strong melody, even compared to the other songs in the game, so it might've\nbeen nice if I just went all-in and started singing lyrics to it.\nIt's very likely that you'd start laughing too hard to even play the game, but that might actually be the best outcome.",
+          "jp": "摩多羅 隠岐奈のテーマです。\n\nいかにもクライマックスって感じで強そうな曲です。\n今回の曲の中でもメロディが強い方なので、いっそ歌い始めれば\n良かったかも知れませんね。\n笑ってゲームにならない可能性が高いですが、それも最高かも。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_12.wav",
+        "position": [
+          260816268,
+          1159520,
+          33597984
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "もうドアには入れない",
+        "en": "No More Going Through Doors"
+      },
+      "comments": [
+        {
+          "en": "This is the Extra Stage theme.\n\nA mysterious world that we dive into once more, having mustered up our resolve.\nIt's a song that combines both eeriness and gentleness.\n\nThe song does a good job of conveying the stage's difficulty, so it's pretty depressing (lol)",
+          "jp": "エキストラのテーマです。\n\n覚悟を決めて再び飛び込んだ謎の世界です。\n不気味さと優しさを兼ね備えた曲になりました。\n\n難しそうってのが曲から伝わってきて気が滅入ります(笑)"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_16.wav",
+        "position": [
+          318662956,
+          588800,
+          31469568
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "秘神マターラ ~ Hidden Star in All Seasons.",
+        "en": "Secret God Matara ~ Hidden Star in All Seasons."
+      },
+      "comments": [
+        {
+          "en": "The theme for Okina Matara (True).\n\nEven though it's an Extra Stage, it wound up being part of the main story.\nSince it's your true battle with Okina, I swept away all the refreshing feeling of nature\nbut still made it a song with a strong melody befitting of the true final boss.\nHonestly, getting attacked from behind is just the worst!",
+          "jp": "摩多羅 隠岐奈(真)のテーマです。\n\nエキストラなのにストーリーが本編になってしまいました。\n真の隠岐奈戦と言う事で、自然の持つ爽やかさを全て取って払い\nそれでもメロ強めで真のラスボスらしい曲に仕上げました。\n正直、後ろから攻撃されるの大嫌い!"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_17.wav",
+        "position": [
+          350132524,
+          1133056,
+          32003072
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "不自然な自然",
+        "en": "Unnatural Nature"
+      },
+      "comments": [
+        {
+          "en": "This is the ending theme.\n\nIt kind of feels like a bad ending, but to tell the truth,\nall the endings this time are like bad endings.",
+          "jp": "エンディングのテーマです。\n\nなんだかバッドエンドみたいですが、実は今回は全て\nバッドエンドみたいなもんです。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_14.wav",
+        "position": [
+          294414252,
+          5175040,
+          10191872
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "白い旅人",
+        "en": "White Traveler"
+      },
+      "comments": [
+        {
+          "en": "This is the staff roll theme.\n\nIt's a different version of the winter stage theme made with an image of a refreshing conclusion.\n\nSpeaking of which. Why is a \"winter blizzard\" song refreshing, you ask?\nThat's because I made it with \"early morning\" in mind. Fuyu wa tsutomete, as they say.",
+          "jp": "スタッフロールのテーマです。\n\n冬の曲の別バージョンで、爽やかな終わりのイメージです。\n\nそういえば何で冬の吹雪の曲が爽やかかって?\nそれは「冬はつとめて」から、早朝をイメージしたからです。"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th16_15.wav",
+        "position": [
+          304606124,
+          9743488,
+          14056832
+        ],
+        "frequency": 44100
+      }
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "プレイヤーズスコア",
+        "en": "Player's Score"
+      },
+      "metaInfo": {
+        "filename": "th128_08.wav",
+        "position": [
+          382135596,
+          1879240,
+          6741184
+        ],
+        "frequency": 44100
+      }
+    }
+  ]
+}

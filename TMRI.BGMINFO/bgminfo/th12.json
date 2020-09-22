@@ -1,0 +1,383 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方星蓮船 ~ Undefined Fantastic Object",
+      "en": "Touhou Seirensen ~ Undefined Fantastic Object"
+    },
+    "year": 2009,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 18,
+    "packInfo": {
+      "packMethod": 1,
+      "bgmFile": "thbgm.dat",
+      "metaInfo": {
+        "ZWAVID_08": 0,
+        "ZWAVID_09": 18
+      }
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Undefined_Fantastic_Object/Music",
+      "wikirev": "417779"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "青空の影",
+        "en": "A Shadow in the Blue Sky"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面のテーマです。\n\n まあいつもの感じで。\n ちょっとすかした感じにしてみました。\n 上を向いて歩きたいけど、変な人に見られるのが怖いので\n 前を向いて歩きます。",
+          "en": "This is the title screen theme.\n\nWell, it's the same feeling as always.\nI tried to give it a particularly affected air.\nI want to look up at the sky while I'm walking, but I'm afraid people will think I'm weird, so I look straight ahead when I walk."
+        }
+      ],
+      "metaInfo": {
+        "rel_loop": 1015872,
+        "rel_end": 10493952
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "春の湊に",
+        "en": "At the End of Spring"
+      },
+      "comments": [
+        {
+          "jp": "1面のテーマです。\n\n 軽快で気持ちの良い曲で始めたかったのでこんな感じに。\n やっぱさ、シューティングって明るい方がよくない?\n と、その時の気分で趣味嗜好が変わる人間が言ってもねぇ。\n 曲は爽やかです。窓から飛び出したくなるくらい。",
+          "en": "The stage 1 theme.\n\nI wanted to start with something nice and casual, so this is how it came out.\nI guess bright songs just aren't that great for shooting games?\nOr so say people whose likes and tastes change at the time with their moods.\nIt's so invigorating that it makes me want to fly out the window."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          10493968,
+          2423040,
+          17719168
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "小さな小さな賢将",
+        "en": "A Tiny, Tiny, Clever Commander"
+      },
+      "comments": [
+        {
+          "jp": "ナズーリンのテーマです。\n\n ボスっぽい曲でしょ? 見た目はともかく。\n 昔自分が入っているこたつの中に、ネズミが入ってきた事がある。\n 噛まれた事もある。血が止まらなくなって小学校休んだなぁ。\n ネズミは実際強いし、危ないよ。見た目はともかく。",
+          "en": "This is Nazrin's theme.\n\nIsn't the song boss-like? Never mind how she looks.\nOnce, a long time ago, a mouse climbed into the kotatsu with me.\nIt even bit me. The bleeding wouldn't stop, so I had to stay home from school.\nMice are actually pretty strong, so they're dangerous. Never mind how they look."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          28213136,
+          2850304,
+          16859392
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "閉ざせし雲の通い路",
+        "en": "The Sealed Cloud Route"
+      },
+      "comments": [
+        {
+          "jp": "2面のテーマです。\n\n 1面とは異なった浮遊感を出してみました。\n 妖怪がいるであろう雲の中を泳いでいます。\n 想像すると気持ちよさそうだけど、実際は寒いだろうね。\n 服が凍ったりするんじゃないかな。ガッツ足りるかなぁ。",
+          "en": "This is the stage 2 theme.\n\nI tried to bring out a floating feeling the stage 1 theme didn't have.\nYou're swimming through the clouds, where surely there are youkai.\nOne imagines it must feel good, but it's probably really cold.\nYour clothes would probably freeze. I wonder if I'd have the guts to do it."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          45072528,
+          561152,
+          19929600
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "万年置き傘にご注意を",
+        "en": "Beware the Umbrella Left There Forever"
+      },
+      "comments": [
+        {
+          "jp": "多々良 小傘のテーマです。\n\n 傘って、一生のうちに何本買っちゃうんだろうか。\n 電車に置き忘れたり、出先での突然の雨にビニール傘を買ったり。\n それはともかく、楽しげなのに急に気分が落ち込んだりするという\n 勝手な唐傘お化けのイメージで作りました。",
+          "en": "This is Kogasa Tatara's theme.\n\nMost people probably buy quite a few umbrellas over their lives.\nYou forget them on trains, and you buy vinyl umbrellas when you're caught in sudden rain.\nAnyway, I wrote this song based on the image of a self-centered karakasa youkai who gets depressed easily despite her cheery nature."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          65002128,
+          2422016,
+          24384256
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "スカイルーイン",
+        "en": "Sky Ruin"
+      },
+      "comments": [
+        {
+          "jp": "3面のテーマです。\n\n 軽快さを失わずに、ちょっと謎めいた雰囲気を出してみました。\n 空中に浮かぶと言えばやはりラピュタですが――のくだりは、もう\n やりましたね。\n では廃墟と言えば......やはりラピュ",
+          "en": "This is the stage 3 theme.\n\nI tried to evoke a cryptic atmosphere without losing the airiness.\nWhen it comes to floating in the sky, you really do think of Laputa - but I've already made that descent.\nSo, when it comes to ruins...you still think of Laputa."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          89386384,
+          1237760,
+          23554816
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "時代親父とハイカラ少女",
+        "en": "The Traditional Old Man and the Stylish Girl"
+      },
+      "comments": [
+        {
+          "jp": "雲居 一輪&雲山のテーマです。\n\n 楽しいキャラだったので、曲も楽しげで古くさい感じにしました。\n 馬鹿っぽかったり、時折センチになったり素敵です。\n 雲山は雲で出来ていますので、同時に二人以上出てきても同時に\n 腕が四本出てきても気にする必要はありません。眼力フラッシュ!",
+          "en": "This is Ichirin Kumoi and Unzan's theme.\n\nSince they're pretty fun characters, I tried to make it fun and old-fashioned.\nIt's really nice, sometimes silly and sometimes sentimental.\nUnzan is made out of clouds, so don't worry about it if more than two of him or four of his arms show up at once. Flash of insight!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          112941200,
+          1360896,
+          19251712
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "幽霊客船の時空を越えた旅",
+        "en": "Interdimensional Voyage of a Ghostly Passenger Ship"
+      },
+      "comments": [
+        {
+          "jp": "4面のテーマです。\n\n 旅って良いですよね。乗り物に乗っている時が一番ワクワクする。\n 例えそれが、よく沈没する事で有名な幽霊船長の船だとしても。\n この曲は出来るだけ期待と不安が入り交じった、ワクワク感を出し\n て見ました。",
+          "en": "This is the stage 4 theme.\n\nAren't journeys great? I feel the most excited when I'm riding on a vessel.\nEven if it's the ship of the infamous ghost captain who sinks lots of other ships.\nI mixed anticipation and anxiety together as much as I could when making this song, trying to give it a sense of excitement."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          132192912,
+          634880,
+          25343488
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "キャプテン・ムラサ",
+        "en": "Captain Murasa"
+      },
+      "comments": [
+        {
+          "jp": "村紗 水蜜のテーマです。\n\n よく沈没する事で有名な舟幽霊の船長です。\n 曲はキャプテンってイメージで作ったので、無駄に格好良いです。\n しかしみんなムラサって呼ぶけど、ムラサのは妖怪の名前なので\n 実は名前で呼ばれていないというオチが。",
+          "en": "This is Minamitsu Murasa's theme.\n\nSince she sinks lots of ships, she's a well-known ghost captain.\nI tried to give it a \"captain\" atmosphere, so it's a little too cool.\nEveryone calls her Murasa, but murasa is the name of a youkai, so they're not really calling her by name - surprise!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          157536400,
+          1520512,
+          22688896
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "魔界地方都市エソテリア",
+        "en": "Rural Makai City Esoteria"
+      },
+      "comments": [
+        {
+          "jp": "5面のテーマです。\n\n 変則的なリズムの曲ですが意外とノリノリです。魔界っぽい感じ。\n プレイ中の効果音と共に聞くと、途中からの盛り上がりが激しい\n ので、是非遊びながら聞いて貰いたいです。\n 曲名は、田舎的な感じと都会的な感じを併せ持ったところから。",
+          "en": "This is the stage 5 theme.\n\nThis is a song with irregular rhythms, but it's upbeat. Pretty Makai-ish.\nIt gets pretty intense when you're listening to it with the sound effects from gameplay, so I hope you'll listen closely while playing.\nThe name comes from the song having both a rural and an urban feel."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          180225296,
+          3262976,
+          31157248
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "虎柄の毘沙門天",
+        "en": "The Tiger-Patterned Bishamonten"
+      },
+      "comments": [
+        {
+          "jp": "虎丸 星のテーマです。\n\n 静かに強い感じを出しました。後半のボスっぽい感じ。\n 恐怖というより、威厳があるという感じです。\n しかし、くるんくるんレーザー怖い。\n アレは高い反射神経を要する老体キラーだ。",
+          "en": "This is Shou Toramaru's theme.\n\nI gave this song a quiet, but strong feel. The second half is awfully boss-ish.\nIt's a feeling of dignity rather than terror.\nStill, those lasers coming one after the other are pretty scary.\nThey're old-man killers so you need really good reflexes to dodge."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          211382544,
+          5178112,
+          37001600
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "法界の火",
+        "en": "Fires of Hokkai"
+      },
+      "comments": [
+        {
+          "jp": "6面のテーマです。\n\n 無駄に緊張感のある曲です。\n 短いステージで難易度も高くない処が、逆に緊張する。\n\n 心音は焦るよね。",
+          "en": "This is the stage 6 theme.\n\nA song with too much tension.\nThe stage is short and not too hard, so I had to add to the tension.\n\nThe heartbeats make you want to hurry, don't they?"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          248384144,
+          577920,
+          17995904
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "感情の摩天楼 ~ Cosmic Mind",
+        "en": "Emotional Skyscraper ~ Cosmic Mind"
+      },
+      "comments": [
+        {
+          "jp": "聖 白蓮のテーマです。\n\n 静かな心音からいきなり世界は開ける感じにしました。\n 疲れにくいラスボスの曲です、多分。\n 全体的に和風でメロディアスに、サビはまるでみんなで歌っている\n かのようなメロディにしました。人間、感情むき出しでGO!",
+          "en": "This is Byakuren Hijiri's theme.\n\nFrom the quiet heartbeat, suddenly it feels like the world is opening up.\nThis is the theme of a last boss who is hard to tire out, probably.\nIt's overall fairly melodiously Japanese, and I tried to make the melody of the main part like one of those songs where everyone's singing.\nHuman, bare your feelings and GO!"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          266380048,
+          2922228,
+          40541176
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "夜空のユーフォーロマンス",
+        "en": "UFO Romance in the Night Sky"
+      },
+      "comments": [
+        {
+          "jp": "エキストラステージのテーマです。\n\n UFO可愛いよね。\n ここからは本編とは打って変わって可愛いノリでお送りします。\n ポップな感じを目指して作りました。\n やっぱUFOはポップですよ。",
+          "en": "This is the extra stage theme.\nAren't UFOs cute? The extra is much different than the main stages, and this song is a cute send-off.\nI went for a pop feel for this song. UFOs are kind of pop-ish, after all."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          306921224,
+          1290240,
+          32651264
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "平安のエイリアン",
+        "en": "Heian Alien"
+      },
+      "comments": [
+        {
+          "jp": "封獣 ぬえのテーマです。\n\n 激しく妖怪妖怪した曲です。\n 古風で和風な恐怖と哀愁を漂わせた曲にしました。\n いかにもエキストラボスって感じになってるかな。\n 割と一発録音でアドリブだらけだったりするのもエキストラっぽい。",
+          "en": "This is Nue Houjuu's theme.\n\nA vigorously youkai youkai song.\nIt's a song with an old-fashioned, Japanese sense of terror and sorrow floating about.\nIsn't it really fitting for an EX boss?\nThe mostly one-shot recording full of ad-libbing is also pretty EX-ish."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          339572488,
+          1102848,
+          32792576
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "妖怪寺",
+        "en": "Youkai Temple"
+      },
+      "comments": [
+        {
+          "jp": "エンディングのテーマです。\n\n いつも神社のテーマばっかなので、珍しくお寺。\n\n 神社よりお寺の方が暗いイメージがある。\n いや暗いと言ったら失礼だ。退屈なイメージで (冗談です)",
+          "en": "This is the ending theme.\n\nUsually the ending is for a Shinto shrine, but this time it's for a Buddhist temple.\n\nTemples have a much darker image than shrines.\nWell, calling it \"dark\" is kind of rude. I meant \"boring\" (just kidding)"
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          372365064,
+          1098800,
+          9568128
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "空の帰り道 ~ Sky Dream",
+        "en": "Returning Home from the Sky ~ Sky Dream"
+      },
+      "comments": [
+        {
+          "jp": "スタッフロールのテーマです。\n\n 感情の摩天楼の編曲になってます。\n\n 旅の終わりの静かな帰り道って感じです。\n 見上げてごらん~、夜空にUFOが。",
+          "en": "This is the staff roll theme.\n\nIt ended up being an arrangement of Emotional Skyscraper.\n\nThis song has the feel of the quiet trip home after a journey.\nOh, look up there~, there's a UFO in the night sky."
+        }
+      ],
+      "metaInfo": {
+        "position": [
+          381933192,
+          937664,
+          20155168
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "プレイヤーズスコア",
+        "en": "Player's Score"
+      },
+      "metaInfo": {
+        "position": [
+          402088360,
+          1879240,
+          6741184
+        ]
+      }
+    }
+  ]
+}

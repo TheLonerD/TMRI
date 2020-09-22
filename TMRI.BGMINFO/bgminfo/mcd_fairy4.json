@@ -1,0 +1,53 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方三月精 ~ Strange and Bright Nature Deity 3",
+      "en": "Touhou Sangetsusei ~ Strange and Bright Nature Deity 3"
+    },
+    "year": 2009,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 2,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Strange_and_Bright_Nature_Deity_3_(CD)",
+      "wikirev": "342499"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "フェアリー冒険譚",
+        "en": "The Fairy's Adventurous Tale"
+      },
+      "comments": [
+        {
+          "jp": "幻想郷にいる妖精達の、食う寝る遊ぶの日常をイメージしました。\n好奇心に満ちあふれた少年少女探偵団といった感じです。\n妖精が子供のイメージなのは、人並み外れた好奇心を持ち合わせているからでしょう。\nこの曲はちょっとおませな感じも入っています。\nたまにはこういう感じの三妖精も良いんじゃないですかね。",
+          "en": "This song was made to invoke the image of the daily life of the fairies of Gensokyo, eating, sleeping and playing.\n\nOverflowing with curiosity like a team of child detectives.\n\nFairies are like children, but they their inquisitiveness is superhuman.\n\nI tried to put a bit of a precocious feeling in this song, too.\n\nIt's fine for these three to be like that every now and then, isn't it?"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "二つの世界",
+        "en": "Two Worlds"
+      },
+      "comments": [
+        {
+          "jp": "最終話「二つの世界」をイメージして曲を書きました。\nと言っても曲とストーリーとはあまり密接な関係は無いのですが。\n外の世界っぽさと幻想っぽさを混ぜて、紫のイメージをトッピングした感じです。\nビックリするほど三妖精の入る隙がないね。",
+          "en": "I wrote this song while imagining the final chapter \"Two Worlds.\"\n\nEven though I say that, it's not like they are all that related.\n\nIt's a mix of themes of the outside world and Gensokyo, topped with Yukari.\n\nIt's surprising how there isn't any room for the Three Fairies."
+        }
+      ]
+    }
+  ]
+}

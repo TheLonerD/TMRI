@@ -1,0 +1,414 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方紅魔郷 ~ the Embodiment of Scarlet Devil",
+      "en": "Touhou Koumakyou ~ The Embodiment of Scarlet Devil"
+    },
+    "year": 2002,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 17,
+    "packInfo": {
+      "packMethod": 0,
+      "bgmDir": "bgm"
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Embodiment_of_Scarlet_Devil/Music",
+      "wikirev": "420642"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "赤より紅い夢",
+        "en": "A Dream More Scarlet than Red"
+      },
+      "comments": [
+        {
+          "jp": "タイトル画面テーマです。\n東方なんで、和風にしてみました。いやほんと。\nゲームはまるで和風じゃ無いくせに(^^;\nSTGとは思えないような曲です。\nそもそも、タイトル画面に曲は必要なのでしょうか(笑)?",
+          "en": "The title theme.\nIt's Japanese-feeling, because it's Touhou (Eastern). No, really. \nHowever, it's not like the game is (^^;\nThis doesn't sound like a shooting game piece.\nFor that matter, is having a song on the title screen even necessary at all? (Laughs)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n タイトル画面の曲です。\n  通常なら「東方紅魔郷」とゲームのタイトルをつけるところですが、\n  曲調しんみりしすぎてるので、やめました(^^;\n  今回は「紅」がキーワードです。紅が色々盛り込まれています。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThe song for the title screen.\nNormally, I would title it \"Touhou Koumakyou\" like the game, \nbut since the melody sounded too subtle, I didn't. (^^;\nThis time \"scarlet\" is the keyword. There are all kinds of scarlets put in."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_01.wav",
+        "rel_loop": 1298496,
+        "rel_end": 10674808
+      }
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "ほおずきみたいに紅い魂",
+        "en": "A Soul as Scarlet as a Ground Cherry"
+      },
+      "comments": [
+        {
+          "jp": "1面テーマです。\n\n夜の森をイメージしてあります。一面だし、曲に勇ましさがあるとやる気が出るかなと思い、ちょっと元気のある曲を目指しました。\n勇ましさというかコミカルな百鬼夜行って感じかな?",
+          "en": "Stage 1 theme.\nThe image of a midnight forest. As it's the first stage, I aimed for something a little energetic, so hopefully people would get into it.\nBut isn't it something a little more comical and hectic?"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 宵闇に鬼灯(ほおずき)のように紅く丸く、ふらふら漂っている魂...\n  よくあるただの鬼火です。ほおずきは季節ものですし、花言葉は「欺瞞」。\n  季節ものつっても、夏コミだから夏。場合によっては冬以降のコミケで\n  買う方も要るかもしれないのに...",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nA soul that's as red and round as a hozuki floating away aimlessly in the darkness of dawn.\nIt's just a common ball of fire. A hozuki is a seasonal flower and its meaning is \"trickery\".\nEven though I say seasonal it's going to be sold at the summer comiket so the season is summer. There could be people buying it at the winter comiket too..."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_02.wav",
+        "rel_loop": 3629840,
+        "rel_end": 15308292
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "妖魔夜行",
+        "en": "Apparitions Stalk the Night"
+      },
+      "comments": [
+        {
+          "jp": "ルーミアのテーマです。\nこの曲に限らず、今回、全体的に軽快な曲になっています。\nこの曲は夜の妖怪をイメージしました、  ・・・って言っても良いんだろうか(^^;\nノリ的には結構馬鹿っぽいです。",
+          "en": "Rumia's theme.\nNot just this, but all the music this time is meant to be light.\nThis comes from an image of youkai of the night\n...or, at least, I hope so (^^;\nIt's fairly relaxed and a little silly."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n ヨーマヤコーってかくとブータン人みたい。\n  この辺はまだ、熾烈な闘いのイメージが少ないので、爽やかに。\n  妖魔以外の魔は妖しくないの?",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\n\"You-Ma-Ya-Kou\" it sort of sounds like somebody from Bhutan.\nSince images of fierce heated fights are still small in numbers, the music is something that feels fresh.\nIs a devil that's not a youma not charming?"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_03.wav",
+        "rel_loop": 559512,
+        "rel_end": 9837564
+      }
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "ルーネイトエルフ",
+        "en": "Lunate Elf"
+      },
+      "comments": [
+        {
+          "jp": "2面テーマです。\n\n水と霧をイメージして、ちょっと不気味さも混ぜて見ました。\n過去の東方のイメージとほとんど同じ感じとも言える。\n2面って言うと、なんの為にあるのかよく分からないからなぁ(^^;",
+          "en": "Stage 2 theme.\nI thought of water and mist, and mixed an omen or two.\nIn many ways, it resembles the feel of older titles.\nI don't really know why there's a Stage 2 anyway (^^;"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n ここでいうエルフは耳の尖った例のアレ、じゃなくて、妖精そのもの\n  を指しています。意味はまるでありません。\n  妖精以外の精は妖しくないの?",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThe elf that's referred to here is not the one with the pointy ears but the fairy. There's no meaning to this.\nIs spirit that's not a fairy not charming?"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_04.wav",
+        "rel_loop": 1215688,
+        "rel_end": 15436956
+      }
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "おてんば恋娘",
+        "en": "Tomboyish Girl in Love"
+      },
+      "comments": [
+        {
+          "jp": "チルノのテーマです。\n\nやっぱり、頭の悪い少女をイメージしてます。\nその割には明るいんだか暗いんだか分からない曲に仕上がってなんとも。ハイスピードにしっとりしたメインメロディとか。\nまぁ、2面だし(ぉ",
+          "en": "Cirno's theme.\nI actually did think of a dim-witted girl for this.\nHowever, I don't know if what came out can be considered bright or dark. The tempo is pretty fast, but...\nWell, it's stage 2. (ha)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 頭の悪そうな曲を作りたかったので、まず曲名から頭を悪くしました。\n  言葉の響きや文字の見た目がなんか頭悪いです。\n  その割にピアノメロディは、ちょっとエキゾチック感も混ぜて、\n  個人的に萌え萌えです。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nI wanted to make a stupid sounding song so I started by making the title sound stupid.\nThe sound of the words and the look of the characters are a bit stupid.\nAt the same time, I mixed in a piano melody that gives an exotic feeling to it. It's a personal \"moe-moe\"."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_05.wav",
+        "rel_loop": 1021548,
+        "rel_end": 15796112
+      }
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "上海紅茶館 ~ Chinese Tea",
+        "en": "Shanghai Scarlet Teahouse ~ Chinese Tea"
+      },
+      "comments": [
+        {
+          "jp": "3面テーマです。\n\n中華風に仕上げる予定でしたが、結果そんなでも無いようです(^^;\nでも曲は東洋風です。4面以降に東洋風の曲を作ることが出来なさそうだったので、ここでつくっときました(^^;\nFusionというより New Age風かな?",
+          "en": "Stage 3 theme.\nI intended to make it more Chinese, but it didn't quite work out. (^^; \nHowever it's still Oriental, because I knew it would be hard to put Oriental songs past stage 4 (^^;\nIt's more New Age rather than Fusion, I guess?"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 中国っぽくしたかったのですが、結局あまり中国ではないですね(汗)\n  最近、紅茶飲んでないなぁ。血の紅茶って業が深い。\n  というか、レミリア達の飲んでいる紅茶はただの人間の血なんですが、\n  お茶と言って良いの?",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nI wanted Chinese sounding but it didn't end up Chinese at all. (Sweats)\nI haven't drank black tea in a while. But black tea made of blood is very sinful.\nWell, the black tea that Remilia and such are drinking is really just human blood. Can I really call that black tea?"
+        },
+        {
+          "jp": "中国っぽくしたかったのですが、結局あまり中国ではないですね(汗)\n最近、紅茶飲んでないなぁ。血の紅茶って業が深い。\nというか、レミリア達の飲んでいる紅茶はただの人間の血なんですが、お茶と言って良いの?",
+          "en": "I wanted Chinese sounding but it didn’t end up too Chinese. (Sweats)\nI haven’t drank black tea in a while. But black tea made of blood is very sinful.\nWell, the tea that Remilia and such are drinking is really just human blood. Can I really call that tea?"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_06.wav",
+        "rel_loop": 7875472,
+        "rel_end": 24607472
+      }
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "明治十七年の上海アリス",
+        "en": "Shanghai Alice of Meiji 17"
+      },
+      "comments": [
+        {
+          "jp": "紅 美鈴(ホン・メイリン)のテーマです。\n欧羅巴の香りとゲーム音楽の香りを混ぜてあります。(2:8位で) \n中華でも何でも無いあたりがアレです。上海のフランス租界をイメ\nージしているからです。\nもっとも、美鈴も人間では無いみたいだけど、何者なんだろう(ぉ",
+          "en": "Hong Meiling's theme.\nA hint of Europe, mixed with game music. (a 2:8 ratio)\nIt's strange that it's not more Chinese, but that's because it's composed with the image of the French settlement in Shanghai in mind.\nBut, Meiling looks like she's not human. Then what is she... (eh)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n この頃の上海はいかほどだったのでしょう?\n  明治十七年は、清仏戦争の年です。\n  外国租界を含め、これほど「魔都」の名前が似合う都市は無いですね。\n  ちなみに「魔都」とは「魔界都市 - 新宿 -」の略ではありません。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nI wonder how Shanghai would be at this time?\nMeiji 17th year is the year of the Sino-French war.\nWith foreign concession, there's no better city that suits the name of such a \"Mato\".\nAnd \"Mato\" is not a short form of \"Makai city - Shinjyuku\"."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_07.wav",
+        "rel_loop": 3955488,
+        "rel_end": 18359468
+      }
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "ヴワル魔法図書館",
+        "en": "Voile, the Magic Library"
+      },
+      "comments": [
+        {
+          "jp": "4面テーマです。\nこの面から室内ステージです。曲も室内の雰囲気を出してみまし\nた。後半、中ボスあたりから不気味さが出るように曲調が変化し\nます。\nそれ以外には特に特徴も無いですが、強いていえば、STGの曲\nではない(笑)",
+          "en": "Stage 4 theme.\nFrom here, the game moves indoors, so it's composed with indoor atmospheres in mind. Its tone shifts to something more ominous halfway through the song, where you would normally meet the mid-stage boss.\nOther than that, there's nothing special about this theme, but really, it's not a shooting game piece (Laughs)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 魔導書などの専門の図書館があってもいいんじゃないかと。\n  急にファンタジー。って、一応全体的にファンタジーのつもりですが\n  ヴワルというのは固有名詞なんで余り意味ありません。\n  フランス語かなんかで、なんか意味があります(笑)",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nI think it's a legitimate idea to have libraries that specialized in grimoires.\nIt's a fantasy setting all of a sudden. Well, I meant it to be fully fantasy from the start. Voile doesn't have much of a meaning in terms of a proper noun.\nHowever, it does have a meaning in French or something. (Laughs)"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_08.wav",
+        "rel_loop": 581272,
+        "rel_end": 19387424
+      }
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "ラクトガール ~ 少女密室",
+        "en": "Locked Girl ~ The Girl's Sealed Room"
+      },
+      "comments": [
+        {
+          "jp": "パチュリー・ノーレッジのテーマです。\n\nああ、またいつもの悪い病気が...\n暗い曲です。こんなにも激しいのに明るさも軽快さも感じませんもうちょっと気持ちよければいいんですが、この曲聴くと微妙に暗い気分になる感じがします(笑)",
+          "en": "Patchouli Knowledge's theme.\nAgain with this sick feeling...\nIt's a dark song, without any light or bright moments, despite its quite fast-paced nature.\nIt could stand to be a little less heavy, as listening to this piece could drag someone down (Laughs)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n Locked Girl、鍵っ娘です。Keyとは特に関係はありません。\n  日陰大好き、不健康少女。\n  ちなみに密室、密室で殺人する意味ってあんまないですよね。\n  私は密室自殺なら出来そうです。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\n\"Locked Girl.\" A latchkey girl, if you will. It has nothing to do with Key.\nShe's an unhealthy girl who loves the shade.\nBy the way, speaking of sealed rooms... there's not much of an actual point to killing someone in one, is there?\nI could probably pull off a locked-room suicide, myself."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_09.wav",
+        "rel_loop": 5273840,
+        "rel_end": 20893988
+      }
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "メイドと血の懐中時計",
+        "en": "The Maid and the Pocket Watch of Blood"
+      },
+      "comments": [
+        {
+          "jp": "5面のテーマです\n不思議な不思議な曲です。スピードを出そうとしてつんのめりそ\nうな曲になってるのは、特殊な拍子のせいでしょうか?\nロックにしたかったんですが、私はあまりロックを聴かない所為\nか、ロックというものを誤解している可能性大(^^;",
+          "en": "Stage 5 theme.\nA very mysterious song. Its unusual beat toys with your sense of speed, sometimes seeming to go faster.\nI was trying for a rock piece, but as I don't listen to rock much, it's quite possible that I have no idea what I'm doing (^^;"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n なんか、分かりやすいタイトルです。分かりやすいことはいいことです。\n  メイドや女中というより小間使いって言ったほうが好き。\n  統計によると、大半の方がメイドと聞いただけで若い娘を思い浮かべて\n  しまうそうですが(何の統計?)、役に立つメイドさんは3、40~です\n  よね。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nFor some reason, it's an easy title to understand. Easily understandable is a good thing.\nRather than saying maids or Jochuu, I prefer saying Komadukai.\nStatistically speaking, most people think of a young woman when they hear \"a maid\".\n(What statistic is that?), but an actually useful maid would probably be around 30~40."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_10.wav",
+        "rel_loop": 3620520,
+        "rel_end": 28737988
+      }
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "月時計 ~ ルナ・ダイアル",
+        "en": "Lunar Clock ~ Luna Dial"
+      },
+      "comments": [
+        {
+          "jp": "十六夜 咲夜(いざよい・さくや)のテーマです。\n\nメイドさんといえばハードロック(嘘)\nかなりハードです。5面ということでこの位の激しさが必要だと\n\nやっぱり誤解してるのかなぁ(^^; >ロック\n私的詩的ロックということで",
+          "en": "Sakuya Izayoi's theme.\nYou can't have a maid without hard rock (j/k)\nIt's quite driving, fitting for the second-to-last stage.\n\n...Guess I still don't know much about rock (^^;\nLet's just call it 'private, poetical rock'."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 「黄泉津平坂、暗夜行路」(藤木稟)に出てくる時計です。\n  月時計というものがどういうものか知りたいものです(^^;\n  ハードなロック調なのはルナな部分。\n  あの小説で霊気琴という楽器が出てくるのですが、1,2年前ようやく\n  どういう楽器か分かりました(^^;\n  つーか、上流階級でも、明治時代の家にあるの?霊気琴(テル・ミン)",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThe clock that appears in the novel \"Yomizu hirasaka Yamiyo kouro\" by Fujiki Rin.\nI would like to know what kind of clock a lunar clock is. (^^;\nThe hard rock part is the lunar part.\nThere's an instrument called a Theremin in that novel, but I only found out about a year or two ago what that was. (^^;\nSpeaking of, would there even be a theremin in a Meiji era house? Even if it's an upper-class house?"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_11.wav",
+        "rel_loop": 957764,
+        "rel_end": 14877112
+      }
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "ツェペシュの幼き末裔",
+        "en": "The Young Descendant of Tepes"
+      },
+      "comments": [
+        {
+          "jp": "最終面のテーマです。\n\n最終面はいつもしっとりさせすぎていたので、今回は軽快なノリで。\n短いステージの、ただのつなぎの曲なので、あまり自己主張させないような曲にしました。",
+          "en": "Final stage theme.\nThe final stage themes have always been loaded, so I made it upbeat this time.\nAs the final stage itself is quite short, I made this piece not as assertive."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n ツェペシュとはブラド・ツェペシュのことです。\n  ドラキュラ公のモデルになった事で有名ですね。なんでも2万もの捕虜を\n  全員串刺しにして道に立てて並べたとか...\n  でもレミリアは末裔ではありません。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nTepes meaning Vlad Tepes.\nHe's famous for being the model of Count Dracula and impaling twenty thousand captives and stood them by the road...\nHowever, Remilia isn't his descendant."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_12.wav",
+        "rel_loop": 683292,
+        "rel_end": 10452876
+      }
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "亡き王女の為のセプテット",
+        "en": "Septette for a Dead Princess"
+      },
+      "comments": [
+        {
+          "jp": "レミリア・スカーレットのテーマです。\nこれがラストだ!といわんばかりの曲を目指しました。\nあんまり重厚さを出したり不気味さを出したり、そういうありが\nちラストは嫌なので、ジャズフュージョンチックにロリっぽさを\n混ぜて...、ってそれじゃいつもとあんまり変わらんな。\nこのメロディは自分でも理解しやすく、気に入っています。",
+          "en": "Remilia Scarlet's theme. \nWith this, I tried for a \"This is the end!\" feeling.\nI didn't want it to be regal or ominous, which is normal for a final stage, so I made it Jazz-Fusion based with a hint of loli... wait, that's not any different than normal.\nIts melody is easy for even me to get, so I like this song."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n とあるクラシックの有名曲をもじってタイトルにしています。\n  その曲とは一切の関係もありません。\n  しかも曲はセプテットでもないです。雰囲気だけ(汗)\n  そもそも、誰も亡くなっていないし、王女ってだれ?",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThe title is a parody of a certain famous classic song's title.\nIt has nothing to do with that song though.\nTo top it off, the music isn't even a septette, only the feeling. (Sweats)\nIn the first place, nobody's dead and who's the princess?"
+        },
+        {
+          "jp": "とあるクラシックの有名曲をもじってタイトルにしています。その曲とは一切の関係もありません。\nしかも曲はセプテットでもないです。雰囲気だけ(汗)\nそもそも、誰も亡くなっていないし、王女ってだれ?",
+          "en": "I tweaked a certain famous classic song’s title and made it the title. It has nothing to do with that song though.\nTo top it off, the music isn’t even a septette, only the feeling. (Sweats)\nIn the first place, nobody’s dead and who’s the princess?"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_13.wav",
+        "rel_loop": 5856672,
+        "rel_end": 24841132
+      }
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "魔法少女達の百年祭",
+        "en": "The Centennial Festival for Magical Girls"
+      },
+      "comments": [
+        {
+          "jp": "エキストラステージのテーマです。\n時折中華風です。時折ニューエイジ風です。それはなぜか?\n何もテーマも考えずにキーボードを弾いてしまったら、こうなっ\nてしまいました。\n私の惰性の集大成見たいな曲です。よく聴くと、謎めいたフレー\nズが詰まっています。私のおもちゃ箱ですね。",
+          "en": "Extra stage theme.\nSometimes it's Chinese, sometimes it's New Age. Why?\nThis is what happens after messing with my keyboard.\nIt's like an accumulation of my laziness. If you listen closely, there are many strange rhythms in this song.\nIn other words, my toy-box."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n 百年に一度行われる収穫祭のようなものです。\n  何が収穫されるのでしょう(笑)",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nSomething like a harvest festival that's done every hundred years.\nI wonder what's being harvested. (Laughs)"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_14.wav",
+        "rel_loop": 6244048,
+        "rel_end": 26961296
+      }
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "U.N.オーエンは彼女なのか?",
+        "en": "U.N. Owen Was Her?"
+      },
+      "comments": [
+        {
+          "jp": "フランドール・スカーレットのテーマです。\n\n今回のもっともお気に入りです。いかにして悪魔っ娘を東洋風にかつ、ミステリアスに表現できるかに挑戦した結果です。\nロリっぽいこのメロディは、今作品でもっとも私らしいメロディで、鍵盤弾くのが楽しかったです。",
+          "en": "Flandre Scarlet's theme.\nI liked this one the best out of the whole game. It depicts a devilish girl in an Oriental and mysterious way.\nLoli-tastic melodies like this are what I'm best at, so I had a lot of fun composing this."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n U.N.オーエン(ユナ・ナンシィ・オーエン)です。\n  分かる人だけ分かってください。元ネタはかなり古いです(70年前くらい?)\n  なんで、この名前かっていうと、オーエンをアルファベット表記した方\n  で考えて、フランドールは「何者とも判らぬ者」とかけています。\n  フランドールの9枚目のスペルカードが、そのパロディになっています。",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThis is U.N. Owen (Una Nancy Owen).\nOnly people who understand it understand please. The original is quite old. (About 70 years ago?)\nThe reason why I name this is when thinking in terms of transcribing alphabet letters of Owen, it can be linked to Flandre who is an unknown being.\nThe ninth spell card is a parody of that."
+        },
+        {
+          "jp": "U.N.オーエン(ユナ・ナンシィ・オーエン)です。\n分かる人だけ分かってください。元ネタはかなり古いです(70年前くらい?)\nなんで、この名前かっていうと、オーエンをアルファベット表記した方で考えて、フランドールは「何者とも判らぬ者」とかけています。\nフランドールの9枚目のスペルカードが、そのパロディになっています。",
+          "en": "This is U.N. Owen (Una Nancy Owen).\nOnly people who understand it understand please.\nThe original is quite old. (About 70 years ago?)\nThe reason why the name is this, thinking in terms of why the name is written in roman letters, is because Flandre is an unknown being.\nThe ninth spell card is a parody of that."
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_15.wav",
+        "rel_loop": 788508,
+        "rel_end": 22304704
+      }
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "紅より儚い永遠",
+        "en": "An Eternity More Transient than Scarlet"
+      },
+      "comments": [
+        {
+          "jp": "エンディングのテーマです。\n\n曲名から想像つくように、タイトル画面の曲の編曲みたいなものです。そのため和風です。\nというか、和風で良いんですが。",
+          "en": "Ending theme.\nAs you can guess from its name, this is an arranged version\nof the title theme. So it's also in a Japanese style.\nWell, not that there's anything wrong with that."
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n タイトル曲の編曲みたいなもんなんで、曲名も同じような感じに。\n  いや別に紅って儚い感じはしないんだけどね(^^;",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nThe melody of this remix sounds similar to that of the title so its title gives a similar feeling.\nAlthough scarlet doesn't really feel transient. (^^;"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_16.wav",
+        "rel_loop": 1394768,
+        "rel_end": 9698680
+      }
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "紅楼 ~ Eastern Dream...",
+        "en": "Scarlet Tower ~ Eastern Dream..."
+      },
+      "comments": [
+        {
+          "jp": "スタッフロールのテーマです。\n\nいつもは絶望的に暗い曲ばっかのスタッフロールでしたが、今回は希望的に明るくしました。多分。\n相変わらずスタッフが少ないので、あまり長い曲には出来ません。\nもっと壮大な曲でも良かったんですが、割とインルームな印象の曲になりました。これは意図していません(笑)",
+          "en": "Staff Roll theme.\nThe staff roll has always been dark and desperate, so I made it a bit more happy and hopeful this time. I think.\nAs the staff list is always short, I couldn't write a long piece.\nI could have made it more magnificent, but it ended up a little dry. That was not my intention (Laughs)"
+        },
+        {
+          "jp": "(Afterword Shanghai Alice Correspondence vol. 1)\n そういえば、昔の私は、日本語 ~ 英語 ってフォーマットで曲名\n  付けてたような...\n  それはともかく、スタッフロールは\"なにがしDream\"と付ける風習が\n  自分にはあるので、今回も(^^;",
+          "en": "(Afterword Shanghai Alice Correspondence vol. 1)\nNow that I think of it, I used to title songs in a Japanese ~ English format...\nAnyways, it seems to be a custom of mine to put \"whatever Dream\" to staff roll themes, so once again.(^^;"
+        }
+      ],
+      "metaInfo": {
+        "filename": "th06_17.wav",
+        "rel_loop": 958028,
+        "rel_end": 18678404
+      }
+    }
+  ]
+}

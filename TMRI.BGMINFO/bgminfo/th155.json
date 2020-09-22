@@ -1,0 +1,595 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方憑依華 ~ Antinomy of Common Flowers",
+      "en": "Touhou Hyouibana ~ Antinomy of Common Flowers"
+    },
+    "year": 2017,
+    "circle": {
+      "jp": "黄昏フロンティア",
+      "en": "Twilight Frontier"
+    },
+    "tracks": 58,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Antinomy_of_Common_Flowers/Music",
+      "wikirev": "403352"
+    }
+  },
+  "composer": [
+    {
+      "jp": "コンプ",
+      "en": "Comp"
+    },
+    {
+      "jp": "oiko"
+    },
+    {
+      "jp": "しゃばだば",
+      "en": "ShavaDava"
+    },
+    {
+      "jp": "NYO"
+    },
+    {
+      "jp": "鯛の小骨",
+      "en": "Tai no Kobone"
+    },
+    {
+      "jp": "鷹",
+      "en": "Taka"
+    },
+    {
+      "jp": "ゆうゆ",
+      "en": "Yuuyu"
+    },
+    {
+      "jp": "岸田",
+      "en": "Kishida"
+    },
+    {
+      "jp": "秀三",
+      "en": "Shuzou"
+    },
+    {
+      "jp": "どぶウサギ",
+      "en": "Dobu Usagi"
+    },
+    {
+      "jp": "ziki_7"
+    },
+    {
+      "jp": "ぴずや",
+      "en": "pizuya"
+    },
+    {
+      "jp": "Kou Ogata"
+    },
+    {
+      "jp": "ARM"
+    },
+    {
+      "jp": "ビートまりお",
+      "en": "BeatMario"
+    },
+    {
+      "jp": "狐夢想",
+      "en": "Komso"
+    },
+    {
+      "jp": "紅い流星",
+      "en": "Akai Ryuusei"
+    },
+    {
+      "jp": "ELEMENTAS"
+    },
+    {
+      "jp": "あきやまうに",
+      "en": "U2"
+    },
+    {
+      "jp": "ZUN"
+    }
+  ],
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "二色蓮花蝶 ~ Red and White",
+        "en": "Dichromatic Lotus Butterfly ~ Red and White"
+      },
+      "composer": 1
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "恋色マスタースパーク",
+        "en": "Love-Colored Master Spark"
+      },
+      "composer": 2
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "時代親父とハイカラ少女",
+        "en": "The Traditional Old Man and the Stylish Girl"
+      },
+      "composer": 3
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "感情の摩天楼 ~ Cosmic Mind",
+        "en": "Emotional Skyscraper ~ Cosmic Mind"
+      },
+      "composer": 4
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "大神神話伝",
+        "en": "Omiwa Legend"
+      },
+      "composer": 5
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "聖徳伝説 ~ True Administrator",
+        "en": "Shoutoku Legend ~ True Administrator"
+      },
+      "composer": 6
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "芥川龍之介の河童 ~ Candid Friend",
+        "en": "Akutagawa Ryuunosuke's \\\"Kappa\\\" ~ Candid Friend"
+      },
+      "composer": 7
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "ハルトマンの妖怪少女",
+        "en": "Hartmann's Youkai Girl"
+      },
+      "composer": 8
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "幻想郷の二ッ岩",
+        "en": "Futatsuiwa from Gensokyo"
+      },
+      "composer": 9
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "亡失のエモーション",
+        "en": "The Lost Emotion"
+      },
+      "composer": 10
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "月まで届け、不死の煙",
+        "en": "Reach for the Moon, Immortal Smoke"
+      },
+      "composer": 11
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "輝く針の小人族 ~ Little Princess",
+        "en": "Inchlings of the Shining Needle ~ Little Princess"
+      },
+      "composer": 12
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "華狭間のバトルフィールド",
+        "en": "Battlefield of the Flower Threshold"
+      },
+      "composer": 13
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "ラストオカルティズム ~ 現し世の秘術師",
+        "en": "Last Occultism ~ Esotericist of the Present World"
+      },
+      "composer": 14
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "狂気の瞳 ~ Invisible Full Moon",
+        "en": "Lunatic Eyes ~ Invisible Full Moon"
+      },
+      "composer": 15
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "永遠の春夢",
+        "en": "Eternal Spring Dream"
+      },
+      "composer": 16
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "有頂天変 ~ Wonderful Heaven",
+        "en": "Catastrophe in Bhavaagra ~ Wonderful Heaven"
+      },
+      "composer": 17
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "夜が降りてくる ~ Evening Star",
+        "en": "Night Falls ~ Evening Star"
+      },
+      "composer": 18
+    },
+    {
+      "number": 19,
+      "name": {
+        "jp": "地の色は黄色 ~ Primrose",
+        "en": "The Ground's Color is Yellow ~ Primrose"
+      },
+      "composer": 19
+    },
+    {
+      "number": 20,
+      "name": {
+        "jp": "マッシュルーム・ワルツ",
+        "en": "Mushroom Waltz"
+      },
+      "composer": 19
+    },
+    {
+      "number": 21,
+      "name": {
+        "jp": "聖輦船空を往く",
+        "en": "The Palanquin Ship Flies in the Sky"
+      },
+      "composer": 19
+    },
+    {
+      "number": 22,
+      "name": {
+        "jp": "法力の下の平等",
+        "en": "Equality Under the Law of Dharma"
+      },
+      "composer": 19
+    },
+    {
+      "number": 23,
+      "name": {
+        "jp": "恒常不変の参廟祀",
+        "en": "Constant and Unchanging Temple of Worship"
+      },
+      "comments": [
+        {
+          "jp": "Cello: 荒井英理也"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 24,
+      "name": {
+        "jp": "光輝く天球儀",
+        "en": "Shining Armillary Sphere"
+      },
+      "comments": [
+        {
+          "jp": "Guitar: Niimu"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 25,
+      "name": {
+        "jp": "沢の河童の技術力",
+        "en": "The Ravine Kappa's Technological Prowess"
+      },
+      "composer": 19
+    },
+    {
+      "number": 26,
+      "name": {
+        "jp": "地底に咲く薔薇",
+        "en": "A Rose Blooming in the Underworld"
+      },
+      "comments": [
+        {
+          "jp": "Violin: JUN"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 27,
+      "name": {
+        "jp": "深緑の狸森にて",
+        "en": "In the Deep-Green Tanuki Forest"
+      },
+      "composer": 19
+    },
+    {
+      "number": 28,
+      "name": {
+        "jp": "心綺楼演舞",
+        "en": "Shinkirou Theatrical"
+      },
+      "composer": 19
+    },
+    {
+      "number": 29,
+      "name": {
+        "jp": "不滅のレッドソウル",
+        "en": "Immortal Red Soul"
+      },
+      "comments": [
+        {
+          "jp": "Guitar: Niimu"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 30,
+      "name": {
+        "jp": "落日に映える逆さ城",
+        "en": "The Inverted Castle Lit by the Setting Sun"
+      },
+      "composer": 19
+    },
+    {
+      "number": 31,
+      "name": {
+        "jp": "千の試練を超えて",
+        "en": "Overcome a Thousand Trials"
+      },
+      "composer": 19
+    },
+    {
+      "number": 32,
+      "name": {
+        "jp": "夢世界フォークロア",
+        "en": "Dream World Folklore"
+      },
+      "composer": 19
+    },
+    {
+      "number": 33,
+      "name": {
+        "jp": "永遠に続く回廊",
+        "en": "Corridor Stretching to Eternity"
+      },
+      "composer": 19
+    },
+    {
+      "number": 34,
+      "name": {
+        "jp": "スリープシープパレード",
+        "en": "Sleep Sheep Parade"
+      },
+      "composer": 19
+    },
+    {
+      "number": 35,
+      "name": {
+        "jp": "至る有頂天",
+        "en": "Bhavaagra as Far as the Eye Can See"
+      },
+      "composer": 19
+    },
+    {
+      "number": 36,
+      "name": {
+        "jp": "憑坐は夢と現の間に ~ Necro-Fantasia",
+        "en": "Yorimashi Between Dreams and Reality ~ Necro-Fantasia"
+      },
+      "composer": 20
+    },
+    {
+      "number": 37,
+      "name": {
+        "jp": "今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers.",
+        "en": "Tonight Stars an Easygoing Egoist (Live ver.) ~ Egoistic Flowers."
+      },
+      "composer": 20
+    },
+    {
+      "number": 38,
+      "name": {
+        "jp": "オカルトアトラクト",
+        "en": "Occult Attract"
+      },
+      "composer": 19
+    },
+    {
+      "number": 39,
+      "name": {
+        "jp": "ネオ竹林インフレイム",
+        "en": "Neo Bamboo Forest in Flames"
+      },
+      "composer": 19
+    },
+    {
+      "number": 40,
+      "name": {
+        "jp": "億万劫の鐘",
+        "en": "Bell of Aeons"
+      },
+      "composer": 19
+    },
+    {
+      "number": 41,
+      "name": {
+        "jp": "アンノウンX ~ Occultly Madness",
+        "en": "Unknown X ~ Occultly Madness"
+      },
+      "composer": 20
+    },
+    {
+      "number": 42,
+      "name": {
+        "jp": "憑依投合",
+        "en": "Being Things Eye To Eye"
+      },
+      "composer": 19
+    },
+    {
+      "number": 43,
+      "name": {
+        "jp": "連帯責人",
+        "en": "The One Jointly Responsible"
+      },
+      "composer": 19
+    },
+    {
+      "number": 44,
+      "name": {
+        "jp": "合縁奇縁",
+        "en": "An Odd Couple"
+      },
+      "composer": 19
+    },
+    {
+      "number": 45,
+      "name": {
+        "jp": "異心同体",
+        "en": "Two Minds of One Body"
+      },
+      "composer": 19
+    },
+    {
+      "number": 46,
+      "name": {
+        "jp": "壮言大語",
+        "en": "Grandiloquence"
+      },
+      "composer": 19
+    },
+    {
+      "number": 47,
+      "name": {
+        "jp": "知略縦横",
+        "en": "Scheming Outside the Box"
+      },
+      "composer": 19
+    },
+    {
+      "number": 48,
+      "name": {
+        "jp": "意気揚々",
+        "en": "In High Spirits"
+      },
+      "composer": 19
+    },
+    {
+      "number": 49,
+      "name": {
+        "jp": "開演間近",
+        "en": "The Curtain Shall Rise Soon"
+      },
+      "composer": 19
+    },
+    {
+      "number": 50,
+      "name": {
+        "jp": "天衣無縫 ~ Yellow Lily",
+        "en": "Flawless as Clothing of the Celestials ~ Yellow Lily"
+      },
+      "composer": 19
+    },
+    {
+      "number": 51,
+      "name": {
+        "jp": "行雲流水",
+        "en": "Floating with the Tide"
+      },
+      "composer": 19
+    },
+    {
+      "number": 52,
+      "name": {
+        "jp": "異変の種子",
+        "en": "Seeds of the Incident"
+      },
+      "composer": 19
+    },
+    {
+      "number": 53,
+      "name": {
+        "jp": "疑惑の芽生え",
+        "en": "Sprouts of Suspicion"
+      },
+      "composer": 19
+    },
+    {
+      "number": 54,
+      "name": {
+        "jp": "未だ蕾む憑依華",
+        "en": "Possession Flowers Yet to Bud"
+      },
+      "composer": 19
+    },
+    {
+      "number": 55,
+      "name": {
+        "jp": "真相へ繋がる枝葉",
+        "en": "Branches Reaching to the Truth"
+      },
+      "comments": [
+        {
+          "jp": "Violin: JUN"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 56,
+      "name": {
+        "jp": "咲き誇る憑依華",
+        "en": "Possession Flowers in Full Bloom"
+      },
+      "composer": 19
+    },
+    {
+      "number": 57,
+      "name": {
+        "jp": "舞い散る憑依華吹雪",
+        "en": "Blizzard of Scattering Possession Flowers"
+      },
+      "comments": [
+        {
+          "jp": "Violin: JUN"
+        }
+      ],
+      "composer": 19
+    },
+    {
+      "number": 58,
+      "name": {
+        "jp": "悠久の蒸気機関",
+        "en": "The Eternal Steam Engine"
+      },
+      "composer": 13
+    }
+  ]
+}

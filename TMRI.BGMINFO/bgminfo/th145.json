@@ -1,0 +1,317 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方深秘録 ~ Urban Legend in Limbo",
+      "en": "Touhou Shinpiroku ~ Urban Legend in Limbo"
+    },
+    "year": 2015,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 30,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Urban_Legend_in_Limbo/Music",
+      "wikirev": "409726"
+    }
+  },
+  "composer": [
+    {
+      "jp": "あきやまうに",
+      "en": "U2"
+    },
+    {
+      "jp": "ZUN"
+    },
+    {
+      "jp": "コンプ",
+      "en": "Comp"
+    },
+    {
+      "jp": "oiko"
+    },
+    {
+      "jp": "しゃばだば",
+      "en": "ShavaDava"
+    },
+    {
+      "jp": "NYO"
+    },
+    {
+      "jp": "鯛の小骨",
+      "en": "Tai no Kobone"
+    },
+    {
+      "jp": "鷹",
+      "en": "Taka"
+    },
+    {
+      "jp": "ゆうゆ",
+      "en": "Yuuyu"
+    },
+    {
+      "jp": "岸田",
+      "en": "Kishida"
+    },
+    {
+      "jp": "秀三",
+      "en": "Shuzou"
+    },
+    {
+      "jp": "どぶウサギ",
+      "en": "Dobu Usagi"
+    },
+    {
+      "jp": "ziki_7"
+    }
+  ],
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "心揺さぶる都市伝説",
+        "en": "Heart-Stirring Urban Legends"
+      },
+      "composer": 1
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "幻想郷ふしぎ発見",
+        "en": "Gensokyo Mystery Discovery"
+      },
+      "composer": 1
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "二色蓮花蝶 ~ Red and White",
+        "en": "Dichromatic Lotus Butterfly ~ Red and White"
+      },
+      "composer": 3
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "恋色マスタースパーク",
+        "en": "Love-Colored Master Spark"
+      },
+      "composer": 4
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "華狭間のバトルフィールド",
+        "en": "Battlefield of the Flower Threshold"
+      },
+      "composer": 2
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "時代親父とハイカラ少女",
+        "en": "The Traditional Old Man and the Stylish Girl"
+      },
+      "composer": 5
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "感情の摩天楼 ~ Cosmic Mind",
+        "en": "Emotional Skyscraper ~ Cosmic Mind"
+      },
+      "composer": 6
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "大神神話伝",
+        "en": "Omiwa Legend"
+      },
+      "composer": 7
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "聖徳伝説 ~ True Administrator",
+        "en": "Shoutoku Legend ~ True Administrator"
+      },
+      "composer": 8
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "芥川龍之介の河童 ~ Candid Friend",
+        "en": "Akutagawa Ryuunosuke's \\\"Kappa\\\" ~ Candid Friend"
+      },
+      "composer": 9
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "ハルトマンの妖怪少女",
+        "en": "Hartmann's Youkai Girl"
+      },
+      "composer": 10
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "幻想郷の二ッ岩",
+        "en": "Futatsuiwa from Gensokyo"
+      },
+      "composer": 11
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "亡失のエモーション",
+        "en": "The Lost Emotion"
+      },
+      "composer": 12
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "月まで届け、不死の煙",
+        "en": "Reach for the Moon, Immortal Smoke"
+      },
+      "composer": 13
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "輝く針の小人族 ~ Little Princess",
+        "en": "Inchlings of the Shining Needle ~ Little Princess"
+      },
+      "composer": 1
+    },
+    {
+      "number": 16,
+      "name": {
+        "jp": "ラストオカルティズム ~ 現し世の秘術師",
+        "en": "Last Occultism ~ Esotericist of the Present World"
+      },
+      "composer": 2
+    },
+    {
+      "number": 17,
+      "name": {
+        "jp": "七玉蒐集ショウダウン",
+        "en": "Seven-Orb Collection Showdown"
+      },
+      "composer": 1
+    },
+    {
+      "number": 18,
+      "name": {
+        "jp": "オカルトアラカルト",
+        "en": "Occult à la Carte"
+      },
+      "composer": 1
+    },
+    {
+      "number": 19,
+      "name": {
+        "jp": "公正なる奪い合い",
+        "en": "Fair Scramble"
+      },
+      "composer": 1
+    },
+    {
+      "number": 20,
+      "name": {
+        "jp": "対蹠地の鐘",
+        "en": "Bell of the Antipodes"
+      },
+      "composer": 1
+    },
+    {
+      "number": 21,
+      "name": {
+        "jp": "竹林インフレイム",
+        "en": "Bamboo Forest in Flames"
+      },
+      "composer": 1
+    },
+    {
+      "number": 22,
+      "name": {
+        "jp": "顕現した伝承の形",
+        "en": "Forms of Manifested Folklore"
+      },
+      "composer": 1
+    },
+    {
+      "number": 23,
+      "name": {
+        "jp": "ボールのある日常",
+        "en": "An Everyday Life with Balls"
+      },
+      "composer": 1
+    },
+    {
+      "number": 24,
+      "name": {
+        "jp": "価値がわからない",
+        "en": "The Value Is Unrealized"
+      },
+      "composer": 1
+    },
+    {
+      "number": 25,
+      "name": {
+        "jp": "時代の風の訪れ",
+        "en": "Arrival of the Winds of the Era"
+      },
+      "composer": 1
+    },
+    {
+      "number": 26,
+      "name": {
+        "jp": "真実を知る者",
+        "en": "Those Who Know the Truth"
+      },
+      "composer": 1
+    },
+    {
+      "number": 27,
+      "name": {
+        "jp": "可能性を信じて",
+        "en": "Believe in Possibilities"
+      },
+      "composer": 1
+    },
+    {
+      "number": 28,
+      "name": {
+        "jp": "外界フォークロア",
+        "en": "Outside World Folklore"
+      },
+      "composer": 1
+    },
+    {
+      "number": 29,
+      "name": {
+        "jp": "各々の結末",
+        "en": "Each Ending"
+      },
+      "composer": 1
+    },
+    {
+      "number": 30,
+      "name": {
+        "jp": "明かされる深秘",
+        "en": "The Arcane Is Revealed"
+      },
+      "composer": 1
+    }
+  ]
+}

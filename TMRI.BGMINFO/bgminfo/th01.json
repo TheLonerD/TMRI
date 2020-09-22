@@ -1,0 +1,251 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方靈異伝 ~ Highly Responsive to Prayers",
+      "en": "Touhou Rei'iden ~ Highly Responsive to Prayers"
+    },
+    "year": 1997,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "Amusement Makers"
+    },
+    "tracks": 15,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Highly_Responsive_to_Prayers/Music",
+      "wikirev": "403801"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "A Sacred Lot",
+        "en": "A Sacred Lot"
+      },
+      "comments": [
+        {
+          "en": "This is pretty awesomely reborn, I think.\nAnd yet, it really takes me back...",
+          "jp": "結構かっこよく生まれ変わったんじゃないかな。\nそれにしても懐かしい・・・"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "永遠の巫女",
+        "en": "Eternal Shrine Maiden"
+      },
+      "comments": [
+        {
+          "en": "This melody had quite an impact on me. Even now, I'll find myself playing it when I compose music.",
+          "jp": "このメロディは、自分の中では衝撃的で、いまでも曲を作るとき、思わず弾いてしまいます。"
+        },
+        {
+          "en": "(th1_01.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Eternal Shrine Maiden\" from Highly Responsive to Prayers.\nMeaning, everything started with this song. So I decided to revive this song from ancient times.\nI planned to arrange it quite a bit, while still leaving in the dark glumness from the original piece.\n\nThat said, I tried to take most of the influence for the arrangement from a famous jazz pianist\nand composer, Keiko Matsui (around the shocking piano part).\nThough there might be some of her influence in there, in the end it doesn't really differ from my stuff at all (^^;;\n\nEven so, even though it's supposed to resemble the other songs, you can feel an out-of-place darkness in this song...\nI guess it's the representative work from the Dark Ages (mystery).\nBut still, it's a special song for me. As the starting point.\n\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th1_01.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 永遠の巫女 】です。\nすべてはこの曲から始まったわけです。で、いにしえのこの曲を復活させてみました。\nで、元曲の暗さを残しつつ激しくアレンジしたつもりです。\n\nてゆーか、私のお気に入りのジャズピアニストで作曲家でもある、松居慶子さんの影響\n受けまくりのつもり(衝撃的なピアノのあたり)\nでも、影響は受けてるけど、結果いつもの私となんら変わってないやね(^^;;\n\nそれにしても、他の曲と似てるはずなのに、この曲は異様に暗く感じる・・・\n暗黒時代の代表作だね(謎)\nでもでも、自分にとっては特別な曲でもあります。原点ですね。\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th1_01.txt from here)",
+          "jp": "(th1_01.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 永遠の巫女 】オリジナル版です。\n\n試験的に、PMD データを公開してみました。\nこの曲に限らず、アレンジが大幅に違う曲なのでオリジナルの方が好きって方も多いかも\nしれない(汗)\nでも、この曲は、アレンジの方が好きです(^^;;\n\nZUNミュージックの原点です。怪綺談のコメントにも書いたように、このメインメロディは\n当時、自分の中で衝撃的な曲だったので、今でも気を抜くと弾いてしまいます。\n\n\n注)オリジナルと言っていますが、靈異伝はPMDアレンジ版を収録してあります。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "The Positive and Negative",
+        "en": "The Positive and Negative"
+      },
+      "comments": [
+        {
+          "en": "I get the feeling there are a few melodic differences from my current music. What could they be...?\n(The chord progression hasn't changed much. (^^; )",
+          "jp": "今の曲と、若干なにかメロディに差がある気がするんですけど、何だろう・・・\n(コード進行はあんまり変わらん(^^; )"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": {
+        "jp": "Highly Responsive to Prayers",
+        "en": "Highly Responsive to Prayers"
+      },
+      "comments": [
+        {
+          "en": "I arranged an old musical piece, and now this one feels really gloomy.\nIt's a calm piece, which really is a rarity for this game, isn't it.",
+          "jp": "昔の曲をアレンジしてると、かなり暗い曲だな~と感じます。\nこのゲームでは、非常に珍しく落ち着いた曲なんじゃないかな。"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": {
+        "jp": "東方怪奇談",
+        "en": "Eastern Strange Discourse"
+      },
+      "comments": [
+        {
+          "en": "I composed this song for the first game I ever made, so I put quite a bit of thought into it.\nAll the \"Touhou OOO\"-style game titles also stem from this piece.",
+          "jp": "この曲、私が生まれて初めて作ったゲーム用の曲です。だから、かなり思い入れがあります。\n東方○○○っていうゲームタイトルもこの曲から取りました。"
+        },
+        {
+          "en": "(th1_04.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Eastern Strange Discourse\" from Highly Responsive to Prayers.\n\nThis song is, to me, one of the most historic (well, it's really just old (^^;),\nso I play it every now and then, such that I've gotten quite used to it.\n\nBut when I tried to arrange it, it was pretty difficult.\nIn reality, it's pretty faithful to the original. The original MIDI version (unreleased), as opposed to the FM version.\nIn those days, I was satisfied with just creating a melody that I thought up, so... (^^;\n\nThis song was also the opportunity for me to start the Touhou Project and stuff. Since I\nwanted to create a mix of an eastern and western feel in my songs.\nIt fills me with emotion. Seriously. (Well, maybe not the tune itself, but... (^^;)\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th1_04.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方霊異伝より【 東方怪奇談 】です。\n\nこの曲は、私の中でもっとも歴史のある(つーか、古いだけ(^^;)曲の一つで\n事あるごとに弾いてる、もう弾き慣れた曲です。\n\nでも、アレンジし直すとなるとなかなか苦労しました。\n実はかなりオリジナルに忠実です。オリジナルはFM音源版より前のMIDI版(未発表)\nで、あの頃は、自分で考えてたメロディが流れるだけで満足だったんですが(^^;\n\n私が東方Project を始めたのもこの曲がきっかけだったりします。東洋風な曲を創りた\nかったのですしね。\n感慨深いです。ほんと。(っつー、曲調でもないが(^^;)\n\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th1_04.txt from here)",
+          "jp": "(th1_04.txt from here)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 東方怪奇談 】オリジナル版です。\n\nこの曲は、私が初めて創ったゲーム用ミュージックです。\n\n打ち込む前にキーボードで(やや)完全にメロディを組み立ててから創った記憶があります。\nゲームミュージックとはいえ、実は靈異伝ではありません。もっと前に、C言語の勉強がてら\n創ったゲーム(未発表)の曲で、しょぼいゲームで曲ばっか浮いてた記憶が(笑)\n\nそのころは、街の電機屋でエレクトーンなどを見ると、ついこの曲を弾いていたりしました。\nキーボードマニアを見るとそのころを思い出します(^^;;\n\n\n注)オリジナルと言っていますが、靈異伝はPMDアレンジ版を収録してあります。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": {
+        "jp": "天使伝説",
+        "en": "Angel's Legend"
+      },
+      "comments": [
+        {
+          "en": "This piece is the model for my current boss themes.\nIt doesn't seem a lot different now, but somehow the older song has WEIGHT to it (^^;;\nOr maybe it's that the current pieces are light? (I don't think that's it either...)",
+          "jp": "今のボスの曲の原型となった曲です。\n今も大差無い様だけど、なぜか昔の曲の方が重い~(^^;;\nというか今の曲の方が軽いのか?(そんなことも無いような・・・)"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": {
+        "jp": "Oriental Magician",
+        "en": "Oriental Magician"
+      },
+      "comments": [
+        {
+          "en": "This might be a catchy arrangement, since it was originally sooo dark.\nLooks like I inadvertently made all the songs Japanese style...totally different from how I do it now. (;_;)",
+          "jp": "ちょっと、ノリよくアレンジしてるかも。元は暗かったからな~\nなにげに、どの曲も和風だな~今と大違いだな~(;_;)"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": {
+        "jp": "破邪の小太刀",
+        "en": "Blade of Banishment"
+      },
+      "comments": [
+        {
+          "en": "This is the most bright-eyed song in the game, I think.\nSo I tried arranging it to emphasize that feel.",
+          "jp": "このゲームで一番明る目な曲じゃないかな。\nだから、そういった感じを強調したアレンジにしてみました。"
+        },
+        {
+          "en": "(th1_07.txt from here)",
+          "jp": "(th1_07.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 破邪の小太刀 】オリジナル版です。\n\nもうなんにも覚えていません(^^;\nなんつーか、私らしい曲のような、そうでもないような。\n短いですが、ちょっと他にない曲調でいいかんじかなぁ。\n\n\n注)オリジナルと言っていますが、靈異伝はPMDアレンジ版を収録してあります。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": {
+        "jp": "魔鏡",
+        "en": "Magic Mirror"
+      },
+      "comments": [
+        {
+          "en": "This piece has a pretty good feel to it.\nThis kind of tune (with a touch of mystery) is indispensable for mid-game.\nWell, not that my current stuff's all that different.",
+          "jp": "この曲はなかなかいい感じかも。\n中盤戦には欠かせないよね、こういう曲(ちょっぴり謎)。\nでま~、いまの曲も大差ないんだが。"
+        },
+        {
+          "en": "(th1_08.txt from here)",
+          "jp": "(th1_08.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 魔境 】オリジナル版です。\n\n靈異伝の中では、一番本格的なボス曲だと思っています。\nこのころは、曲も出来るだけ東方チックでエキゾティカで神社で巫女さんな曲を目指して\nいました。(夢時空以降は諦めまくっていますが(^^;;)\n\nでも、巫女さんっつーか、中華な感じの方が強いかな(^^;\n\n\n注)オリジナルと言っていますが、靈異伝はPMDアレンジ版を収録してあります。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": {
+        "jp": "the Legend of KAGE",
+        "en": "the Legend of KAGE"
+      },
+      "comments": [
+        {
+          "en": "This is the second song in my heart, composed right after \"Eastern Strange Discourse\".\nOriginally, the tempo was pretty messed up, so I slowed it a bit.",
+          "jp": "この曲は「東方怪奇談」の次に作った、自分の中では2曲目に当たるものです。\n元が余りにも目茶苦茶なテンポだったんで少し遅くしてます。"
+        },
+        {
+          "en": "(th1_10.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis song is \"The Legend of KAGE\" from Highly Responsive to Prayers.\n\nI chose a song like New Year's. (What?)\n\nThis song is about the second I wrote for use in a game I created. Why is the\ntitle that, you ask? That game I'm referring to (not Highly Responsive to Prayers) is a game\nI made having studied from C, and one of the characters (for some reason) had a shadow,\nand this was their theme song. (Ah, how nostalgic (^^;)\n\nOn that note, the first song I composed for a game was \"Eastern Strange Discourse\", and that\nsong was the theme song of one of the characters, Koya-chan (for some reason). There were also\nDain, Ptolemy... (all taken from retro games, LOL)) it was a mysterious game indeed. (Ah, there\nmight be some that don't know what game I'm talking about, but there's some things in this world\nthat it's okay not to know about, so I abbreviated it)\n\nBefore I did this song, I was making simple transcriptions (mostly from games) 60% of the time, and\ncreating original pieces about 30% of the time. But after that, I stopped making the transcriptions\naltogether (because it was a pain). Though, that's not to say I never ever want to make them.\nBy the way, what's the other 10%? (^^;\n\nThis song itself is an interpretation of my personal image of a ninja, in as much of a \"new age\" style as I could manage.\nI think ninjas are cool and should be fashionable. I like ninjas in and of themselves, too, but in the end,\nthey didn't end up appearing in Touhou (because they're not girls). Also, I hate kunoichi (LOL).\nSo for those reasons, this will probably be the only ninja theme song in Touhou.\n(In the past there were several original ninja theme songs I made, though)\n\nAnyway, I didn't really remember it(this song is from seven or eight years ago), so it's not totally\nfaithful to the original, but the crazy drum pattern was surprising.\nThis time, I left in the crazy drums. I left them in.\nIf there is someone who can actually play that, I will not go near them. No, really.\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th1_10.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 The Legend of KAGE 】です。\n\n正月らしい曲を選びました(え?)\n\n\nこの曲、私が創ったゲーム用の曲の中で2番目に当たる奴です。曲のタイトルがなぜ\nこれかっていうと、そのゲームというのは(靈異伝ではなく)Cの勉強がてら創ったゲームで、\n登場キャラに(何故か)影がいて、そいつのテーマ曲だったからです。(あぁ、なつかしい(^^;)\n\nちなみに、最初に創ったゲーム曲は【 東方怪奇談 】、その曲はそのゲームのキャラの1人\n(何故か)小夜ちゃんのテーマ曲。他に、ダインとかトレミーとか(レゲーばっか・・・(笑))\nいる謎なゲームだったな~。(あ、なんのゲーム分かんない人もいるかもしんないね、世の中知\nらなくて良いことはいくらでも有るので略)\n\nこれらの曲を創る以前は、耳コピ曲(主にゲームの)6割、オリジナル3割位で曲を創って\nいましたが、それ以降耳コピ曲は創らなくなりましたね(理由、面倒だから)\nでも、無性に作りたい場合もなくは無いですが。\nところで、残り1割は?(^^;\n\n\n\n曲自体は、個人的解釈の忍者をイメージして、思う存分自分にゅーえいぢ風に。\n忍者は格好良く、おしゃれであるべきだと思う。基本的に忍者も大好きなんですが、結局、\n東方には出てきませんでしたね(理由、少女じゃないから)あと、くのいちは嫌い(笑)\nそんなこんなで、あとにも先にも忍者がテーマな東方曲はこの曲だけ。\n(過去にオリジナルの曲で忍者テーマはいくつか有ったが)\n\n\nそれにしても、覚えていなかったので(もう7~8年前の曲である)ほとんど、忠実にしざ\nるを得ない状態でしたが、このとんでもないドラムパターンにびっくり。\n今回はそのまま、とんでもなく激しいドラムをそのまま残してあります。そのまま。\nこれを生演奏できる人がいたら、私は近寄りません。いやほんと。\n\n\n\n\nではまた次の曲で逢いましょうか ZUN"
+        },
+        {
+          "en": "(th1_09.txt from here)",
+          "jp": "(th1_09.txt from here)\nこのたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 the Legend of KAGE 】オリジナル版です。\n\n当然、某忍者ゲームとは関係はありません。基盤持ってるけどね(^^;\n曲の方は、スタイリッシュな忍者な感じで(嘘)、このころから変わらないんだなぁと。\nタイムスタンプは95年。(うひゃー、すで大昔な気が(^^;;)\n\n\n注)オリジナルと言っていますが、靈異伝はPMDアレンジ版を収録してあります。\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": {
+        "jp": "いざ、倒れ逝くその時まで",
+        "en": "Now, Until the Moment You Die"
+      },
+      "comments": [
+        {
+          "en": "Nice piece for endgame, huh? Once you finally get here, it doesn't feel all that Japanese, does it.\nThis may be a lot easier on the ears than the original piece.",
+          "jp": "この曲はラストっぽくていいですねここに来て初めて、和風っぽくないですね~。\n元曲より大分聞き安くなったかな。"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": {
+        "jp": "Civilization of Magic",
+        "en": "Civilization of Magic"
+      },
+      "comments": [
+        {
+          "en": "I've almost never used this piece. It's only used for a brief moment in the game.\nI actually composed this for its title, so I couldn't use it afterward...\nFor the arrangement, I tried touching it up to give the feel of its title. (This piece is my favorite.)",
+          "jp": "ほとんど未使用曲です。ゲームではちょっとしか使ってません。\n本当はタイトル用に作った曲なんですが、ちょっと使えなくて・・・\nアレンジではタイトルっぽく仕上げてみました。(この曲はお気に入り)"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": {
+        "jp": "星幽天使",
+        "en": "Angel of a Distant Star"
+      },
+      "comments": [
+        {
+          "en": "This song unfolds so fast, it's like, \"Are you kidding me?\".\nIt puts together short phrases.\nAnd yet, did arranging it make it much better?",
+          "jp": "まじかよっ、てくらい展開の速い曲ですね。\n短いフレーズを寄せ集めてます。\nそれでもアレンジで大分ましになったのかな?"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": {
+        "jp": "アイリス",
+        "en": "Iris"
+      },
+      "comments": [
+        {
+          "en": "Short and sweet. Please envision irises.\nYou might even see Shangri-La.\n(It's pretty mysterious.)",
+          "jp": "短くていい感じ。アイリスの花でも想像して下さい。\n桃源郷が見えてきそうだし。\n(だいたい謎)"
+        },
+        {
+          "en": "(th1_14.txt from 東方幻想的音楽)\n Thank you for downloading this song.\n\nThis is \"Iris\" from Highly Responsive to Prayers.\nI suddenly wanted to make a shrine-like song for the first time in a while (like a spasm) so I made one (oh!).\nSince this song was the most shrine-like, I arranged it.\n\nI wanted to make it exhaustingly oriental, and put in an atmosphere of a pub.\n\nAlso, \"Iris\" is of course unrelated to *that* Iris. Indeed, though, when I made Highly Responsive to Prayers,\nit was still before the cherry blossoms bloomed, though. Just so we're clear.\n\n(Iris == the inside of a shrine during a rain in the rainy season) is the image here (are you serious? LOL)\n\n\nWell then, let us meet again in the next song, shall we? ZUN",
+          "jp": "(th1_14.txt from 東方幻想的音楽)\n このたびは、ダウンロードしていただきありがとうございます。\n\n東方靈異伝より【 アイリス 】です。\n久しぶりに神社風な曲を創りたくなったので(発作のようなもの)創ってみました(ぉ\nで、この曲が一番神社っぽかったのでアレンジしてみました。\n\nめいっぱい和風な曲に、お洒落な雰囲気を盛り込んだつもりです。\n\nで、アイリスってもちろんあのアイリスとは関係ないです。もっとも、靈異伝を創ったときは\nまだ、某サクラの出る前でしたけど。誤解のないように\n\n(アイリス == 梅雨時の雨上がりの中の神社) というイメージです(ほんとかよ(笑))。\n\n\n\nではまた次の曲で逢いましょうか ZUN"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": {
+        "jp": "テーマ・オブ・イースタンストーリー",
+        "en": "Theme of Eastern Story"
+      }
+    }
+  ]
+}

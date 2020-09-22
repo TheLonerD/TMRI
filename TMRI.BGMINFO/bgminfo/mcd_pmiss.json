@@ -1,0 +1,66 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方求聞史紀 ~ Perfect Memento in Strict Sense",
+      "en": "Touhou Gumonshiki ~ Perfect Memento in Strict Sense"
+    },
+    "year": 2006,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 3,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Perfect_Memento_in_Strict_Sense/Flyer_of_Yougakudan",
+      "wikirev": "403648"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "ジャパニーズサーガ",
+        "en": "Japanese Saga"
+      },
+      "comments": [
+        {
+          "en": "The first of these new songs has a very heavy game music feel to it.\n\nIt has very easy-to-follow phrases and a great rhythm. I have the feeling there just aren't that many songs like this anymore\nStill, I really love this kind of song, so thinking that makes me feel a little lonely.\nMay your life have more adventurous sagas!",
+          "jp": "久しぶりの新曲一回目は、コテコテのゲームミュージックらしい曲です。\nこの位フレーズが判りやすく、かつノリノリな曲も、今ではめっきり少なくなった気がします。\nでも私はこの位くさい方が大好きなので、少し寂しい思いがしています。\n人生にもっとサーガ(冒険談)を!"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "阿礼の子供",
+        "en": "Child of Are"
+      },
+      "comments": [
+        {
+          "en": "A bit of a curveball. The image in this song is a mysterious girl, something of a specialty of mine.\nI thought I'd give it a mysterious atmosphere, but it all cleared up by the main melody - see, a curveball.\nIt sounds doubly nostalgic since listening to it reminds me of RPG dungeons, seriously.",
+          "jp": "ちょっと変化球。お得意の不思議な子供をイメージした曲。\n不気味な雰囲気を出そうと思ったら、サビで爽やかになってしまった変化球。\nRPGのダンジョンでも想像して聞くと懐かしさが倍増します、いやマジで。"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "夜の鳩山を飛ぶ - Power MIX",
+        "en": "Fly Above Hatoyama at Night - Power MIX"
+      },
+      "comments": [
+        {
+          "en": "This is a song I improvised a long time ago, but since that makes it a sad song unlikely to show up in any albums, I did my best to clean it up for performance here.\nIt was originally a song that just repeated over and over, so I gave it a melody that reveals more of itself over time as you listen to it.\nIt's a fairly quirky melody, but that makes it nice... doesn't it?",
+          "jp": "昔、即興で作った曲ですが、アルバムに入れられない可能性が大きいという不憫な曲なので、折角だから手直しして演奏する事にしました。\n元々、繰り返しだけの曲だったので、繰り返し聞くとどんどん味が出てくるメロディを付けました。\nかなり癖のあるメロディですが、これが次第に気持ちよくなります......よね?"
+        }
+      ]
+    }
+  ]
+}

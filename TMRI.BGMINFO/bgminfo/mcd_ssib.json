@@ -1,0 +1,66 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方儚月抄 ~ Silent Sinner in Blue",
+      "en": "Touhou Bougetsushou ~ Silent Sinner in Blue"
+    },
+    "year": 2008,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 3,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Silent_Sinner_in_Blue_(CD)",
+      "wikirev": "405332"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "妖怪宇宙旅行",
+        "en": "Youkai Space Travel"
+      },
+      "comments": [
+        {
+          "jp": "「今夜、ちょっくら月まで行ってきます」\nなんて軽いノリで宇宙旅行が出来たら......なんて考えて作りました。\n暖炉の付いた古くさい内装の木製ロケットでゆらゆら揺られながら月を目指します。\nところで、青森のストーブ列車が廃線の危機だそうです。\n幻想入りする前に一度は乗ってみたいなぁ。",
+          "en": "If space travel were so easy as to say \"Tonight, I think I'll go to the moon\"... was what I thought of when I composed this.\nTraveling to the moon in a wooden rocket made from the ancient upholstery attached to the fireplace with the whole contraption shaking all the while.\nOn a different note, the discontinued line for the stove train in Aomori is apparently in danger of being dismantled.\nI want to ride it just once before it passes into fantasy."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "綿月のスペルカード ~ Lunatic Blue",
+        "en": "Watatsuki's Spell Card ~ Lunatic Blue"
+      },
+      "comments": [
+        {
+          "jp": "一巻だと殆ど出てこない綿月姉妹ですが、\nこれから陽気な月侵略者達との戦闘になる筈ですのでそのイメージで作りました。\n負けず劣らず暢気な綿月姉妹。でも、戦いになるとそれはもう強いんです。\n緊張感もありながら、余裕に満ちた曲になっているかと思います。",
+          "en": "This is a song I made for the Watatsuki sisters, who didn't appear much in the first volume but should engage in combat with our carefree invaders before long.\nThe Watatsuki sisters are equally carefree.\nHowever, when it comes to battle, they are stronger.\nI think it's a song with sense of nervousness yet plenty of room for composure."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "呑んべぇのレムリア (Retro Ver)",
+        "en": "A Drunkard's Lemuria (Retro Ver)"
+      },
+      "comments": [
+        {
+          "jp": "東方儚月抄と言えば呑んべぇ達が暴れる呑んべぇ漫画です。\nこの曲はそんな呑んべぇの為に、\n呑んべぇが勢いで作った曲をFM音源でリメイクしました。\n呑んべぇが無駄に格好良く見えるから困ったもんですね。",
+          "en": "I think of Touhou Bougetushou as a wild, drunken manga for drunken readers.\nIn order for this song to be that drunken, I remade a song I originally created while under the influence of drunken vigor using FM synthesis.\nI worry that I see drunkenness as pointlessly cool."
+        }
+      ]
+    }
+  ]
+}

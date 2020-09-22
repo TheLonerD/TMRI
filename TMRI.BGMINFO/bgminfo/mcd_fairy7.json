@@ -1,0 +1,66 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方三月精 ~ Oriental Sacred Place 3",
+      "en": "Touhou Sangetsusei ~ Oriental Sacred Place 3"
+    },
+    "year": 2012,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 3,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Oriental_Sacred_Place_3_(CD)",
+      "wikirev": "343866"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "メイガスナイト",
+        "en": "Magus Night"
+      },
+      "comments": [
+        {
+          "jp": "最終巻と言う事で激しい曲を集めてみました。この曲はチルノと魔理沙が対峙した時のテーマですので、実は三妖精とは関係無いのですが、チルノを三妖精に置き換えても曲としては問題ないと思います。シリアスにならないが明らかに強敵、というイメージで作曲しました。サビに突入時の突然視野が開ける感じがお気に入りです。",
+          "en": "The final volume has quite a collection of tempestuous songs. This is the theme of the confrontation between Cirno and Marisa, so while it has nothing to do with the Three Fairies, if you were to replace them with Cirno, then that shouldn't be a problem, as far as the song goes. This song was composed with the image of a not serious, but clearly formidable foe. I particularly like how it feels like your field of vision suddenly opens up as the hook charges in."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "いたずらに命をかけて",
+        "en": "Staking Your Life on a Prank"
+      },
+      "comments": [
+        {
+          "jp": "今度は三妖精のテーマです。魔理沙のテーマと違うのは、シリアスにもならないし明らかに強敵では無いというイメージです。同じボスでも強敵じゃ無くなるだけでガラッと変わりますね(笑)。原曲は非常に短い曲なので、少しメロディアスな感じを追加してアレンジしました。曲名の「命をかけて」というのは、子供が軽々しく「命賭けるから」「一生のお願い」などと同じです。子供も大人も、口に出せるような事に命なんか賭けられる筈もありません。",
+          "en": "The theme for the Three Fairies this time around. Different from the other one, I made this with the image of a not serious, but clearly unformidable foe. Even if they're a boss, if they aren't that strong, the difference is like night and day (lol). The original song was very short, so I rearranged it, adding a bit more of a melodious feel to it. Where the \"Staking Your Life\" in the title comes from is like how kids will just throw out \"I bet my life on it.\" or \"A promise until I die.\" Kids or adults wouldn't stake their lives on the things they say."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "古きユアンシェン",
+        "en": "Old Yuanxian"
+      },
+      "comments": [
+        {
+          "jp": "元は仙人の曲なので、激しい曲でどことなく中華風なのですが、この感じが妖精の曲として見ても意外としっくりくるので収録しました。悪戯好きでおどけている仙人。その感じは妖精と共通するのかも知れませんね。実はこの三曲は、イントロは重くてサビは軽く、という共通した作りになっています。こういう流れが大好きです。",
+          "en": "This was originally the hermit's theme, fast, furious and kind of Chinese, but surprisingly this kind of song fits the Three Fairies to a T so I included it. They're just hermits who like to play pranks and fool around. I guess they might have more in common than I thought. Actually, I tried to make this one in common with the other songs, giving it a serious intro and a light hook. I love that style of flow."
+        }
+      ]
+    }
+  ]
+}

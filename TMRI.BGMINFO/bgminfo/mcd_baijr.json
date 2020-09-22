@@ -1,0 +1,54 @@
+{
+  "product": {
+    "name": {
+      "jp": "東方文花帖 ~ Bohemian Archive in Japanese Red",
+      "en": "Touhou Bunkachou ~ Bohemian Archive in Japanese Red"
+    },
+    "year": 2005,
+    "artist": "ZUN",
+    "circle": {
+      "jp": "上海アリス幻樂団",
+      "en": "Team Shanghai Alice"
+    },
+    "tracks": 3,
+    "packInfo": {
+      "packMethod": 0
+    }
+  },
+  "update": {
+    "source": 1,
+    "metaInfo": {
+      "wikipage": "Bohemian_Archive_in_Japanese_Red_(CD)",
+      "wikirev": "401246"
+    }
+  },
+  "playlist": [
+    {
+      "number": 1,
+      "name": {
+        "jp": "風神少女",
+        "en": "Wind God Girl"
+      },
+      "comments": [
+        {
+          "jp": "(『東方文花帖』の『幻想の音覚』より)\n非常にノリの良い曲です。新しい曲という理由もありますが、自分の東方像にかなり近い曲です。自然、少女らしい可愛らしさ、酒脱した感じ、日本を思い浮かべる東洋風、ノリを損なわずシューティング向きな所、たまにこういう曲があると良いですね(他人事みたいですが)\nそう、私は昔はトランペットを吹いていたこともあったのでマイトランペットも持っている。こういう曲をトランペットで吹いたら格好良いだろうなぁとしきりに思う。\nちなみにこの曲がトランペットメインなのは、風を吹き込むから。",
+          "en": "(Bohemian Archive in Japanese Red Music Columns)\nThis is an extremely catchy song. While that may be because it is a new song, it is also very close to my own image of Touhou. A naturally girly cuteness, a feeling of giddiness, a Japanese oriental style, and it doesn't ruin the flow of the game. I think a song like this every now and then is a good idea (kind of like other people's problems).\nYes, I used to play trumpet and I still own one now. I think the trumpet for this kind of song is pretty cool.\nAs an aside, the trumpet has the main part because it's a wind instrument."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "jp": "おてんば恋娘の冒険",
+        "en": "Adventure of the Lovestruck Tomboy"
+      }
+    },
+    {
+      "number": 3,
+      "name": {
+        "jp": "花映塚 ~ after Higan Retour",
+        "en": "Flower Viewing Mound ~ after Higan Retour"
+      }
+    }
+  ]
+}
