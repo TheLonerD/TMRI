@@ -2,7 +2,5 @@
 
 namespace TMRI.Primitives.Definitions
 {
-    public class GameDirectories : Dictionary<string, string>
-    {
-    }
+    public class GameDirectories : Dictionary<string, string> { }
 }

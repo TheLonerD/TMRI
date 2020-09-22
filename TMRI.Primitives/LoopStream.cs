@@ -7,16 +7,16 @@ namespace TMRI.Primitives
         // https://markheath.net/post/looped-playback-in-net-with-naudio
 
         private readonly WaveStream _sourceStream;
-        private long _loopCount = 0;
-
-        public long LoopPosition { get; set; } = 0;
-        public long LoopCount { get; set; } = 2;
-        public long LoopLength => (_sourceStream.Length - LoopPosition) * LoopCount;
+        private long _loopCount;
 
         public LoopStream(WaveStream sourceStream)
         {
             _sourceStream = sourceStream;
         }
+
+        public long LoopPosition { get; set; } = 0;
+        public long LoopCount { get; set; } = 2;
+        public long LoopLength => (_sourceStream.Length - LoopPosition) * LoopCount;
 
         public override WaveFormat WaveFormat => _sourceStream.WaveFormat;
         public override long Length => _sourceStream.Length + LoopLength;
@@ -40,7 +40,7 @@ namespace TMRI.Primitives
                     {
                         return 0;
                     }
-                    
+
                     // loop
                     _sourceStream.Position = LoopPosition;
                     _loopCount++;
@@ -48,7 +48,7 @@ namespace TMRI.Primitives
 
                 totalBytesRead += bytesRead;
             }
-            
+
             return totalBytesRead;
         }
     }

@@ -2,7 +2,5 @@
 
 namespace TMRI.Primitives
 {
-    public class MetaInfo : Dictionary<string, object>
-    {
-    }
+    public class MetaInfo : Dictionary<string, object> { }
 }

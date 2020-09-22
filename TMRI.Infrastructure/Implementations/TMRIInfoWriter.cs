@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -9,11 +10,11 @@ namespace TMRI.Infrastructure.Implementations
 {
     public class TMRIInfoWriter : IInfoWriter
     {
-        private string _currentDir;
+        private readonly string _currentDir;
 
         public TMRIInfoWriter()
         {
-            string fullPath = typeof(TMRIInfoLoader).Assembly.Location;
+            var fullPath = typeof(TMRIInfoLoader).Assembly.Location;
             _currentDir = Path.GetDirectoryName(fullPath);
         }
 
@@ -22,10 +23,7 @@ namespace TMRI.Infrastructure.Implementations
             // Nothing to do
         }
 
-        public async Task SaveConfigFileAsync(AppConfig config)
-        {
-            throw new System.NotImplementedException();
-        }
+        public async Task SaveConfigFileAsync(AppConfig config) => throw new NotImplementedException();
 
         public async Task SaveGameListAsync(Dictionary<string, string> games)
         {

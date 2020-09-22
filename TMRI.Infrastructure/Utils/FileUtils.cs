@@ -16,7 +16,37 @@ namespace TMRI.Infrastructure.Utils
         private static readonly string[] SizeSuffixes =
             {"bytes", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"};
 
-        public static string SizeSuffix(Int64 value, int decimalPlaces = 1)
+        private static readonly Dictionary<string, (string, Type)> pKeyTable = new Dictionary<string, (string, Type)>
+        {
+            {"name", (nameof(ProductInfo.Name), typeof(LocalizedString))},
+            {"artist", (nameof(ProductInfo.Artist), typeof(string))},
+            {"circle", (nameof(ProductInfo.Circle), typeof(LocalizedString))},
+            {"year", (nameof(ProductInfo.Year), typeof(int))},
+            {"tracks", (nameof(ProductInfo.Tracks), typeof(int))},
+            {"packmethod", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"bgmfile", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"bgmdir", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"zwavid", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
+            {"wikipage", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
+            {"wikirev", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
+            {"comment", (nameof(TrackInfo.Comments), typeof(List<LocalizedString>))},
+            {"position", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"frequency", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"filename", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"rel_", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
+            {"cmp", (nameof(MusicDefinition.Composer), typeof(List<LocalizedString>))},
+            {"composer", (nameof(TrackInfo.Composer), typeof(long?))}
+        };
+
+        private static readonly Dictionary<string, (string, Type)> sKeyTable = new Dictionary<string, (string, Type)>
+        {
+            {"packmethod", (nameof(PackInfo.PackMethod), typeof(PackMethod))},
+            {"bgmfile", (nameof(PackInfo.BGMFile), typeof(string))},
+            {"bgmdir", (nameof(PackInfo.BGMDir), typeof(string))},
+            {"zwavid", (nameof(PackInfo.MetaInfo), typeof(MetaInfo))}
+        };
+
+        public static string SizeSuffix(long value, int decimalPlaces = 1)
         {
             // https://stackoverflow.com/a/14488941
 
@@ -36,11 +66,11 @@ namespace TMRI.Infrastructure.Utils
             }
 
             // mag is 0 for bytes, 1 for KB, 2, for MB, etc.
-            int mag = (int) Math.Log(value, 1024);
+            var mag = (int) Math.Log(value, 1024);
 
             // 1L << (mag * 10) == 2 ^ (10 * mag) 
             // [i.e. the number of bytes in the unit corresponding to mag]
-            decimal adjustedSize = (decimal) value / (1L << (mag * 10));
+            var adjustedSize = (decimal) value / (1L << (mag * 10));
 
             // make adjustment when the value is large enough that
             // it would round up to 1000 or more
@@ -119,7 +149,7 @@ namespace TMRI.Infrastructure.Utils
                         break;
                     case "number":
                         tiList ??= new List<TrackInfo>();
-                        TrackInfo ti = tiList.FirstOrDefault(t => t.Number == trackNum);
+                        var ti = tiList.FirstOrDefault(t => t.Number == trackNum);
                         var addTrack = ti == null;
 
                         SetTrackInfo(line, ref ti, file, lineNum);
@@ -140,36 +170,6 @@ namespace TMRI.Infrastructure.Utils
 
             return result;
         }
-
-        private static readonly Dictionary<string, (string, Type)> pKeyTable = new Dictionary<string, (string, Type)>
-        {
-            {"name", (nameof(ProductInfo.Name), typeof(LocalizedString))},
-            {"artist", (nameof(ProductInfo.Artist), typeof(string))},
-            {"circle", (nameof(ProductInfo.Circle), typeof(LocalizedString))},
-            {"year", (nameof(ProductInfo.Year), typeof(int))},
-            {"tracks", (nameof(ProductInfo.Tracks), typeof(int))},
-            {"packmethod", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"bgmfile", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"bgmdir", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"zwavid", (nameof(ProductInfo.PackInfo), typeof(PackInfo))},
-            {"wikipage", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
-            {"wikirev", (nameof(UpdateInfo.MetaInfo), typeof(MetaInfo))},
-            {"comment", (nameof(TrackInfo.Comments), typeof(List<LocalizedString>))},
-            {"position", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
-            {"frequency", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
-            {"filename", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
-            {"rel_", (nameof(TrackInfo.MetaInfo), typeof(MetaInfo))},
-            {"cmp", (nameof(MusicDefinition.Composer), typeof(List<LocalizedString>))},
-            {"composer", (nameof(TrackInfo.Composer), typeof(long?))},
-        };
-
-        private static readonly Dictionary<string, (string, Type)> sKeyTable = new Dictionary<string, (string, Type)>
-        {
-            {"packmethod", (nameof(PackInfo.PackMethod), typeof(PackMethod))},
-            {"bgmfile", (nameof(PackInfo.BGMFile), typeof(string))},
-            {"bgmdir", (nameof(PackInfo.BGMDir), typeof(string))},
-            {"zwavid", (nameof(PackInfo.MetaInfo), typeof(MetaInfo))},
-        };
 
         private static void SetProductInfo(string line, ref ProductInfo productInfo, string file, int lineNum)
         {
@@ -242,7 +242,7 @@ namespace TMRI.Infrastructure.Utils
             {
                 throw new ArgumentNullException(nameof(key));
             }
-            
+
             var props = obj.GetType().GetProperties();
 
             var tableKey = keyTable.Keys.FirstOrDefault(key.StartsWith);
@@ -342,17 +342,17 @@ namespace TMRI.Infrastructure.Utils
                             {
                                 throw new TMRIException($"Incorrect Frequency number format: {value}.");
                             }
-                            
+
                             mi.Add(key, freq);
                             break;
                         case "rel_loop":
                         case "rel_end":
-                            if (!long.TryParse(value.Trim().Replace("0x", ""), 
+                            if (!long.TryParse(value.Trim().Replace("0x", ""),
                                 NumberStyles.HexNumber, CultureInfo.InvariantCulture, out var num))
                             {
                                 throw new TMRIException($"Incorrect {key} number format: {value}.");
                             }
-                            
+
                             mi.Add(key, num);
                             break;
                         case "filename":
@@ -388,7 +388,7 @@ namespace TMRI.Infrastructure.Utils
                         }
                         catch (ArgumentOutOfRangeException)
                         {
-                            for (int i = 0; i < num - 1; i++)
+                            for (var i = 0; i < num - 1; i++)
                             {
                                 if (lsList.ElementAtOrDefault(i) == null)
                                 {

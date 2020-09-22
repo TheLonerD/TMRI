@@ -6,7 +6,7 @@ using TMRI.Primitives.Enums;
 namespace TMRI.Primitives
 {
     [JsonConverter(typeof(LocalizedStringConverter))]
-    public class LocalizedString: Dictionary<Language, string>, IDictionary<Language, string>
+    public class LocalizedString : Dictionary<Language, string>, IDictionary<Language, string>
     {
         public new string this[Language key]
         {

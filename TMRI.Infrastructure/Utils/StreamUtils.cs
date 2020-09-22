@@ -15,7 +15,7 @@ namespace TMRI.Infrastructure.Utils
 
             var ms = new MemoryStream();
             var buffer = new byte[4096]; // Use 4 KB buffer
-            int total = 0;
+            var total = 0;
             source.Seek(offset, SeekOrigin.Begin);
 
             while (total != length)
@@ -27,7 +27,7 @@ namespace TMRI.Infrastructure.Utils
                     bytesToRead = length;
                 }
 
-                int chunkSize = bytesToRead > buffer.Length ? buffer.Length : (int) bytesToRead;
+                var chunkSize = bytesToRead > buffer.Length ? buffer.Length : (int) bytesToRead;
 
                 var read = await source.ReadAsync(buffer, 0, chunkSize);
 

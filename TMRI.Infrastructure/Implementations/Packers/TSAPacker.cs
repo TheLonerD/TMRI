@@ -87,7 +87,7 @@ namespace TMRI.Infrastructure.Implementations.Packers
             {
                 throw new TMRIException("Missing Position definition in TrackInfo.MetaInfo section.");
             }
-            
+
             var pos = ((JsonElement) trackInfo.MetaInfo["position"]).EnumerateArray()
                 .Select(j => j.GetInt32())
                 .ToList();

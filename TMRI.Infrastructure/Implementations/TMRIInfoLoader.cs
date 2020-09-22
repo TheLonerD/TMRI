@@ -13,11 +13,11 @@ namespace TMRI.Infrastructure.Implementations
 {
     public class TMRIInfoLoader : IInfoLoader
     {
-        private string _currentDir;
+        private readonly string _currentDir;
 
         public TMRIInfoLoader()
         {
-            string fullPath = typeof(TMRIInfoLoader).Assembly.Location;
+            var fullPath = typeof(TMRIInfoLoader).Assembly.Location;
             _currentDir = Path.GetDirectoryName(fullPath);
         }
 

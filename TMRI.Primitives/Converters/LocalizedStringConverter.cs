@@ -9,7 +9,8 @@ namespace TMRI.Primitives.Converters
 {
     public class LocalizedStringConverter : JsonConverter<LocalizedString>
     {
-        public override LocalizedString Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        public override LocalizedString Read(ref Utf8JsonReader reader, Type typeToConvert,
+            JsonSerializerOptions options)
         {
             var values = JsonSerializer.Deserialize<Dictionary<string, string>>(ref reader, options);
             var result = new LocalizedString();
@@ -39,7 +40,8 @@ namespace TMRI.Primitives.Converters
             if (value != null)
             {
                 result = value
-                    .Select(kv => new KeyValuePair<string, string>(Enum.GetName(typeof(Language), kv.Key)?.ToLower(), kv.Value))
+                    .Select(kv =>
+                        new KeyValuePair<string, string>(Enum.GetName(typeof(Language), kv.Key)?.ToLower(), kv.Value))
                     .Where(kv => !string.IsNullOrWhiteSpace(kv.Key))
                     .ToDictionary(kv => kv.Key, kv => kv.Value);
             }

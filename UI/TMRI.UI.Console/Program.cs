@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime;
@@ -7,27 +6,18 @@ using System.Threading;
 using System.Threading.Tasks;
 using NAudio.Utils;
 using NAudio.Wave;
-using TMRI.Infrastructure;
 using TMRI.Infrastructure.Implementations;
 using TMRI.Infrastructure.Implementations.Packers;
 using TMRI.Infrastructure.Interfaces;
 using TMRI.Primitives;
-using TMRI.Primitives.Config;
 using TMRI.Primitives.Definitions;
 using TMRI.Primitives.Enums;
 
 namespace TMRI.UI.Console
 {
-    class Program
+    public class Program
     {
-        public static TMRIStorage Storage { get; } = new TMRIStorage
-        {
-            Config = new AppConfig(),
-            GamesDir = new GameDirectories(),
-            Products = new List<MusicDefinition>()
-        };
-
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
 
@@ -53,7 +43,7 @@ namespace TMRI.UI.Console
             if (products.Count == 0)
             {
                 await System.Console.Out.WriteLineAsync("No BGM definitions found. Exiting...");
-                
+
                 return;
             }
 
@@ -93,7 +83,7 @@ namespace TMRI.UI.Console
             if (string.IsNullOrWhiteSpace(bgm))
             {
                 await System.Console.Out.WriteLineAsync("Path to game is not set in games list. Quitting...");
-                
+
                 return;
             }
 
@@ -106,7 +96,7 @@ namespace TMRI.UI.Console
             await System.Console.Out.WriteLineAsync("\nType \"list\" to show playlist, " +
                                                     "\"exit\" or \"quit\" to exit from this program.");
 
-            bool showMenu = true;
+            var showMenu = true;
             while (showMenu)
             {
                 showMenu = await DrawInput(th15, bgm, packer);
@@ -115,7 +105,7 @@ namespace TMRI.UI.Console
 
         public static async Task<bool> DrawInput(MusicDefinition md, string bgm, IPacker packer)
         {
-            await System.Console.Out.WriteAsync($"\nWhat song to play: ");
+            await System.Console.Out.WriteAsync("\nWhat song to play: ");
             var input = await System.Console.In.ReadLineAsync();
 
             if (string.IsNullOrWhiteSpace(input))
@@ -171,7 +161,7 @@ namespace TMRI.UI.Console
                 {
                     if (System.Console.KeyAvailable)
                     {
-                        await System.Console.Out.WriteAsync($" (stop playing)");
+                        await System.Console.Out.WriteAsync(" (stop playing)");
                         d.Stop();
                     }
                     else
@@ -194,7 +184,7 @@ namespace TMRI.UI.Console
 
         public static void ClearCurrentConsoleLine()
         {
-            int currentLineCursor = System.Console.CursorTop;
+            var currentLineCursor = System.Console.CursorTop;
             System.Console.SetCursorPosition(0, System.Console.CursorTop);
             System.Console.Write(new string(' ', System.Console.WindowWidth));
             System.Console.SetCursorPosition(0, currentLineCursor);

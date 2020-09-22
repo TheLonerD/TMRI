@@ -9,6 +9,7 @@ namespace TMRI.Primitives.Definitions
         public UpdateInfo Update { get; set; }
         public List<LocalizedString> Composer { get; set; }
         public List<TrackInfo> Playlist { get; set; }
+
         [JsonIgnore]
         public string Path { get; set; }
     }
