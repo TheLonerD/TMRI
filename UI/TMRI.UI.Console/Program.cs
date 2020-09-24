@@ -173,6 +173,12 @@ namespace TMRI.UI.Console
                     }
                 }
 
+                
+                GC.SuppressFinalize(provider);
+                GC.SuppressFinalize(wav);
+                GC.SuppressFinalize(ms);
+                GC.SuppressFinalize(fs);
+
                 return true;
             }
 
