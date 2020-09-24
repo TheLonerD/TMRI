@@ -16,15 +16,14 @@ namespace TMRI.Primitives
 
         public long LoopPosition { get; set; } = 0;
         public long LoopCount { get; set; } = 2;
-        public long LoopLength => (_sourceStream.Length - LoopPosition) * LoopCount;
 
         public override WaveFormat WaveFormat => _sourceStream.WaveFormat;
-        public override long Length => _sourceStream.Length + LoopLength;
+        public override long Length => _sourceStream.Length + (_sourceStream.Length - LoopPosition) * LoopCount;
 
         public override long Position
         {
-            get => _sourceStream.Position + LoopLength;
-            set => _sourceStream.Position = value - LoopLength;
+            get => _sourceStream.Position + (_sourceStream.Length - LoopPosition) * _loopCount;
+            set => _sourceStream.Position = Position - value;
         }
 
         public override int Read(byte[] buffer, int offset, int count)
