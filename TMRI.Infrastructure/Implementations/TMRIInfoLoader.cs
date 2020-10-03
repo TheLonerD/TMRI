@@ -91,6 +91,7 @@ namespace TMRI.Infrastructure.Implementations
                 await using var fs = new FileStream(file, FileMode.Open);
                 var pi = await JsonUtils.DeserializeAsync<MusicDefinition>(fs);
                 pi.Path = file;
+                pi.Key = Path.GetFileNameWithoutExtension(file);
                 result.Add(pi);
             }
 

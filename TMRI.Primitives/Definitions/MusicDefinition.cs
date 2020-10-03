@@ -11,6 +11,8 @@ namespace TMRI.Primitives.Definitions
         public List<TrackInfo> Playlist { get; set; }
 
         [JsonIgnore]
+        public string Key { get; set; }
+        [JsonIgnore]
         public string Path { get; set; }
     }
 }

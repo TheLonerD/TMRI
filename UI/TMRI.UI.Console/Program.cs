@@ -22,39 +22,44 @@ namespace TMRI.UI.Console
             GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
 
             IInfoLoader infoLoader = new TMRIInfoLoader();
-            // IInfoWriter infoWriter = new TMRIInfoWriter();
-
             await infoLoader.PrepareLoaderAsync();
-            // await infoWriter.PrepareWriteAsync();
-
-            var games = await infoLoader.GetGamesListAsync();
-
-            if (games.Any())
-            {
-                await System.Console.Out.WriteLineAsync($"Got {games.Count} games: ");
-                foreach (var (key, value) in games)
-                {
-                    await System.Console.Out.WriteLineAsync($"  - {key}: {value}");
-                }
-            }
 
             var products = await infoLoader.GetMusicListAsync();
 
             if (products.Count == 0)
             {
-                await System.Console.Out.WriteLineAsync("No BGM definitions found. Exiting...");
+                System.Console.WriteLine("No BGM definitions found. Exiting...");
 
                 return;
             }
 
-            await System.Console.Out.WriteLineAsync($"Got {products.Count} BGM definitions: ");
+            System.Console.WriteLine($"Got {products.Count} BGM definitions: ");
             foreach (var md in products)
             {
-                await System.Console.Out.WriteLineAsync($"  - {md.Product.Name[Language.EN]}");
+                System.Console.WriteLine($"  -{md.Key}:\t{md.Product.Name[Language.EN]}");
+            }
+
+            var games = await infoLoader.GetGamesListAsync();
+            if (games.Any())
+            {
+                var valid = games.Where(g => products.Any(p => p.Key.Equals(g.Key)))
+                    .ToDictionary(g => g.Key, g => g.Value);
+
+                System.Console.WriteLine($"Got {valid.Count} games: ");
+                foreach (var (key, path) in valid)
+                {
+                    System.Console.WriteLine($"  - {key}:\t{path}");
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("No games found. Exiting...");
+
+                return;
             }
 
             // Testing with TH15..
-            await System.Console.Out.WriteLineAsync("Opening th15.json...");
+            System.Console.WriteLine("Opening th15.json...");
             var th15 = products.First(p => p.Path.Contains("th15.json"));
 
             var bgm = string.Empty;
@@ -62,7 +67,7 @@ namespace TMRI.UI.Console
             if (games.ContainsKey("th15"))
             {
                 var th15Path = games["th15"];
-                await System.Console.Out.WriteLineAsync("Found game path for th15.json! Validating BGM file...");
+                System.Console.WriteLine("Found game path for th15.json! Validating BGM file...");
                 var bgmPath = Path.Combine(th15Path, th15.Product.PackInfo.BGMDir ?? "", th15.Product.PackInfo.BGMFile);
 
                 if (!File.Exists(bgmPath))
@@ -77,23 +82,23 @@ namespace TMRI.UI.Console
                     throw new TMRIException($"BGM file \"{bgm}\" is not valid.");
                 }
 
-                await System.Console.Out.WriteLineAsync("BGM file is valid.");
+                System.Console.WriteLine("BGM file is valid.");
             }
 
             if (string.IsNullOrWhiteSpace(bgm))
             {
-                await System.Console.Out.WriteLineAsync("Path to game is not set in games list. Quitting...");
+                System.Console.WriteLine("Path to game is not set in games list. Quitting...");
 
                 return;
             }
 
-            await System.Console.Out.WriteLineAsync($"Got {th15.Playlist.Count} songs:");
+            System.Console.WriteLine($"Got {th15.Playlist.Count} songs:");
             foreach (var trackInfo in th15.Playlist)
             {
-                await System.Console.Out.WriteLineAsync($"  {trackInfo.Number}. {trackInfo.Name[Language.EN]}");
+                System.Console.WriteLine($"  {trackInfo.Number}. {trackInfo.Name[Language.EN]}");
             }
 
-            await System.Console.Out.WriteLineAsync("\nType \"list\" to show playlist, " +
+            System.Console.WriteLine("\nType \"list\" to show playlist, " +
                                                     "\"exit\" or \"quit\" to exit from this program.");
 
             var showMenu = true;
@@ -105,7 +110,7 @@ namespace TMRI.UI.Console
 
         public static async Task<bool> DrawInput(MusicDefinition md, string bgm, IPacker packer)
         {
-            await System.Console.Out.WriteAsync("\nWhat song to play: ");
+            System.Console.Write("\nWhat song to play: ");
             var input = await System.Console.In.ReadLineAsync();
 
             if (string.IsNullOrWhiteSpace(input))
@@ -123,7 +128,7 @@ namespace TMRI.UI.Console
             {
                 foreach (var trackInfo in md.Playlist)
                 {
-                    await System.Console.Out.WriteLineAsync($"  {trackInfo.Number}. {trackInfo.Name[Language.EN]}");
+                    System.Console.WriteLine($"  {trackInfo.Number}. {trackInfo.Name[Language.EN]}");
                 }
 
                 return true;
@@ -133,13 +138,13 @@ namespace TMRI.UI.Console
             {
                 if (songNum < 0 || songNum > md.Product.Tracks)
                 {
-                    await System.Console.Out.WriteLineAsync($"\nNumber should between 1 and {md.Product.Tracks}. " +
+                    System.Console.WriteLine($"\nNumber should between 1 and {md.Product.Tracks}. " +
                                                             "Please try again.");
                     return true;
                 }
 
                 var song = md.Playlist[songNum - 1];
-                await System.Console.Out.WriteLineAsync($"Playing song \"{song.Name[Language.EN]}\"...");
+                System.Console.WriteLine($"Playing song \"{song.Name[Language.EN]}\"...");
 
                 // TEST
                 await using var fs = new FileStream(bgm, FileMode.Open);
@@ -161,28 +166,24 @@ namespace TMRI.UI.Console
                 {
                     if (System.Console.KeyAvailable)
                     {
-                        await System.Console.Out.WriteAsync(" (stop playing)");
+                        System.Console.Write(" (stop playing)");
                         d.Stop();
                     }
                     else
                     {
                         ClearCurrentConsoleLine();
                         var time = d.GetPositionTimeSpan();
-                        await System.Console.Out.WriteAsync($"{time.Minutes:D2}:{time.Seconds:D2}");
+                        System.Console.Write($"{time.Minutes:D2}:{time.Seconds:D2}");
                         Thread.Sleep(TimeSpan.FromSeconds(1));
                     }
                 }
 
-                
-                GC.SuppressFinalize(provider);
-                GC.SuppressFinalize(wav);
                 GC.SuppressFinalize(ms);
-                GC.SuppressFinalize(fs);
 
                 return true;
             }
 
-            await System.Console.Out.WriteLineAsync("\nIncorrect input. " +
+            System.Console.WriteLine("\nIncorrect input. " +
                                                     $"Expected: [1-{md.Product.Tracks}], \"list\", \"exit\", \"quit\"");
 
             return true;
