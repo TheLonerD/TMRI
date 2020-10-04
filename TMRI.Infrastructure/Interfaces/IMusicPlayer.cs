@@ -1,11 +1,19 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Threading.Tasks;
+using TMRI.Primitives;
 
 namespace TMRI.Infrastructure.Interfaces
 {
-    public interface IMusicPlayer
+    public interface IMusicPlayer : IDisposable
     {
-        Task Play(Stream stream);
-        Task Play(string path);
+        EventHandler PlaybackStopped { get; set; }
+        PlayInfo PlayInfo { get; set; }
+
+        Task LoadFileAsync(Stream stream);
+        Task LoadFileAsync(string path);
+        void Play();
+        void Pause();
+        void Stop();
     }
 }
