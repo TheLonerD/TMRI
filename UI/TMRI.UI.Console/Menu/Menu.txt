@@ -1,0 +1,2 @@
+﻿Menu code took from https://github.com/splttingatms/EasyConsole with some modifications
+like async callbacks and customizable user's input handler.
