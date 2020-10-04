@@ -88,21 +88,34 @@ namespace TMRI.UI.Console
                                 var playInfo = packer.GetPlayInfo(trackInfo);
                                 player.PlayInfo = playInfo;
                                 await player.LoadFileAsync(ms);
-                                
-                                var tcs = new TaskCompletionSource<bool>();
 
-                                void PlaybackStopped(object? sender, EventArgs eventArgs)
-                                {
-                                    player.PlaybackStopped -= PlaybackStopped;
-                                    tcs.SetResult(true);
-                                }
-
-                                player.PlaybackStopped += PlaybackStopped;
-
-                                System.Console.WriteLine($"Playing song \"{name}\"...");
+                                System.Console.WriteLine($"Playing song \"{name}\"... (ESC to stop, SPACE to pause)");
                                 player.Play();
 
-                                await tcs.Task;
+                                var stopped = false;
+                                while (!stopped)
+                                {
+                                    var k = System.Console.ReadKey(true).Key;
+                                    
+                                    switch (k)
+                                    {
+                                        case ConsoleKey.Escape:
+                                            player.Stop();
+                                            stopped = true;
+                                            break;
+                                        case ConsoleKey.Spacebar:
+                                            switch (player.State)
+                                            {
+                                                case MusicPlayerState.Paused:
+                                                    player.Play();
+                                                    break;
+                                                case MusicPlayerState.Played:
+                                                    player.Pause();
+                                                    break;
+                                            }
+                                            break;
+                                    }
+                                }
 
                                 GC.SuppressFinalize(ms);
 

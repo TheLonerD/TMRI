@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using TMRI.Primitives;
+using TMRI.Primitives.Enums;
 
 namespace TMRI.Infrastructure.Interfaces
 {
@@ -9,6 +10,7 @@ namespace TMRI.Infrastructure.Interfaces
     {
         EventHandler PlaybackStopped { get; set; }
         PlayInfo PlayInfo { get; set; }
+        MusicPlayerState State { get; }
 
         Task LoadFileAsync(Stream stream);
         Task LoadFileAsync(string path);

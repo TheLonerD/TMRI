@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using NAudio.Wave;
 using TMRI.Infrastructure.Interfaces;
 using TMRI.Primitives;
+using TMRI.Primitives.Enums;
 
 namespace TMRI.Infrastructure.Implementations
 {
@@ -13,15 +14,19 @@ namespace TMRI.Infrastructure.Implementations
         public PlayInfo PlayInfo { get; set; }
 
         private WaveOutEvent _woEvent;
+        private MusicPlayerState _state = MusicPlayerState.Stopped;
 
         public NAudioMusicPlayer()
         {
             _woEvent = new WaveOutEvent();
             _woEvent.PlaybackStopped += (sender, e) =>
             {
+                _state = MusicPlayerState.Stopped;
                 PlaybackStopped?.Invoke(this, EventArgs.Empty);
             };
         }
+
+        public MusicPlayerState State => _state;
 
         public async Task LoadFileAsync(Stream stream)
         {
@@ -48,32 +53,20 @@ namespace TMRI.Infrastructure.Implementations
 
         public void Play()
         {
-            if (_woEvent == null)
-            {
-                throw new TMRIException("Player is not initialized.");
-            }
-
             _woEvent.Play();
+            _state = MusicPlayerState.Played;
         }
 
         public void Pause()
         {
-            if (_woEvent == null)
-            {
-                throw new TMRIException("Player is not initialized.");
-            }
-
             _woEvent.Pause();
+            _state = MusicPlayerState.Paused;
         }
 
         public void Stop()
         {
-            if (_woEvent == null)
-            {
-                throw new TMRIException("Player is not initialized.");
-            }
-
             _woEvent.Stop();
+            _state = MusicPlayerState.Stopped;
         }
 
         public void Dispose()
