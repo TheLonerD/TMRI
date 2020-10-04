@@ -44,7 +44,7 @@ namespace TMRI.Infrastructure.Implementations
             }
             catch (JsonException e)
             {
-                throw new TMRIException("Cannot parse AppConfig file \"{file}\"", e);
+                throw new TMRIException($"Cannot parse AppConfig file \"{file}\"", e);
             }
             catch (Exception e)
             {
@@ -65,7 +65,7 @@ namespace TMRI.Infrastructure.Implementations
             }
             catch (JsonException e)
             {
-                throw new TMRIException("Cannot parse Games file \"{file}\"", e);
+                throw new TMRIException($"Cannot parse Games file \"{file}\"", e);
             }
             catch (Exception e)
             {
@@ -91,7 +91,7 @@ namespace TMRI.Infrastructure.Implementations
                 await using var fs = new FileStream(file, FileMode.Open);
                 var pi = await JsonUtils.DeserializeAsync<MusicDefinition>(fs);
                 pi.Path = file;
-                pi.Key = Path.GetFileNameWithoutExtension(file);
+                pi.Key = Path.GetFileNameWithoutExtension(file).ToLower();
                 result.Add(pi);
             }
 
